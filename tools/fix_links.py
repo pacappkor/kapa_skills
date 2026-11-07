@@ -4,7 +4,7 @@
 
 usage: python -I tools/fix_links.py
 `](<무엇이든>/<스킬이름>/SKILL.md)` 형태의 링크를, 저장소에서 그 이름을 가진 스킬 폴더까지의 상대경로로 바꾼다.
-source.md 는 split_standard.py 가 만드므로 건드리지 않는다.
+source.md 는 생성기(split_standard.py·laws/build_laws.py)가 만드므로 건드리지 않는다.
 """
 import os, pathlib, re, sys
 

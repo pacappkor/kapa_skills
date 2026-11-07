@@ -42,5 +42,14 @@ description: 감정평가 실무기준 [640-4] 항공기의 원가법·감가수
 <!-- BEGIN GENERATED:refs -->
 (다른 조항을 명시적으로 인용하지 않음)
 
+이 스킬의 원문이 인용하는 관계법령 조문 (laws/ 컬렉션):
+- `「항공법」 제2조` → [rel-movables-securities-accounting](../../../../laws/related-provisions/rel-movables-securities-accounting/SKILL.md)
+
 > 원문의 `[코드]` 인용을 자동 추출한 목록이라 완전한 체크리스트가 아니다. "[100 총칙]부터 [600 물건별 감정평가]까지" 같은 범위 인용은 첫 조항만 잡히고, 관계법규(「…법」) 인용은 포함하지 않는다.
 <!-- END GENERATED:refs -->
+
+## 들어오는 연결
+
+<!-- BEGIN GENERATED:incoming -->
+(이 저장소의 다른 스킬이 이 스킬의 원문을 직접 인용하지 않음)
+<!-- END GENERATED:incoming -->

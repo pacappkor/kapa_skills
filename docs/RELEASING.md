@@ -5,32 +5,26 @@
 | 올리는 자리 | 이런 변경일 때 | 예 |
 |---|---|---|
 | MAJOR | 스킬 경로·이름의 변경·삭제처럼 **@skills 주소나 스킬 이름에 의존하는 사용처가 깨지는** 변경. 작업 절차 출력 형식을 호환되지 않게 바꾸는 변경 | `assets/real-estate/asset-land` → 다른 경로 |
-| MINOR | **실무기준 개정 반영**(근거 고시가 바뀜), 새 컬렉션·스킬·작업 절차 추가 | 국토교통부고시 제2023-522호 → 새 고시 |
-| PATCH | 요약·확인사항 정정, 별칭·사례 추가, 문서·링크·도구 수정, 원문 변환 오류 수정(원문 내용은 그대로) | 요약의 의무/재량 표현 정정 |
+| MINOR | **실무기준 개정 반영**(근거 고시가 바뀜), **관계법령 내용 변경 반영**(조문 신설·삭제·내용 변경, 별표 변경), 새 컬렉션·스킬·작업 절차 추가 | 국토교통부고시 제2023-522호 → 새 고시, 토지보상법 시행규칙 개정 |
+| PATCH | 관계법령의 개정 표시만 변경, 요약·확인사항·별표 가공본 정정, 별칭·사례 추가, 문서·링크·도구 수정, 원문 변환 오류 수정(원문 내용은 그대로) | 요약의 의무/재량 표현 정정 |
 
 - 1.0.0 전(0.x)에는 MAJOR 대신 MINOR 를 올린다. 이때 CHANGELOG 에 `### 호환성 깨짐` 절을 반드시 둔다.
-- 근거 고시는 MINOR 단위로 기록한다. 같은 고시를 쓰는 동안은 PATCH 만 올라간다.
+- 근거 고시와 법령 판본은 MINOR 단위로 기록한다. 같은 고시·판본을 쓰는 동안은 PATCH 만 올라간다.
 - 버전 태그는 해당 PR 이 `main` 에 병합된 커밋에 단다. 형식은 `v0.1.0` 처럼 `v` 접두어를 붙인다.
 
-## 실무기준 개정 반영 절차
+## 개정 반영 (실무기준·관계법령)
 
-1. 국가법령정보센터에서 새 고시의 `admRulSeq`·`admRulId` 를 확인한다. 작업 브랜치(`standard/<고시번호>`)를 만든다.
-2. `python -I tools/fetch_standard.py <admRulSeq> <admRulId>` 로 원문을 받는다.
-3. `tools/split_standard.py` 의 `SEQ`·`NOTICE` 를 고친다.
-   - 조항이 신설·삭제되면 배정표 `SKILLS` 를 고친다.
-   - 산식 이미지가 바뀌면 `IMAGE_TEXT` 를 고친다.
-   - 별칭 대상 조항이 바뀌면 `ALIASES` 를 고친다(생성기가 원문 대조로 알려 준다).
-4. `python -I tools/split_standard.py` 를 실행한다. 이어서 다음으로 바뀐 조항을 모두 찾는다.
-   - `git diff --word-diff -- appraisal-practice-standards/**/source.md`
-   - 원문 텍스트 diff
-5. 바뀐 조항마다 처리한다.
-   - 해당 스킬의 요약·확인사항을 고친다.
-   - 작업 절차(`workflow-appraisal` 우선순위·단계표, `facets.md`)와 `cases.md` 에 영향이 있는지 확인한다.
-6. `python -I tools/validate.py` → errors 0
-7. `CHANGELOG.md` 의 `[Unreleased]` 에 아래 템플릿으로 항목을 쓴다. PR 을 연다(라벨 `standard-update`).
-8. 병합 후:
-   - 병합 커밋에 태그를 단다: `git tag -a vX.Y.0 <merge-commit> -m "..."` → `git push origin vX.Y.0`
-   - CHANGELOG 의 해당 절을 본문으로 GitHub 릴리스를 만든다.
+- 절차는 [rules/skill-update-maintenance](../rules/skill-update-maintenance/SKILL.md) 하나에 있다. 여기에는 버전·기록 규칙만 둔다.
+- 사용자가 어느 쪽 개정을 말하든 그 절차의 1단계에서 실무기준과 관계법령을 모두 확인한다(`fetch_standard.py --check`, `fetch_laws.py --check`).
+- 버전:
+  - 실무기준 개정(근거 고시 변경): MINOR. 기록은 아래 "개정 반영 항목 템플릿"
+  - 관계법령 내용 변경(조문 신설·삭제·내용 변경, 별표 변경): MINOR. 개정 표시만 바뀌면 PATCH
+- 관계법령 기록은 CHANGELOG 의 `### 관계법령 갱신` 절에 쓴다.
+  - 법령별 판본 변화(시행일)
+  - `tools/laws/diff_laws.py --markdown` 표와 행별 처리 결과
+- 병합 후:
+  - 병합 커밋에 태그를 단다: `git tag -a vX.Y.0 <merge-commit> -m "..."` → `git push origin vX.Y.0`
+  - CHANGELOG 의 해당 절을 본문으로 GitHub 릴리스를 만든다.
 
 ## 개정 반영 항목 템플릿
 
@@ -60,6 +54,29 @@
 - `tools/split_standard.py --check`: 통과
 - `tools/validate.py`: errors 0
 - 원문 대조 표본: [조항…]
+```
+
+## 관계법령 갱신 항목 템플릿
+
+```markdown
+## [vX.Y.0] - YYYY-MM-DD
+
+### 관계법령 갱신
+- 확인 일자: YYYY-MM-DD (`fetch_standard.py --check`: 실무기준 변동 없음 / 있음 → 위 템플릿 병행)
+| 법령 | 이전 시행일 (공포번호) | 현행 시행일 (공포번호) | 컬렉션 |
+|---|---|---|---|
+| 「…」 시행규칙 | YYYY. M. D. (제N호) | YYYY. M. D. (제N호) | land-compensation-act |
+
+| 조문·별표 | 변경 (diff_laws) | 처리 | 영향 스킬 |
+|---|---|---|---|
+| 규칙 제NN조 | 내용 변경 | 요약 갱신 | lca-… |
+| 규칙 별표 N | 별표 변경 | 가공본 재가공·요약 대조 | lca-… |
+| 영 제NN조 | 개정 표시만 변경 | 요약 영향 없음 | — |
+
+### 검증
+- `tools/laws/fetch_laws.py --check`: 같은 현행 판본
+- `tools/laws/build_laws.py --check`·`--status`: 통과, 모든 주제 OK
+- `tools/validate.py`: errors 0
 ```
 
 ## 일반 변경 항목 예시 (PATCH)

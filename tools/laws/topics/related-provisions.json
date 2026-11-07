@@ -1,0 +1,18 @@
+{
+  "collection": "related-provisions",
+  "_comment": "B층: 「감정평가 실무기준」과 토지보상법 시행규칙 제5장(보상평가 기준)이 조문 번호로 인용하는 다른 법령 조항만 수록. 인용 번호가 개정 전 번호인 경우 현행 대응 조문을 함께 수록한다(수산업법 7·40·48, 외부감사법 5).",
+  "topics": [
+    {"slug": "building-housing", "title": "건축·주택 관련 조항 — 착공신고, 도로 지정, 면적 산정, 주택 사업계획, 녹색건축물 정의, 공사중단 건축물 평가금액",
+     "assign": {"building-act": ["21", "45"], "building-decree": ["119"], "housing-act": ["16"], "green-building-act": ["2"], "suspended-building-decree": ["9의2"]}},
+    {"slug": "forest-farm-salt", "title": "산림·농업·축산·염전·입목 관련 조항 — 산림 정의·산림경영계획, 농지·농업인, 농어업경영체 등록, 축산업 허가, 염전 정의, 입목 등록",
+     "assign": {"forest-act": ["2", "13"], "forest-decree": ["2"], "farmland-act": ["2"], "farmland-decree": ["3"], "farm-business-act": ["4"], "livestock-act": ["22"], "salt-act": ["2"], "standing-timber-act": ["8"]},
+     "annex_no": {"forest-rule": ["3"]}},
+    {"slug": "fishery-mining", "title": "어업·광업 관련 조항 — 면허·허가·신고어업, 면허 유효기간, 어업보상 손실액 산출(별표 10), 광업권 정의, 광업 손실 산정",
+     "assign": {"fisheries-act": ["7", "8", "14", "40", "41", "47", "48"], "fisheries-decree": ["55", "69"], "inland-fisheries-act": ["6", "9", "11", "13"], "mining-act": ["3"], "mining-decree": ["30"], "mining-rule": ["19"]},
+     "annex_no": {"fisheries-decree": ["4", "10"]}},
+    {"slug": "movables-securities-accounting", "title": "의제부동산·지식재산·유가증권·회계 관련 조항 — 자동차·선박·항공기 정의, 저작물, 거래소 허가, 한국은행 통계, 회계처리기준",
+     "assign": {"motor-vehicle-act": ["2"], "ship-act": ["1의2"], "aviation-safety-act": ["2"], "copyright-act": ["4"], "capital-market-act": ["373의2"], "bok-act": ["86"], "external-audit-act": ["5", "13"]}},
+    {"slug": "tax-statistics-misc", "title": "세무·통계·기타 조항 — 사업자등록, 통계작성기관, 주민등록 사무, 여객자동차운송사업, 분묘 정의, 주위토지통행권, 지가 동향 조사, 택지개발, 토양오염·폐기물 정의",
+     "assign": {"vat-act": ["8"], "vat-decree": ["11"], "statistics-act": ["3"], "resident-registration-act": ["2"], "passenger-transport-decree": ["3"], "funeral-act": ["2"], "civil-act": ["219"], "real-estate-transaction-act": ["19"], "housing-site-act": ["11"], "soil-act": ["2"], "waste-act": ["2"]}}
+  ]
+}

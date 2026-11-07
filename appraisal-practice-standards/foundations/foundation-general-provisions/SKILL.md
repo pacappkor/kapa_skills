@@ -71,9 +71,9 @@ description: 감정평가 실무기준 [100] 총칙의 목적과 용어 정의, 
 
 <!-- BEGIN GENERATED:refs -->
 이 스킬의 원문이 인용하는 다른 조항:
-- `[200-3.4]` → [foundation-ethics](../../foundations/foundation-ethics/SKILL.md)
-- `[500-4-①-2]` → [foundation-appraisal-report](../../foundations/foundation-appraisal-report/SKILL.md)
-- `[500-4-②]` → [foundation-appraisal-report](../../foundations/foundation-appraisal-report/SKILL.md)
+- `[200-3.4]` → [foundation-ethics](../foundation-ethics/SKILL.md)
+- `[500-4-①-2]` → [foundation-appraisal-report](../foundation-appraisal-report/SKILL.md)
+- `[500-4-②]` → [foundation-appraisal-report](../foundation-appraisal-report/SKILL.md)
 - `[610-1.5.1-②-1]` → [asset-land](../../assets/real-estate/asset-land/SKILL.md)
 - `[610-1.5.2.3.1-①]` → [asset-land](../../assets/real-estate/asset-land/SKILL.md)
 - `[610-1.5.2.5]` → [asset-land](../../assets/real-estate/asset-land/SKILL.md)
@@ -90,5 +90,29 @@ description: 감정평가 실무기준 [100] 총칙의 목적과 용어 정의, 
 - [overlay-financial-reporting](../../overlays/purpose/overlay-financial-reporting/SKILL.md) — `[100 총칙]`
 - [overlay-urban-redevelopment](../../overlays/purpose/overlay-urban-redevelopment/SKILL.md) — `[100 총칙]`
 
+이 스킬의 원문이 인용하는 관계법령 조문 (laws/ 컬렉션):
+- `「감정평가 및 감정평가사에 관한 법률」 제3조` → [apa-appraisal-basics](../../../laws/appraisal-act/apa-appraisal-basics/SKILL.md)
+- `「감정평가에 관한 규칙」 제28조` → [apa-rule-report-advisory](../../../laws/appraisal-act/apa-rule-report-advisory/SKILL.md)
+- `「감정평가 및 감정평가사에 관한 법률」 제2조` → [apa-general](../../../laws/appraisal-act/apa-general/SKILL.md)
+- `토지보상법 제15조` → [lca-acquisition-by-agreement](../../../laws/land-compensation-act/lca-acquisition-by-agreement/SKILL.md)
+- `토지보상법 제26조` → [lca-expropriation-procedure](../../../laws/land-compensation-act/lca-expropriation-procedure/SKILL.md)
+
 > 원문의 `[코드]` 인용을 자동 추출한 목록이라 완전한 체크리스트가 아니다. "[100 총칙]부터 [600 물건별 감정평가]까지" 같은 범위 인용은 첫 조항만 잡히고, 관계법규(「…법」) 인용은 포함하지 않는다.
 <!-- END GENERATED:refs -->
+
+## 들어오는 연결
+
+<!-- BEGIN GENERATED:incoming -->
+이 스킬의 원문을 인용·준용하는 다른 스킬이다. 출발점이 그쪽이라면 여기로, 여기서 출발했다면 그쪽으로 이동한다.
+
+**appraisal-practice-standards**
+- [overlay-auction](../../overlays/purpose/overlay-auction/SKILL.md) — `[100 총칙]`
+- [overlay-collateral](../../overlays/purpose/overlay-collateral/SKILL.md) — `[100 총칙]`
+- [overlay-compensation-business-loss](../../overlays/compensation/overlay-compensation-business-loss/SKILL.md) — `[100 총칙]`
+- [overlay-compensation-land-acquisition](../../overlays/compensation/overlay-compensation-land-acquisition/SKILL.md) — `[100 총칙]`
+- [overlay-compensation-land-use](../../overlays/compensation/overlay-compensation-land-use/SKILL.md) — `[100 총칙]`
+- [overlay-compensation-rights](../../overlays/compensation/overlay-compensation-rights/SKILL.md) — `[100 총칙]`
+- [overlay-consulting](../../overlays/purpose/overlay-consulting/SKILL.md) — `[100 총칙]`
+- [overlay-financial-reporting](../../overlays/purpose/overlay-financial-reporting/SKILL.md) — `[100 총칙]`
+- [overlay-urban-redevelopment](../../overlays/purpose/overlay-urban-redevelopment/SKILL.md) — `[100 총칙]`
+<!-- END GENERATED:incoming -->

@@ -29,7 +29,8 @@ F1~F3 의 값은 [facets.md](facets.md) 로 스킬 이름으로 바꾼다. 조�
 ## 2단계 — 우선순위 스택을 정한다
 
 ```text
-① 감정평가관계법규·K-IFRS 에 따로 정한 것   ← 이 컬렉션 밖. 있으면 "관계법규 확인 필요"
+① 감정평가관계법규·K-IFRS 에 따로 정한 것   ← 관계법령은 laws/ 컬렉션(00-laws-start). K-IFRS 는 저장소 밖
+                                             보상평가면 근거법 특례 > 토지보상법령 순서 (laws/workflow-compensation-chain)
 ② 보상 특칙  overlays/compensation (F1)     ← 810·820·830·840
 ③ 목적 특칙  overlays/purpose      (F2)     ← 710·720 은 특칙 없이 [100]~[600] '적용' 지시만 있음
 ④ 물건 규정  assets/               (F3)     ← ②③이 정하지 않은 사항
@@ -49,7 +50,11 @@ F1~F3 의 값은 [facets.md](facets.md) 로 스킬 이름으로 바꾼다. 조�
   어업권 보상은 다른 장으로 보내는 조항이 없다 [830-2-②]. 준용이면 성질에 맞게 바꾸어 쓰고, 그렇게 했다고 밝힌다.
 - **실무기준에 절이 없을 때**:
   - 물건: [670-5] — 비슷한 물건·권리에 준하여 평가한다 ([asset-other](../../assets/asset-other/SKILL.md)).
-  - 보상 항목(지장물·농업손실·주거이전비 등): [800]에 절이 없다. 실무기준 밖이므로 관계법규 확인이 필요하다고 명시한다.
+  - 보상 항목(지장물·농업손실·주거이전비 등): 실무기준 [800]에 절이 없다. 토지보상법과 그 시행규칙이 직접 정하므로 ① 단계의 법령 스킬을 읽는다:
+    - 건축물·공작물·수목·농작물·분묘: [lca-objects-compensation](../../../laws/land-compensation-act/lca-objects-compensation/SKILL.md)
+    - 농업·축산·잠업 손실, 휴직·실직: [lca-business-farming-loss](../../../laws/land-compensation-act/lca-business-farming-loss/SKILL.md)
+    - 이주대책·이주정착금·주거이전비·동산 이전비: [lca-relocation](../../../laws/land-compensation-act/lca-relocation/SKILL.md)
+    - 사업지구 밖 보상: [lca-other-losses](../../../laws/land-compensation-act/lca-other-losses/SKILL.md)
   - 목적: [700]에 없는 목적(매매 참고, 소송 등)이면 ③을 건너뛴다(이 저장소의 해석).
 - **특정 목적의 토지 평가**: 재무제표, 자산재평가, 소송(보상 제외)·경매, 담보권 설정이면 [610-1.5.1-③]을 확인한다. 공시지가기준법·거래사례비교법을 적용하되 임대료·조성비용 등을 고려할 수 있다.
 
@@ -105,7 +110,7 @@ F1~F3 의 값은 [facets.md](facets.md) 로 스킬 이름으로 바꾼다. 조�
   7 결정·표시     foundation-procedure-and-approaches [400-4]; asset-condominium [610-3.1.3-③]
   평가서          foundation-appraisal-report [500-3]
 확인 필요(추측 금지): <의뢰서에 없는 사실>
-실무기준 밖: <관계법규 등>
+관계법령: <읽은 laws/ 스킬과 조문, 또는 "관계법규 확인 필요">
 ```
 
 라우팅 사례와 기대 결과는 [cases.md](cases.md) 에 있다. 이 절차를 고치면 사례로 다시 확인한다.

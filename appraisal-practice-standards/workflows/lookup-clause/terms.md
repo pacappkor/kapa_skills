@@ -1,8 +1,8 @@
 # 용어·조항 색인 — 감정평가 실무기준
 
-> tools/split_standard.py 가 원문에서 자동 생성한다(직접 고치지 말 것).
+> 원문에서 자동 생성한 색인이다.
 > 원문의 정의 조항("…"이란 …을 말한다)에 나오는 용어와 한 번만 쓰인 조항 제목, 그리고 실무 표현을
-> 원문 용어로 잇는 "별칭"(이 저장소가 붙인 것, tools/split_standard.py 의 ALIASES)을 모았다.
+> 원문 용어로 잇는 "별칭"(이 저장소가 붙인 것)을 모았다.
 > 여기서 못 찾으면 원문을 직접 검색한다: grep -rn "<낱말>" appraisal-practice-standards --include=source.md
 > 질문·의뢰서의 낱말로 이 파일을 검색(grep)해 조항과 스킬을 찾은 뒤, 그 스킬의 source.md 로 확인한다.
 
@@ -405,7 +405,7 @@
 | 지식재산권의 감정평가방법 | 조항 제목 | [650-4.3] | [asset-intellectual-property](../../assets/intangibles/asset-intellectual-property/SKILL.md) |
 | 지역요인 비교 | 조항 제목 | [610-1.5.3.4.1] | [asset-land](../../assets/real-estate/asset-land/SKILL.md) |
 | 지역요인의 비교 | 조항 제목 | [610-1.5.2.4.1] | [asset-land](../../assets/real-estate/asset-land/SKILL.md) |
-| 지장물 | 별칭 → 건축물 등 (정의만 있음. 건축물 등의 보상평가 절은 실무기준에 없음(관계법규 확인)) | [810-3] | [overlay-compensation-land-acquisition](../../overlays/compensation/overlay-compensation-land-acquisition/SKILL.md) |
+| 지장물 | 별칭 → 건축물 등 (정의만 있음. 보상 기준은 토지보상법 제75조·시행규칙 제33조 등 — laws/land-compensation-act/lca-objects-compensation) | [810-3] | [overlay-compensation-land-acquisition](../../overlays/compensation/overlay-compensation-land-acquisition/SKILL.md) |
 | 지하부분 이용저해율 | 조항 제목 | [820-5.2.2.3] | [overlay-compensation-land-use](../../overlays/compensation/overlay-compensation-land-use/SKILL.md) |
 | 진동 | 별칭 → 진동 | [670-2] | [asset-noise-value-loss](../../assets/income-and-loss/asset-noise-value-loss/SKILL.md) |
 | 집합건물 | 별칭 → 구분소유 부동산 | [610-3.1] | [asset-condominium](../../assets/real-estate/asset-condominium/SKILL.md) |

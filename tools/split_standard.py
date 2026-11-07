@@ -149,8 +149,9 @@ def skill_name(path):
     return path.rsplit('/', 1)[1]
 
 def rel(from_path, to_path):
-    a, b = from_path.split('/'), to_path.split('/')
-    return '../' * len(a) + '/'.join(b) + '/SKILL.md'
+    # tools/fix_links.py 와 같은 최단 상대경로
+    import posixpath
+    return posixpath.relpath(to_path + '/SKILL.md', from_path)
 
 def build(secs):
     by_skill = collections.defaultdict(list)
@@ -184,7 +185,7 @@ def build(secs):
                     ctx.append((anc, titles[anc]))
         src = [f'# 원문 — {skill_name(path)}', '',
                f'> 출처: 「감정평가 실무기준」 {NOTICE}, 국가법령정보센터 <{URL}>  ',
-               '> 이 파일은 tools/split_standard.py 가 원문에서 자동 생성한다. 직접 고치지 말 것(원문 그대로).', '']
+               '> 원문을 그대로 옮긴 자동 생성 파일이다.', '']
         if ctx:
             src += ['상위 장: ' + ' › '.join(f'[{c}] {t}' for c, t in ctx), '']
         for s in ss:
@@ -222,6 +223,9 @@ def build(secs):
                 refs.append(f'- [{skill_name(t)}]({rel(path, t)}) — `{r}`')
         if not refs:
             refs = ['(다른 조항을 명시적으로 인용하지 않음)']
+        law = law_links(path, ss)
+        if law:
+            refs += ['', '이 스킬의 원문이 인용하는 관계법령 조문 (laws/ 컬렉션):'] + law
         refs += ['', '> 원문의 `[코드]` 인용을 자동 추출한 목록이라 완전한 체크리스트가 아니다. '
                  '"[100 총칙]부터 [600 물건별 감정평가]까지" 같은 범위 인용은 첫 조항만 잡히고, '
                  '관계법규(「…법」) 인용은 포함하지 않는다.']
@@ -237,6 +241,34 @@ def build(secs):
         }
         files[f'{COLL}/{path}/SKILL.md'] = gen
     return files, unassigned
+
+# 실무기준 본문의 법령 약칭 → 정식 법령명 ([100-2-15] 법·규칙, [810-1] 토지보상법, [730-1] 도정법 등)
+LAW_ALIASES = {
+    '토지보상법 시행규칙': '공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행규칙',
+    '토지보상법 시행령': '공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행령',
+    '토지보상법': '공익사업을 위한 토지 등의 취득 및 보상에 관한 법률',
+    '도정법': '도시 및 주거환경정비법',
+    '외감법': '주식회사 등의 외부감사에 관한 법률',
+    '법': '감정평가 및 감정평가사에 관한 법률',
+    '규칙': '감정평가에 관한 규칙',
+}
+
+def law_links(path, ss):
+    try:
+        sys.path.insert(0, str(ROOT / 'tools' / 'laws'))
+        from lawindex import find_law_refs
+    except Exception:
+        return []
+    text = ' '.join(l for s in ss for l in s['lines'])
+    seen, out = set(), []
+    for label, sk in find_law_refs(text, LAW_ALIASES):
+        if (label, sk) in seen:
+            continue
+        seen.add((label, sk))
+        import posixpath
+        link = posixpath.relpath(f'{sk}/SKILL.md', f'{COLL}/{path}')
+        out.append(f'- `{label}` → [{sk.rsplit("/", 1)[1]}]({link})')
+    return out
 
 def render_skill(existing, path, gen):
     name = skill_name(path)
@@ -266,7 +298,7 @@ ALIASES = [
     ('고압선', '고압선등', '610-1.7.13', '일반 평가'),
     ('어선', '선박', '640-3', ''),
     ('어장', '어장', '650-2.3.2', '어업권 평가에서 어장 전체 가액과 시설가액'),
-    ('지장물', '건축물 등', '810-3', '정의만 있음. 건축물 등의 보상평가 절은 실무기준에 없음(관계법규 확인)'),
+    ('지장물', '건축물 등', '810-3', '정의만 있음. 보상 기준은 토지보상법 제75조·시행규칙 제33조 등 — laws/land-compensation-act/lca-objects-compensation'),
     ('아파트', '구분소유 부동산', '610-3.1', ''),
     ('오피스텔', '구분소유 부동산', '610-3.1', ''),
     ('집합건물', '구분소유 부동산', '610-3.1', ''),
@@ -327,9 +359,9 @@ def terms_index(secs):
         c = t[0]
         return CHO[(ord(c) - 0xAC00) // 588] if '가' <= c <= '힣' else '기타'
     L = ['# 용어·조항 색인 — 감정평가 실무기준', '',
-         '> tools/split_standard.py 가 원문에서 자동 생성한다(직접 고치지 말 것).',
+         '> 원문에서 자동 생성한 색인이다.',
          '> 원문의 정의 조항("…"이란 …을 말한다)에 나오는 용어와 한 번만 쓰인 조항 제목, 그리고 실무 표현을',
-         '> 원문 용어로 잇는 "별칭"(이 저장소가 붙인 것, tools/split_standard.py 의 ALIASES)을 모았다.',
+         '> 원문 용어로 잇는 "별칭"(이 저장소가 붙인 것)을 모았다.',
          '> 여기서 못 찾으면 원문을 직접 검색한다: grep -rn "<낱말>" appraisal-practice-standards --include=source.md',
          '> 질문·의뢰서의 낱말로 이 파일을 검색(grep)해 조항과 스킬을 찾은 뒤, 그 스킬의 source.md 로 확인한다.', '']
     cur = None

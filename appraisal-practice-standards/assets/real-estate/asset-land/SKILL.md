@@ -140,10 +140,10 @@ description: 감정평가 실무기준 [610-1] 토지의 자료·면적사정, �
 - `[400-3.3.1.3]` → [foundation-procedure-and-approaches](../../../foundations/foundation-procedure-and-approaches/SKILL.md)
 
 이 스킬의 조항을 인용하는 다른 스킬:
-- [asset-factory-foundation](../../../assets/industrial/asset-factory-foundation/SKILL.md) — `[610-1]`
-- [asset-forest](../../../assets/real-estate/asset-forest/SKILL.md) — `[610-1]`
-- [asset-land-building-composite](../../../assets/real-estate/asset-land-building-composite/SKILL.md) — `[610-1.2]`
-- [asset-suspended-construction](../../../assets/real-estate/asset-suspended-construction/SKILL.md) — `[610-1.5]`
+- [asset-factory-foundation](../../industrial/asset-factory-foundation/SKILL.md) — `[610-1]`
+- [asset-forest](../asset-forest/SKILL.md) — `[610-1]`
+- [asset-land-building-composite](../asset-land-building-composite/SKILL.md) — `[610-1.2]`
+- [asset-suspended-construction](../asset-suspended-construction/SKILL.md) — `[610-1.5]`
 - [foundation-appraisal-report](../../../foundations/foundation-appraisal-report/SKILL.md) — `[610-1.5.2.5]`
 - [foundation-general-provisions](../../../foundations/foundation-general-provisions/SKILL.md) — `[610-1.5.1-②-1]`
 - [foundation-general-provisions](../../../foundations/foundation-general-provisions/SKILL.md) — `[610-1.5.2.3.1-①]`
@@ -156,5 +156,30 @@ description: 감정평가 실무기준 [610-1] 토지의 자료·면적사정, �
 - [overlay-compensation-land-acquisition](../../../overlays/compensation/overlay-compensation-land-acquisition/SKILL.md) — `[610-1.5.2.5]`
 - [overlay-urban-redevelopment](../../../overlays/purpose/overlay-urban-redevelopment/SKILL.md) — `[610-1.5.2.1]`
 
+이 스킬의 원문이 인용하는 관계법령 조문 (laws/ 컬렉션):
+- `「부동산 거래신고 등에 관한 법률」 제19조` → [rel-tax-statistics-misc](../../../../laws/related-provisions/rel-tax-statistics-misc/SKILL.md)
+- `「한국은행법」 제86조` → [rel-movables-securities-accounting](../../../../laws/related-provisions/rel-movables-securities-accounting/SKILL.md)
+- `「국토의 계획 및 이용에 관한 법률」 제36조` → [nlp-zoning-designation](../../../../laws/national-land-planning-act/nlp-zoning-designation/SKILL.md)
+- `「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행규칙」 제26조` → [lca-land-compensation](../../../../laws/land-compensation-act/lca-land-compensation/SKILL.md)
+- `「민법」 제219조` → [rel-tax-statistics-misc](../../../../laws/related-provisions/rel-tax-statistics-misc/SKILL.md)
+- `「택지개발촉진법」 제11조` → [rel-tax-statistics-misc](../../../../laws/related-provisions/rel-tax-statistics-misc/SKILL.md)
+- `법 제3조` → [apa-appraisal-basics](../../../../laws/appraisal-act/apa-appraisal-basics/SKILL.md)
+
 > 원문의 `[코드]` 인용을 자동 추출한 목록이라 완전한 체크리스트가 아니다. "[100 총칙]부터 [600 물건별 감정평가]까지" 같은 범위 인용은 첫 조항만 잡히고, 관계법규(「…법」) 인용은 포함하지 않는다.
 <!-- END GENERATED:refs -->
+
+## 들어오는 연결
+
+<!-- BEGIN GENERATED:incoming -->
+이 스킬의 원문을 인용·준용하는 다른 스킬이다. 출발점이 그쪽이라면 여기로, 여기서 출발했다면 그쪽으로 이동한다.
+
+**appraisal-practice-standards**
+- [asset-factory-foundation](../../industrial/asset-factory-foundation/SKILL.md) — `[610-1]`
+- [asset-forest](../asset-forest/SKILL.md) — `[610-1]`
+- [asset-land-building-composite](../asset-land-building-composite/SKILL.md) — `[610-1.2]`
+- [asset-suspended-construction](../asset-suspended-construction/SKILL.md) — `[610-1.5]`
+- [foundation-appraisal-report](../../../foundations/foundation-appraisal-report/SKILL.md) — `[610-1.5.2.5]`
+- [foundation-general-provisions](../../../foundations/foundation-general-provisions/SKILL.md) — `[610-1.5.1-②-1]`, `[610-1.5.2.3.1-①]`, `[610-1.5.2.5]`
+- [overlay-compensation-land-acquisition](../../../overlays/compensation/overlay-compensation-land-acquisition/SKILL.md) — `[610-1.5.2.1]`, `[610-1.5.2.2]`, `[610-1.5.2.3.1]`, `[610-1.5.2.3.2]`, `[610-1.5.2.4]`, `[610-1.5.2.5]`
+- [overlay-urban-redevelopment](../../../overlays/purpose/overlay-urban-redevelopment/SKILL.md) — `[610-1.5.2.1]`
+<!-- END GENERATED:incoming -->

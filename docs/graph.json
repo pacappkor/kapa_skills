@@ -1,0 +1,5461 @@
+[
+ {
+  "src": "apa-appraisal-basics",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-basics",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-basics",
+  "dst": "apa-discipline-penalty",
+  "labels": [
+   "법 제39조",
+   "법 제40조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-basics",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제17조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-basics",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "영 제5조: 「부동산 가격공시에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-appraisal-report-review",
+  "labels": [
+   "법 제6조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-discipline-penalty",
+  "labels": [
+   "법 제47조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-duties-liability",
+  "labels": [
+   "법 제25조",
+   "법 제26조",
+   "법 제27조",
+   "법 제28조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제18조",
+   "법 제20조",
+   "법 제21조",
+   "법 제23조",
+   "영 제17조",
+   "영 제18조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-corporation",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "법 제29조: 「주식회사 등의 외부감사에 관한 법률」 제5조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-report-review",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "apa-appraisal-report-review",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-report-review",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-report-review",
+  "dst": "apa-discipline-penalty",
+  "labels": [
+   "법 제46조",
+   "법 제47조"
+  ]
+ },
+ {
+  "src": "apa-appraisal-report-review",
+  "dst": "ura-project-methods",
+  "labels": [
+   "규칙 제5조: 「도시 및 주거환경정비법」 제24조",
+   "규칙 제5조: 「도시 및 주거환경정비법」 제26조"
+  ]
+ },
+ {
+  "src": "apa-appraiser-qualification",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "apa-appraiser-qualification",
+  "dst": "apa-discipline-penalty",
+  "labels": [
+   "법 제39조"
+  ]
+ },
+ {
+  "src": "apa-appraiser-qualification",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제17조"
+  ]
+ },
+ {
+  "src": "apa-appraiser-qualification",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "법 제10조: 「부동산 가격공시에 관한 법률」 제8조"
+  ]
+ },
+ {
+  "src": "apa-association",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제4조"
+  ]
+ },
+ {
+  "src": "apa-association",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제17조",
+   "법 제21조",
+   "법 제24조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-appraisal-corporation",
+  "labels": [
+   "법 제29조",
+   "법 제32조",
+   "영 제24조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-appraisal-report-review",
+  "labels": [
+   "법 제6조",
+   "법 제7조",
+   "법 제8조",
+   "법 제9조",
+   "영 제8조",
+   "영 제8조의2"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조",
+   "법 제13조",
+   "법 제14조",
+   "영 제12조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조",
+   "법 제38조",
+   "영 제30조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-duties-liability",
+  "labels": [
+   "법 제25조",
+   "법 제26조",
+   "법 제27조",
+   "법 제28조",
+   "법 제28조의2",
+   "영 제23조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제17조",
+   "법 제18조",
+   "법 제19조",
+   "법 제20조",
+   "법 제21조",
+   "법 제21조의2",
+   "법 제22조",
+   "법 제23조",
+   "법 제24조"
+  ]
+ },
+ {
+  "src": "apa-discipline-penalty",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "법 제41조: 「부동산 가격공시에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "apa-duties-liability",
+  "dst": "apa-appraisal-corporation",
+  "labels": [
+   "법 제29조"
+  ]
+ },
+ {
+  "src": "apa-duties-liability",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "apa-duties-liability",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "apa-duties-liability",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제21조",
+   "법 제23조"
+  ]
+ },
+ {
+  "src": "apa-general",
+  "dst": "apa-appraisal-corporation",
+  "labels": [
+   "법 제29조"
+  ]
+ },
+ {
+  "src": "apa-general",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제21조"
+  ]
+ },
+ {
+  "src": "apa-registration-office",
+  "dst": "apa-appraisal-corporation",
+  "labels": [
+   "법 제29조",
+   "법 제32조"
+  ]
+ },
+ {
+  "src": "apa-registration-office",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조",
+   "법 제11조",
+   "법 제12조",
+   "법 제13조"
+  ]
+ },
+ {
+  "src": "apa-registration-office",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "apa-registration-office",
+  "dst": "apa-discipline-penalty",
+  "labels": [
+   "법 제39조",
+   "법 제40조"
+  ]
+ },
+ {
+  "src": "apa-rule-methods-by-object",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "apa-rule-methods-by-object",
+  "dst": "apa-rule-principles-procedure",
+  "labels": [
+   "평가규칙 제7조"
+  ]
+ },
+ {
+  "src": "apa-rule-methods-by-object",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "평가규칙 제14조: 「한국은행법」 제86조",
+   "평가규칙 제24조: 「자본시장과 금융투자업에 관한 법률」 제373조의2"
+  ]
+ },
+ {
+  "src": "apa-rule-methods-by-object",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "평가규칙 제14조: 「부동산 거래신고 등에 관한 법률」 제19조"
+  ]
+ },
+ {
+  "src": "apa-rule-principles-procedure",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "평가규칙 제1조: 「감정평가 및 감정평가사에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "apa-rule-principles-procedure",
+  "dst": "apa-rule-methods-by-object",
+  "labels": [
+   "평가규칙 제14조",
+   "평가규칙 제26조"
+  ]
+ },
+ {
+  "src": "apa-rule-principles-procedure",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "평가규칙 제2조: 「국토의 계획 및 이용에 관한 법률」 제36조"
+  ]
+ },
+ {
+  "src": "apa-rule-report-advisory",
+  "dst": "apa-appraisal-report-review",
+  "labels": [
+   "법 제6조"
+  ]
+ },
+ {
+  "src": "apa-rule-report-advisory",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "apa-rule-report-advisory",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "apa-rule-report-advisory",
+  "dst": "apa-rule-methods-by-object",
+  "labels": [
+   "평가규칙 제14조"
+  ]
+ },
+ {
+  "src": "apa-rule-report-advisory",
+  "dst": "apa-rule-principles-procedure",
+  "labels": [
+   "평가규칙 제12조",
+   "평가규칙 제5조",
+   "평가규칙 제6조",
+   "평가규칙 제7조"
+  ]
+ },
+ {
+  "src": "asset-aircraft",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「항공법」 제2조"
+  ]
+ },
+ {
+  "src": "asset-building",
+  "dst": "foundation-procedure-and-approaches",
+  "labels": [
+   "[400-4]"
+  ]
+ },
+ {
+  "src": "asset-building",
+  "dst": "rel-building-housing",
+  "labels": [
+   "「건축법 시행령」 제119조",
+   "「녹색건축물 조성 지원법」 제2조"
+  ]
+ },
+ {
+  "src": "asset-condominium",
+  "dst": "foundation-procedure-and-approaches",
+  "labels": [
+   "[400-4]"
+  ]
+ },
+ {
+  "src": "asset-enterprise-value",
+  "dst": "asset-stock",
+  "labels": [
+   "[660-1.2.2]"
+  ]
+ },
+ {
+  "src": "asset-factory-foundation",
+  "dst": "asset-building",
+  "labels": [
+   "[610-2]"
+  ]
+ },
+ {
+  "src": "asset-factory-foundation",
+  "dst": "asset-goodwill",
+  "labels": [
+   "[650-3]"
+  ]
+ },
+ {
+  "src": "asset-factory-foundation",
+  "dst": "asset-intellectual-property",
+  "labels": [
+   "[650-4]"
+  ]
+ },
+ {
+  "src": "asset-factory-foundation",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1]"
+  ]
+ },
+ {
+  "src": "asset-factory-foundation",
+  "dst": "asset-machinery",
+  "labels": [
+   "[630-1]",
+   "[630-2]"
+  ]
+ },
+ {
+  "src": "asset-factory-foundation",
+  "dst": "foundation-procedure-and-approaches",
+  "labels": [
+   "[400-2.3-1]"
+  ]
+ },
+ {
+  "src": "asset-forest",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1]"
+  ]
+ },
+ {
+  "src": "asset-forest",
+  "dst": "asset-orchard",
+  "labels": [
+   "[610-5]"
+  ]
+ },
+ {
+  "src": "asset-forest",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "「산림자원의 조성 및 관리에 관한 법률 시행령」 제2조",
+   "「산림자원의 조성 및 관리에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "asset-goodwill",
+  "dst": "asset-enterprise-value",
+  "labels": [
+   "[660-3.3.2]"
+  ]
+ },
+ {
+  "src": "asset-intellectual-property",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「저작권법」 제4조"
+  ]
+ },
+ {
+  "src": "asset-land",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "asset-land",
+  "dst": "foundation-procedure-and-approaches",
+  "labels": [
+   "[400-3.3.1.3]"
+  ]
+ },
+ {
+  "src": "asset-land",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행규칙」 제26조"
+  ]
+ },
+ {
+  "src": "asset-land",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "「국토의 계획 및 이용에 관한 법률」 제36조"
+  ]
+ },
+ {
+  "src": "asset-land",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「한국은행법」 제86조"
+  ]
+ },
+ {
+  "src": "asset-land",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "「민법」 제219조",
+   "「부동산 거래신고 등에 관한 법률」 제19조",
+   "「택지개발촉진법」 제11조"
+  ]
+ },
+ {
+  "src": "asset-land-building-composite",
+  "dst": "asset-building",
+  "labels": [
+   "[610-2.2]"
+  ]
+ },
+ {
+  "src": "asset-land-building-composite",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1.2]"
+  ]
+ },
+ {
+  "src": "asset-land-building-composite",
+  "dst": "foundation-procedure-and-approaches",
+  "labels": [
+   "[400-4]"
+  ]
+ },
+ {
+  "src": "asset-mining-right",
+  "dst": "asset-mining-foundation",
+  "labels": [
+   "[620-2.2]",
+   "[620-2.3]"
+  ]
+ },
+ {
+  "src": "asset-mining-right",
+  "dst": "rel-fishery-mining",
+  "labels": [
+   "「광업법」 제3조"
+  ]
+ },
+ {
+  "src": "asset-salt-farm",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "「소금산업 진흥법」 제2조"
+  ]
+ },
+ {
+  "src": "asset-ship",
+  "dst": "rel-fishery-mining",
+  "labels": [
+   "「수산업법 시행령」 제69조 (개정 전 번호 → 현행 제55조)"
+  ]
+ },
+ {
+  "src": "asset-ship",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「선박법」 제1조의2"
+  ]
+ },
+ {
+  "src": "asset-stock",
+  "dst": "asset-enterprise-value",
+  "labels": [
+   "[660-3]"
+  ]
+ },
+ {
+  "src": "asset-stock",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「자본시장과 금융투자업에 관한 법률」 제373조의2"
+  ]
+ },
+ {
+  "src": "asset-suspended-construction",
+  "dst": "asset-building",
+  "labels": [
+   "[610-2.4]"
+  ]
+ },
+ {
+  "src": "asset-suspended-construction",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1.5]"
+  ]
+ },
+ {
+  "src": "asset-suspended-construction",
+  "dst": "rel-building-housing",
+  "labels": [
+   "「건축법」 제21조",
+   "「주택법」 제16조"
+  ]
+ },
+ {
+  "src": "asset-vehicle",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「자동차관리법」 제2조"
+  ]
+ },
+ {
+  "src": "foundation-appraisal-report",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "foundation-appraisal-report",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1.5.2.5]"
+  ]
+ },
+ {
+  "src": "foundation-appraisal-report",
+  "dst": "foundation-engagement",
+  "labels": [
+   "[300-5.2-①-1]",
+   "[300-5.2-①-2]",
+   "[300-5.3]"
+  ]
+ },
+ {
+  "src": "foundation-appraisal-report",
+  "dst": "foundation-procedure-and-approaches",
+  "labels": [
+   "[400-2.1-②-1]",
+   "[400-2.1-②-2]",
+   "[400-2.1-③]"
+  ]
+ },
+ {
+  "src": "foundation-engagement",
+  "dst": "apa-association",
+  "labels": [
+   "법 제33조"
+  ]
+ },
+ {
+  "src": "foundation-engagement",
+  "dst": "foundation-ethics",
+  "labels": [
+   "[200-4.2-②]"
+  ]
+ },
+ {
+  "src": "foundation-ethics",
+  "dst": "apa-registration-office",
+  "labels": [
+   "법 제23조"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "「감정평가 및 감정평가사에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "apa-general",
+  "labels": [
+   "「감정평가 및 감정평가사에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "apa-rule-report-advisory",
+  "labels": [
+   "「감정평가에 관한 규칙」 제28조"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1.5.1-②-1]",
+   "[610-1.5.2.3.1-①]",
+   "[610-1.5.2.5]"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "asset-suspended-construction",
+  "labels": [
+   "[610-7]"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "foundation-appraisal-report",
+  "labels": [
+   "[500-4-①-2]",
+   "[500-4-②]"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "foundation-ethics",
+  "labels": [
+   "[200-3.4]"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "토지보상법 제15조"
+  ]
+ },
+ {
+  "src": "foundation-general-provisions",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "토지보상법 제26조"
+  ]
+ },
+ {
+  "src": "foundation-procedure-and-approaches",
+  "dst": "apa-appraisal-basics",
+  "labels": [
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "foundation-procedure-and-approaches",
+  "dst": "foundation-engagement",
+  "labels": [
+   "[300-3-①]",
+   "[300-5]"
+  ]
+ },
+ {
+  "src": "lca-acquisition-by-agreement",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제20조"
+  ]
+ },
+ {
+  "src": "lca-business-farming-loss",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "영 제26조"
+  ]
+ },
+ {
+  "src": "lca-business-farming-loss",
+  "dst": "lca-other-losses",
+  "labels": [
+   "규칙 제65조"
+  ]
+ },
+ {
+  "src": "lca-business-farming-loss",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "규칙 제48조: 「농어업경영체 육성 및 지원에 관한 법률」 제4조",
+   "규칙 제48조: 「농지법 시행령」 제3조",
+   "규칙 제48조: 「농지법」 제2조",
+   "규칙 제49조: 「축산법」 제22조"
+  ]
+ },
+ {
+  "src": "lca-business-farming-loss",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "규칙 제45조: 「부가가치세법」 제8조",
+   "규칙 제46조: 「통계법」 제3조",
+   "규칙 제47조: 「통계법」 제3조",
+   "규칙 제48조: 「통계법」 제3조",
+   "규칙 제52조: 「통계법」 제3조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "apa-association",
+  "labels": [
+   "영 제28조: 「감정평가 및 감정평가사에 관한 법률」 제33조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "apa-general",
+  "labels": [
+   "영 제28조: 「감정평가 및 감정평가사에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "법 제15조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "법 제55조",
+   "법 제60조의2"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제21조",
+   "법 제38조",
+   "법 제39조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "법 제70조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "lca-other-losses",
+  "labels": [
+   "법 제82조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "lca-penalties",
+  "labels": [
+   "법 제93조",
+   "법 제96조",
+   "법 제97조"
+  ]
+ },
+ {
+  "src": "lca-compensation-principles",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "규칙 제15조: 「부가가치세법 시행령」 제11조",
+   "규칙 제15조: 「주민등록법」 제2조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-committee",
+  "dst": "apa-association",
+  "labels": [
+   "영 제24조의2: 「감정평가 및 감정평가사에 관한 법률」 제33조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-committee",
+  "dst": "lca-general",
+  "labels": [
+   "영 제4조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-committee",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "법 제13조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-effects",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "법 제63조",
+   "법 제69조",
+   "영 제34조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-effects",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제38조",
+   "법 제39조",
+   "영 제19조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-effects",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-procedure",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "법 제14조",
+   "법 제15조",
+   "법 제16조",
+   "영 제7조",
+   "영 제8조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-procedure",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "법 제63조",
+   "법 제68조",
+   "영 제30조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-procedure",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "법 제49조",
+   "법 제52조",
+   "법 제53조",
+   "법 제57조",
+   "법 제58조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-procedure",
+  "dst": "lca-general",
+  "labels": [
+   "법 제2조",
+   "법 제3조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-procedure",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "규칙 제28조",
+   "규칙 제29조",
+   "규칙 제30조"
+  ]
+ },
+ {
+  "src": "lca-expropriation-procedure",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "법 제10조",
+   "법 제11조",
+   "법 제13조",
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "법 제14조",
+   "법 제15조",
+   "법 제16조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "규칙 제48조",
+   "법 제77조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "법 제63조",
+   "법 제67조",
+   "영 제30조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "법 제49조",
+   "법 제54조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-expropriation-effects",
+  "labels": [
+   "법 제40조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제22조",
+   "법 제28조",
+   "법 제29조",
+   "법 제38조",
+   "영 제17조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "법 제70조",
+   "법 제71조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-other-losses",
+  "labels": [
+   "법 제79조",
+   "법 제81조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-penalties",
+  "labels": [
+   "영 제50조의3"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "규칙 제4조",
+   "법 제12조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-relocation",
+  "labels": [
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-repurchase-right",
+  "labels": [
+   "법 제91조",
+   "영 제49조"
+  ]
+ },
+ {
+  "src": "lca-general",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "법 제76조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "법 제77조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "규칙 제16조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제20조",
+   "법 제22조",
+   "법 제24조의2"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-objects-compensation",
+  "labels": [
+   "규칙 제39조",
+   "규칙 제42조",
+   "법 제75조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-relocation",
+  "labels": [
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "법 제76조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "규칙 제22조: 「국토의 계획 및 이용에 관한 법률」 제36조",
+   "규칙 제22조: 「국토의 계획 및 이용에 관한 법률」 제38조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "영 제38조의2: 「부동산 가격공시에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "rel-building-housing",
+  "labels": [
+   "규칙 제26조: 「건축법」 제45조"
+  ]
+ },
+ {
+  "src": "lca-land-compensation",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "법 제70조: 「한국은행법」 제86조"
+  ]
+ },
+ {
+  "src": "lca-objection-litigation",
+  "dst": "lca-expropriation-effects",
+  "labels": [
+   "법 제40조",
+   "법 제44조"
+  ]
+ },
+ {
+  "src": "lca-objection-litigation",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제34조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "법 제77조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "규칙 제22조",
+   "규칙 제27조",
+   "규칙 제28조",
+   "규칙 제29조",
+   "법 제70조",
+   "법 제73조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "lca-relocation",
+  "labels": [
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "법 제76조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "규칙 제39조: 「산림자원의 조성 및 관리에 관한 법률」 제13조",
+   "규칙 제39조: 「입목에 관한 법률」 제8조"
+  ]
+ },
+ {
+  "src": "lca-objects-compensation",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "규칙 제42조: 「여객자동차 운수사업법 시행령」 제3조",
+   "규칙 제42조: 「장사 등에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "법 제15조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "규칙 제45조",
+   "규칙 제48조",
+   "법 제77조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "영 제26조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제32조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "법 제70조",
+   "법 제73조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-objects-compensation",
+  "labels": [
+   "규칙 제42조",
+   "법 제75조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "영 제6조의2"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-relocation",
+  "labels": [
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "lca-other-losses",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "법 제76조"
+  ]
+ },
+ {
+  "src": "lca-penalties",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "법 제63조"
+  ]
+ },
+ {
+  "src": "lca-penalties",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "법 제58조"
+  ]
+ },
+ {
+  "src": "lca-penalties",
+  "dst": "lca-expropriation-effects",
+  "labels": [
+   "법 제43조"
+  ]
+ },
+ {
+  "src": "lca-penalties",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제25조",
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "lca-penalties",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "법 제11조",
+   "법 제12조",
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "lca-project-preparation",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "법 제51조"
+  ]
+ },
+ {
+  "src": "lca-project-preparation",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "lca-project-preparation",
+  "dst": "lca-relocation",
+  "labels": [
+   "규칙 제58조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "규칙 제15조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제21조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "lca-general",
+  "labels": [
+   "법 제4조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "lca-objects-compensation",
+  "labels": [
+   "규칙 제33조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "lca-penalties",
+  "labels": [
+   "법 제93조",
+   "법 제96조",
+   "법 제97조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "규칙 제56조: 「농지법 시행령」 제3조"
+  ]
+ },
+ {
+  "src": "lca-relocation",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "규칙 제54조: 「통계법」 제3조",
+   "규칙 제56조: 「통계법」 제3조"
+  ]
+ },
+ {
+  "src": "lca-repurchase-right",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제24조"
+  ]
+ },
+ {
+  "src": "lca-repurchase-right",
+  "dst": "lca-general",
+  "labels": [
+   "법 제4조"
+  ]
+ },
+ {
+  "src": "lca-repurchase-right",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "법 제74조"
+  ]
+ },
+ {
+  "src": "lca-rights-compensation",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "법 제15조"
+  ]
+ },
+ {
+  "src": "lca-rights-compensation",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "규칙 제52조"
+  ]
+ },
+ {
+  "src": "lca-rights-compensation",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제22조"
+  ]
+ },
+ {
+  "src": "lca-rights-compensation",
+  "dst": "rel-fishery-mining",
+  "labels": [
+   "규칙 제43조: 「광업법 시행령」 제30조",
+   "규칙 제44조: 「내수면어업법」 제11조",
+   "규칙 제44조: 「내수면어업법」 제13조",
+   "규칙 제44조: 「수산업법」 제14조"
+  ]
+ },
+ {
+  "src": "nlp-basic-plan",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제4조"
+  ]
+ },
+ {
+  "src": "nlp-basic-plan",
+  "dst": "nlp-metropolitan-plan",
+  "labels": [
+   "법 제13조",
+   "법 제14조"
+  ]
+ },
+ {
+  "src": "nlp-costs",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제32조"
+  ]
+ },
+ {
+  "src": "nlp-coverage-floor-area-ratio",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제52조",
+   "영 제46조"
+  ]
+ },
+ {
+  "src": "nlp-coverage-floor-area-ratio",
+  "dst": "nlp-general",
+  "labels": [
+   "영 제2조"
+  ]
+ },
+ {
+  "src": "nlp-coverage-floor-area-ratio",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제30조"
+  ]
+ },
+ {
+  "src": "nlp-coverage-floor-area-ratio",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제36조",
+   "법 제37조",
+   "법 제40조",
+   "영 제31조"
+  ]
+ },
+ {
+  "src": "nlp-development-infrastructure",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "nlp-development-infrastructure",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제77조",
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "nlp-development-infrastructure",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제52조"
+  ]
+ },
+ {
+  "src": "nlp-development-infrastructure",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제2조",
+   "영 제4조의2"
+  ]
+ },
+ {
+  "src": "nlp-development-infrastructure",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제28조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "법 제85조",
+   "법 제88조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제8조",
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "nlp-metropolitan-plan",
+  "labels": [
+   "영 제13조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제128조",
+   "법 제139조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "법 제113조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제37조",
+   "영 제19조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "법 제61조: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "rel-building-housing",
+  "labels": [
+   "영 제57조: 「건축법」 제21조"
+  ]
+ },
+ {
+  "src": "nlp-development-permit",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "영 제51조: 「농지법」 제2조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제78조",
+   "영 제84조",
+   "영 제85조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제63조",
+   "법 제65조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-general",
+  "labels": [
+   "영 제2조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제26조",
+   "법 제29조",
+   "영 제25조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제127조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "규칙 제8조의2",
+   "법 제43조",
+   "영 제42조의2"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제36조",
+   "법 제37조",
+   "영 제30조",
+   "영 제31조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "nlp-zoning-restrictions",
+  "labels": [
+   "법 제76조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "법 제52조의2: 「공공주택 특별법」 제2조",
+   "영 제46조: 「공공주택 특별법」 제2조"
+  ]
+ },
+ {
+  "src": "nlp-district-unit-plan",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제51조: 「도시 및 주거환경정비법」 제8조"
+  ]
+ },
+ {
+  "src": "nlp-facility-project",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "nlp-facility-project",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제88조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조"
+  ]
+ },
+ {
+  "src": "nlp-facility-project",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제62조",
+   "법 제65조",
+   "영 제59조"
+  ]
+ },
+ {
+  "src": "nlp-facility-project",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제30조",
+   "법 제32조",
+   "영 제25조"
+  ]
+ },
+ {
+  "src": "nlp-facility-project",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "법 제43조",
+   "법 제48조"
+  ]
+ },
+ {
+  "src": "nlp-facility-project",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "법 제92조: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "법 제19조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-development-infrastructure",
+  "labels": [
+   "법 제66조",
+   "법 제67조",
+   "법 제68조",
+   "법 제69조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "규칙 제2조의3",
+   "법 제24조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-metropolitan-plan",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제133조",
+   "법 제136조",
+   "법 제138조",
+   "법 제139조",
+   "영 제128조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "법 제106조",
+   "법 제113조",
+   "영 제110조",
+   "영 제112조"
+  ]
+ },
+ {
+  "src": "nlp-general",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "규칙 제4조",
+   "법 제36조"
+  ]
+ },
+ {
+  "src": "nlp-growth-management-plan",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제77조",
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "nlp-growth-management-plan",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "영 제22조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "법 제18조",
+   "법 제19조의2",
+   "영 제17조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "영 제55조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제51조",
+   "법 제52조",
+   "영 제42조의3",
+   "영 제45조",
+   "영 제46조",
+   "영 제47조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-general",
+  "labels": [
+   "규칙 제2조",
+   "법 제2조",
+   "영 제2조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-metropolitan-plan",
+  "labels": [
+   "법 제13조",
+   "영 제12조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제128조",
+   "법 제138조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "법 제113조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "법 제48조",
+   "영 제38조",
+   "영 제39조",
+   "영 제40조"
+  ]
+ },
+ {
+  "src": "nlp-management-plan-procedure",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제36조",
+   "법 제37조",
+   "법 제38조",
+   "법 제39조",
+   "법 제40조",
+   "법 제40조의3",
+   "법 제40조의4",
+   "법 제40조의5",
+   "영 제31조"
+  ]
+ },
+ {
+  "src": "nlp-metropolitan-plan",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "법 제20조"
+  ]
+ },
+ {
+  "src": "nlp-metropolitan-plan",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "nlp-metropolitan-plan",
+  "dst": "nlp-misc",
+  "labels": [
+   "영 제127조",
+   "영 제128조",
+   "영 제130조"
+  ]
+ },
+ {
+  "src": "nlp-metropolitan-plan",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "영 제110조",
+   "영 제112조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "lca-objection-litigation",
+  "labels": [
+   "법 제131조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "법 제131조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제77조",
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-development-infrastructure",
+  "labels": [
+   "법 제67조",
+   "영 제62조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제56조",
+   "법 제57조",
+   "법 제60조",
+   "법 제62조",
+   "법 제64조",
+   "영 제56조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제54조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "법 제86조",
+   "법 제88조",
+   "법 제89조",
+   "법 제98조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-growth-management-plan",
+  "labels": [
+   "법 제75조의4"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제31조"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "법 제43조",
+   "법 제44조의3"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제40조",
+   "법 제40조의3",
+   "법 제40조의4",
+   "법 제40조의5"
+  ]
+ },
+ {
+  "src": "nlp-misc",
+  "dst": "nlp-zoning-restrictions",
+  "labels": [
+   "법 제76조",
+   "법 제79조",
+   "법 제81조",
+   "법 제84조"
+  ]
+ },
+ {
+  "src": "nlp-penalties",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제56조"
+  ]
+ },
+ {
+  "src": "nlp-penalties",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제54조"
+  ]
+ },
+ {
+  "src": "nlp-penalties",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제130조",
+   "법 제133조",
+   "법 제137조"
+  ]
+ },
+ {
+  "src": "nlp-penalties",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "법 제43조",
+   "법 제44조",
+   "법 제44조의3"
+  ]
+ },
+ {
+  "src": "nlp-penalties",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제40조"
+  ]
+ },
+ {
+  "src": "nlp-penalties",
+  "dst": "nlp-zoning-restrictions",
+  "labels": [
+   "법 제76조",
+   "법 제81조"
+  ]
+ },
+ {
+  "src": "nlp-planning-committee",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제59조",
+   "영 제55조"
+  ]
+ },
+ {
+  "src": "nlp-planning-committee",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제50조"
+  ]
+ },
+ {
+  "src": "nlp-planning-committee",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제8조",
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "nlp-planning-committee",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제139조",
+   "영 제128조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "영 제42조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제15조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "lca-general",
+  "labels": [
+   "영 제42조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제56조",
+   "법 제58조",
+   "법 제64조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "규칙 제8조의3",
+   "법 제54조",
+   "영 제42조의3"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "법 제85조",
+   "법 제88조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제24조",
+   "법 제28조",
+   "법 제30조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "영 제35조의2: 「공공주택 특별법」 제2조"
+  ]
+ },
+ {
+  "src": "nlp-planning-facilities",
+  "dst": "ura-general",
+  "labels": [
+   "법 제44조: 「도시 및 주거환경정비법」 제2조"
+  ]
+ },
+ {
+  "src": "nlp-spatial-restructuring-plan",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "법 제19조"
+  ]
+ },
+ {
+  "src": "nlp-spatial-restructuring-plan",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "영 제55조"
+  ]
+ },
+ {
+  "src": "nlp-spatial-restructuring-plan",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제2조"
+  ]
+ },
+ {
+  "src": "nlp-spatial-restructuring-plan",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제24조",
+   "법 제27조",
+   "법 제28조",
+   "법 제32조"
+  ]
+ },
+ {
+  "src": "nlp-spatial-restructuring-plan",
+  "dst": "nlp-misc",
+  "labels": [
+   "법 제128조"
+  ]
+ },
+ {
+  "src": "nlp-spatial-restructuring-plan",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제40조",
+   "법 제40조의3",
+   "법 제40조의4",
+   "법 제40조의5"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "법 제19조",
+   "법 제19조의2"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제77조",
+   "법 제78조",
+   "영 제84조",
+   "영 제85조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제52조의2",
+   "법 제53조",
+   "법 제54조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제25조",
+   "법 제26조",
+   "법 제29조",
+   "법 제30조",
+   "법 제32조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-misc",
+  "labels": [
+   "규칙 제33조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-penalties",
+  "labels": [
+   "규칙 제36조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "규칙 제19조",
+   "규칙 제20조",
+   "규칙 제22조",
+   "규칙 제28조",
+   "규칙 제29조",
+   "규칙 제29조의2"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-spatial-restructuring-plan",
+  "labels": [
+   "법 제35조의3",
+   "법 제35조의6"
+  ]
+ },
+ {
+  "src": "nlp-zoning-designation",
+  "dst": "nlp-zoning-restrictions",
+  "labels": [
+   "법 제83조의3",
+   "법 제83조의4"
+  ]
+ },
+ {
+  "src": "nlp-zoning-restrictions",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "nlp-zoning-restrictions",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제77조",
+   "법 제78조",
+   "영 제84조",
+   "영 제84조의2",
+   "영 제85조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-restrictions",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제56조",
+   "법 제60조",
+   "영 제55조",
+   "영 제56조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-restrictions",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제30조"
+  ]
+ },
+ {
+  "src": "nlp-zoning-restrictions",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제36조",
+   "법 제37조",
+   "법 제39조",
+   "영 제31조"
+  ]
+ },
+ {
+  "src": "overlay-auction",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-collateral",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-business-loss",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-business-loss",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "토지보상법 시행규칙 제45조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-business-loss",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "「부가가치세법」 제8조",
+   "「통계법」 제3조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-acquisition",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1.5.2.1]",
+   "[610-1.5.2.2]",
+   "[610-1.5.2.3.1]",
+   "[610-1.5.2.3.2]",
+   "[610-1.5.2.4]",
+   "[610-1.5.2.5]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-acquisition",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-acquisition",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "「부동산 가격공시에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-acquisition",
+  "dst": "rel-building-housing",
+  "labels": [
+   "「건축법」 제45조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-acquisition",
+  "dst": "rel-movables-securities-accounting",
+  "labels": [
+   "「한국은행법」 제86조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-acquisition",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "「토양환경보전법」 제2조",
+   "「폐기물관리법」 제2조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-use",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-land-use",
+  "dst": "overlay-compensation-land-acquisition",
+  "labels": [
+   "[810-5.6]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-rights",
+  "dst": "asset-mining-foundation",
+  "labels": [
+   "[620-2.3]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-rights",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-compensation-rights",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "토지보상법 시행규칙 제43조",
+   "토지보상법 시행규칙 제44조"
+  ]
+ },
+ {
+  "src": "overlay-compensation-rights",
+  "dst": "rel-fishery-mining",
+  "labels": [
+   "「광업법 시행규칙」 제19조",
+   "「내수면어업법」 제11조",
+   "「내수면어업법」 제13조",
+   "「내수면어업법」 제6조",
+   "「내수면어업법」 제9조",
+   "「수산업법 시행령」 제69조 (개정 전 번호 → 현행 제55조)",
+   "「수산업법」 제14조",
+   "「수산업법」 제41조 (개정 전 번호 → 현행 제40조)",
+   "「수산업법」 제47조 (개정 전 번호 → 현행 제48조)",
+   "「수산업법」 제8조 (개정 전 번호 → 현행 제7조)"
+  ]
+ },
+ {
+  "src": "overlay-consulting",
+  "dst": "apa-appraiser-qualification",
+  "labels": [
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "overlay-consulting",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-financial-reporting",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-urban-redevelopment",
+  "dst": "asset-land",
+  "labels": [
+   "[610-1.5.2.1]"
+  ]
+ },
+ {
+  "src": "overlay-urban-redevelopment",
+  "dst": "foundation-general-provisions",
+  "labels": [
+   "[100 총칙]"
+  ]
+ },
+ {
+  "src": "overlay-urban-redevelopment",
+  "dst": "ura-cost-sharing",
+  "labels": [
+   "도정법 제66조 (개정 전 번호 → 현행 제98조)"
+  ]
+ },
+ {
+  "src": "overlay-urban-redevelopment",
+  "dst": "ura-general",
+  "labels": [
+   "도정법 제2조"
+  ]
+ },
+ {
+  "src": "overlay-urban-redevelopment",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "도정법 제38조 (개정 전 번호 → 현행 제63조)",
+   "도정법 제39조 (개정 전 번호 → 현행 제64조)"
+  ]
+ },
+ {
+  "src": "overlay-urban-redevelopment",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "도정법 제48조 (개정 전 번호 → 현행 제74조)"
+  ]
+ },
+ {
+  "src": "pda-committee-misc",
+  "dst": "pda-housing-price",
+  "labels": [
+   "법 제16조",
+   "법 제17조",
+   "법 제18조"
+  ]
+ },
+ {
+  "src": "pda-committee-misc",
+  "dst": "pda-individual-land-price",
+  "labels": [
+   "법 제10조",
+   "법 제11조",
+   "법 제15조"
+  ]
+ },
+ {
+  "src": "pda-committee-misc",
+  "dst": "pda-non-residential-price",
+  "labels": [
+   "법 제20조",
+   "법 제21조",
+   "법 제22조"
+  ]
+ },
+ {
+  "src": "pda-committee-misc",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "법 제3조",
+   "법 제4조",
+   "법 제6조",
+   "법 제7조",
+   "영 제4조",
+   "영 제9조"
+  ]
+ },
+ {
+  "src": "pda-general",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "법 제2조: 「주택법」 제2조"
+  ]
+ },
+ {
+  "src": "pda-housing-price",
+  "dst": "pda-committee-misc",
+  "labels": [
+   "법 제24조",
+   "법 제25조"
+  ]
+ },
+ {
+  "src": "pda-housing-price",
+  "dst": "pda-individual-land-price",
+  "labels": [
+   "규칙 제5조",
+   "법 제10조",
+   "법 제11조",
+   "법 제12조",
+   "법 제13조",
+   "영 제19조",
+   "영 제24조"
+  ]
+ },
+ {
+  "src": "pda-housing-price",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "법 제3조",
+   "법 제4조",
+   "법 제6조",
+   "법 제7조",
+   "영 제4조",
+   "영 제5조"
+  ]
+ },
+ {
+  "src": "pda-individual-land-price",
+  "dst": "pda-committee-misc",
+  "labels": [
+   "법 제25조"
+  ]
+ },
+ {
+  "src": "pda-individual-land-price",
+  "dst": "pda-housing-price",
+  "labels": [
+   "규칙 제16조",
+   "규칙 제18조",
+   "규칙 제20조"
+  ]
+ },
+ {
+  "src": "pda-individual-land-price",
+  "dst": "pda-non-residential-price",
+  "labels": [
+   "규칙 제22조"
+  ]
+ },
+ {
+  "src": "pda-individual-land-price",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "법 제3조",
+   "법 제4조",
+   "영 제4조",
+   "영 제7조"
+  ]
+ },
+ {
+  "src": "pda-non-residential-price",
+  "dst": "pda-committee-misc",
+  "labels": [
+   "법 제24조",
+   "법 제25조"
+  ]
+ },
+ {
+  "src": "pda-non-residential-price",
+  "dst": "pda-housing-price",
+  "labels": [
+   "영 제30조"
+  ]
+ },
+ {
+  "src": "pda-non-residential-price",
+  "dst": "pda-individual-land-price",
+  "labels": [
+   "규칙 제5조",
+   "법 제10조",
+   "법 제11조",
+   "법 제13조",
+   "영 제19조",
+   "영 제20조"
+  ]
+ },
+ {
+  "src": "pda-non-residential-price",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "법 제3조",
+   "법 제4조",
+   "법 제6조",
+   "법 제7조",
+   "영 제4조",
+   "영 제5조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "apa-appraisal-report-review",
+  "labels": [
+   "영 제8조: 「감정평가 및 감정평가사에 관한 법률」 제9조",
+   "영 제9조: 「감정평가 및 감정평가사에 관한 법률」 제9조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "apa-general",
+  "labels": [
+   "규칙 제3조: 「감정평가 및 감정평가사에 관한 법률」 제2조",
+   "영 제5조: 「감정평가 및 감정평가사에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "apa-registration-office",
+  "labels": [
+   "영 제5조: 「감정평가 및 감정평가사에 관한 법률」 제23조",
+   "영 제5조: 「감정평가 및 감정평가사에 관한 법률」 제24조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "nlp-general",
+  "labels": [
+   "규칙 제3조: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "영 제7조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "pda-committee-misc",
+  "labels": [
+   "법 제24조",
+   "법 제25조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "pda-individual-land-price",
+  "labels": [
+   "규칙 제5조",
+   "법 제10조"
+  ]
+ },
+ {
+  "src": "pda-standard-land-price",
+  "dst": "ura-general",
+  "labels": [
+   "영 제13조: 「도시 및 주거환경정비법」 제2조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제77조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제67조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "농어촌정비법 제64조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제49조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "고도 보존 및 육성에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "고도 보존 및 육성에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "고도 보존 및 육성에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "관광진흥법 제58조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "관광진흥법 제61조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "농어촌정비법 제110조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "농어촌정비법 제110조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "농어촌정비법 제110조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "농어촌정비법 제110조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "산림복지 진흥에 관한 법률 제42조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "산림복지 진흥에 관한 법률 제42조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "새만금사업 추진 및 지원에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "새만금사업 추진 및 지원에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "어촌ㆍ어항법 제25조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "어촌ㆍ어항법 제25조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "어촌ㆍ어항법 제25조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "어촌ㆍ어항법 제25조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "어촌특화발전 지원 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "어촌특화발전 지원 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "어촌특화발전 지원 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "어촌특화발전 지원 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "온천법 제10조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "온천법 제10조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "온천법 제10조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "자연공원법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "자연공원법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "자연공원법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "자연공원법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "태권도 진흥 및 태권도공원 조성 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "태권도 진흥 및 태권도공원 조성 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "태권도 진흥 및 태권도공원 조성 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "태권도 진흥 및 태권도공원 조성 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-general",
+  "labels": [
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "고도 보존 및 육성에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "새만금사업 추진 및 지원에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "어촌ㆍ어항법 제25조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "자연공원법 제30조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "태권도 진흥 및 태권도공원 조성 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "산림복지 진흥에 관한 법률 제42조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조",
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조",
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제71조",
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제74조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-objection-litigation",
+  "labels": [
+   "농어촌정비법 제64조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "농어촌정비법 제64조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-objects-compensation",
+  "labels": [
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제75조",
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제75조의2"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "고도 보존 및 육성에 관한 특별법 제23조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제13조",
+   "고도 보존 및 육성에 관한 특별법 제23조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제9조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-relocation",
+  "labels": [
+   "고도 보존 및 육성에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "관광진흥법 제66조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "농어촌정비법 제110조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "산림복지 진흥에 관한 법률 제43조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "자연공원법 제24조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "새만금사업 추진 및 지원에 관한 특별법 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제76조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제56조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제51조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제88조",
+   "온천법 제10조의4: 「국토의 계획 및 이용에 관한 법률」 제100조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-general",
+  "labels": [
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제30조",
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제32조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-misc",
+  "labels": [
+   "온천법 제10조의4: 「국토의 계획 및 이용에 관한 법률」 제130조",
+   "온천법 제10조의4: 「국토의 계획 및 이용에 관한 법률」 제131조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제36조",
+   "관광진흥법 제58조: 「국토의 계획 및 이용에 관한 법률」 제37조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "관광진흥법 제58조: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "pwa-agri-ocean-culture",
+  "dst": "rel-fishery-mining",
+  "labels": [
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제15조: 「수산업법」 제40조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제15조: 「수산업법」 제48조",
+   "간척지의 농어업적 이용 및 관리에 관한 법률 제15조: 「수산업법」 제7조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제14조: 「수산업법」 제40조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제14조: 「수산업법」 제48조",
+   "농업생산기반시설 및 주변지역 활용에 관한 특별법 제14조: 「수산업법」 제7조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "국방ㆍ군사시설 사업에 관한 법률 제11조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제49조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제37조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제37조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제37조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제37조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제58조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제58조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제58조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제58조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "국제경기대회 지원법 제28조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "국제경기대회 지원법 제28조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "국제경기대회 지원법 제28조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "국제경기대회 지원법 제28조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "군 공항 이전 및 지원에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "군 공항 이전 및 지원에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "군 공항 이전 및 지원에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "군 공항 이전 및 지원에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "사회기반시설에 대한 민간투자법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "사회기반시설에 대한 민간투자법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "사회기반시설에 대한 민간투자법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "사회기반시설에 대한 민간투자법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "접경지역 지원 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "접경지역 지원 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "접경지역 지원 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제151조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제151조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제151조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제151조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "주한미군기지 이전에 따른 평택시 등의 지원 등에 관한 특별법 제24조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "주한미군기지 이전에 따른 평택시 등의 지원 등에 관한 특별법 제24조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "주한미군기지 이전에 따른 평택시 등의 지원 등에 관한 특별법 제24조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "주한미군기지 이전에 따른 평택시 등의 지원 등에 관한 특별법 제24조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "lca-general",
+  "labels": [
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제37조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법 제58조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "국방ㆍ군사시설 사업에 관한 법률 제3조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "국제경기대회 지원법 제28조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "군 공항 이전 및 지원에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "사회기반시설에 대한 민간투자법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "접경지역 지원 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제153조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "주한미군기지 이전에 따른 평택시 등의 지원 등에 관한 특별법 제24조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "lca-objection-litigation",
+  "labels": [
+   "공간정보의 구축 및 관리 등에 관한 법률 제102조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제84조",
+   "공간정보의 구축 및 관리 등에 관한 법률 제102조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제88조",
+   "국방ㆍ군사시설 사업에 관한 법률 제11조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "국방ㆍ군사시설 사업에 관한 법률 제11조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "lca-relocation",
+  "labels": [
+   "접경지역 지원 특별법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제154조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제56조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「국토의 계획 및 이용에 관한 법률」 제56조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제51조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「국토의 계획 및 이용에 관한 법률」 제51조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제88조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「국토의 계획 및 이용에 관한 법률」 제88조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-general",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제151조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제30조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제32조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「국토의 계획 및 이용에 관한 법률」 제30조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-misc",
+  "labels": [
+   "국방ㆍ군사시설 사업에 관한 법률 제11조: 「국토의 계획 및 이용에 관한 법률」 제130조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제36조",
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「국토의 계획 및 이용에 관한 법률」 제37조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「사방사업법」 제20조",
+   "주한미군 공여구역주변지역 등 지원 특별법 제29조: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "pwa-industry-energy",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제154조: 「산업입지 및 개발에 관한 법률」 제26조"
+  ]
+ },
+ {
+  "src": "pwa-defense-public-special",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법 제148조: 「도시 및 주거환경정비법」 제50조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "사방사업법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조",
+   "자연재해대책법 제68조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-expropriation-effects",
+  "labels": [
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제42조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "급경사지 재해예방에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "급경사지 재해예방에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "급경사지 재해예방에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "급경사지 재해예방에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "물환경보전법 제49조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "물환경보전법 제49조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "물환경보전법 제49조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "사방사업법 제10조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "사방사업법 제10조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "소규모 공공시설 안전관리 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "소규모 공공시설 안전관리 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "소규모 공공시설 안전관리 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "소규모 공공시설 안전관리 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "연안관리법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "연안관리법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "연안관리법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "연안관리법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "자연재해대책법 제14조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "자연재해대책법 제14조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "자연재해대책법 제14조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "자연재해대책법 제14조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "자연환경보전법 제52조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "자연환경보전법 제52조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "토양환경보전법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "토양환경보전법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "토양환경보전법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "토양환경보전법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "한국환경공단법 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "해수욕장의 이용 및 관리에 관한 법률 제38조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-general",
+  "labels": [
+   "사방사업법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "연안관리법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "한국환경공단법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-objection-litigation",
+  "labels": [
+   "농어업재해대책법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "농어업재해대책법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제86조",
+   "석면안전관리법 제38조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "석면안전관리법 제38조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조",
+   "소규모 공공시설 안전관리 등에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "소규모 공공시설 안전관리 등에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조",
+   "자연재해대책법 제68조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "자연재해대책법 제68조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제86조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-other-losses",
+  "labels": [
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-relocation",
+  "labels": [
+   "급경사지 재해예방에 관한 법률 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제11조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "lca-repurchase-right",
+  "labels": [
+   "재해위험 개선사업 및 이주대책에 관한 특별법 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제92조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "한국환경공단법 제19조: 「국토의 계획 및 이용에 관한 법률」 제56조",
+   "해수욕장의 이용 및 관리에 관한 법률 제38조: 「국토의 계획 및 이용에 관한 법률」 제56조"
+  ]
+ },
+ {
+  "src": "pwa-environment-disaster",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "한국환경공단법 제19조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "한국환경공단법 제19조: 「국토의 계획 및 이용에 관한 법률」 제88조",
+   "해수욕장의 이용 및 관리에 관한 법률 제38조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "해수욕장의 이용 및 관리에 관한 법률 제38조: 「국토의 계획 및 이용에 관한 법률」 제88조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "한국가스공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조",
+   "한국석유공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "건설기계관리법 제33조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "건설기계관리법 제33조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "광산피해의 방지 및 복구에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "광산피해의 방지 및 복구에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "광산피해의 방지 및 복구에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "광업법 제73조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "산업입지 및 개발에 관한 법률 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "산업입지 및 개발에 관한 법률 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "산업입지 및 개발에 관한 법률 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "산업입지 및 개발에 관한 법률 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "산업입지 및 개발에 관한 법률 제39조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "산업입지 및 개발에 관한 법률 제39조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "전원개발촉진법 제6조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "전원개발촉진법 제6조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "전원개발촉진법 제6조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "전원개발촉진법 제6조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "중소기업진흥에 관한 법률 제33조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "지능형 로봇 개발 및 보급 촉진법 제38조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "집단에너지사업법 제47조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "집단에너지사업법 제47조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "한국가스공사법 제16조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "한국가스공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제38조",
+   "한국가스공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제39조",
+   "한국석유공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제38조",
+   "한국석유공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제39조",
+   "해양산업클러스터의 지정 및 육성 등에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "해양산업클러스터의 지정 및 육성 등에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "해양산업클러스터의 지정 및 육성 등에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "해양산업클러스터의 지정 및 육성 등에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "해저광물자원 개발법 제30조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "lca-general",
+  "labels": [
+   "건설기계관리법 제33조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "전기사업법 제89조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "전원개발촉진법 제6조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "해양산업클러스터의 지정 및 육성 등에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "lca-other-losses",
+  "labels": [
+   "산업입지 및 개발에 관한 법률 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "한국가스공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제9조",
+   "한국석유공사법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제9조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "한국가스공사법 제16조의3: 「국토의 계획 및 이용에 관한 법률」 제56조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "한국가스공사법 제16조의3: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "한국가스공사법 제16조의3: 「국토의 계획 및 이용에 관한 법률」 제88조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "한국가스공사법 제16조의3: 「국토의 계획 및 이용에 관한 법률」 제44조"
+  ]
+ },
+ {
+  "src": "pwa-industry-energy",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "한국가스공사법 제16조의3: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-business-farming-loss",
+  "labels": [
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제77조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제67조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "공항시설법 제34조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조",
+   "도로법 제28조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조",
+   "도시철도법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "가덕도신공항 건설을 위한 특별법 제8조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "가덕도신공항 건설을 위한 특별법 제8조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "간선급행버스체계의 건설 및 운영에 관한 특별법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "간선급행버스체계의 건설 및 운영에 관한 특별법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "간선급행버스체계의 건설 및 운영에 관한 특별법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "간선급행버스체계의 건설 및 운영에 관한 특별법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "공항시설법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "공항시설법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "공항시설법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "공항시설법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "국가통합교통체계효율화법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "국가통합교통체계효율화법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "국가통합교통체계효율화법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "국가통합교통체계효율화법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "농어촌도로 정비법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "농어촌도로 정비법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "농어촌도로 정비법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "농어촌도로 정비법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "대구경북통합신공항 건설을 위한 특별법 제9조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "대구경북통합신공항 건설을 위한 특별법 제9조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "대도시권 광역교통 관리에 관한 특별법 제7조의9: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "대도시권 광역교통 관리에 관한 특별법 제7조의9: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "대도시권 광역교통 관리에 관한 특별법 제7조의9: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "대도시권 광역교통 관리에 관한 특별법 제7조의9: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "도로법 제82조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도로법 제82조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "도로법 제82조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "도로법 제82조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "도시철도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도시철도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "도시철도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "도시철도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "물류시설의 개발 및 운영에 관한 법률 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "물류시설의 개발 및 운영에 관한 법률 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "물류시설의 개발 및 운영에 관한 법률 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "물류시설의 개발 및 운영에 관한 법률 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "물류시설의 개발 및 운영에 관한 법률 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "물류시설의 개발 및 운영에 관한 법률 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "물류시설의 개발 및 운영에 관한 법률 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "물류시설의 개발 및 운영에 관한 법률 제32조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "신항만건설 촉진법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "신항만건설 촉진법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "신항만건설 촉진법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "신항만건설 촉진법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "철도의 건설 및 철도시설 유지관리에 관한 법률 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "철도의 건설 및 철도시설 유지관리에 관한 법률 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "철도의 건설 및 철도시설 유지관리에 관한 법률 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "철도의 건설 및 철도시설 유지관리에 관한 법률 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "항만공사법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "항만공사법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "항만공사법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "항만공사법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "항만법 제89조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "항만법 제89조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "항만법 제89조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "항만법 제89조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "항만법 제93조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "항만법 제93조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "화물자동차 운수사업법 제46조의5: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "화물자동차 운수사업법 제46조의5: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "화물자동차 운수사업법 제46조의5: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "화물자동차 운수사업법 제46조의5: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-general",
+  "labels": [
+   "간선급행버스체계의 건설 및 운영에 관한 특별법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "공항시설법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "대도시권 광역교통 관리에 관한 특별법 제7조의7: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "도로법 제97조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "도로법 제98조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "도시철도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "도시철도법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "신항만건설 촉진법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "철도의 건설 및 철도시설 유지관리에 관한 법률 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "철도의 건설 및 철도시설 유지관리에 관한 법률 제2조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "항만공사법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "항만법 제89조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "화물자동차 운수사업법 제46조의5: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조",
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제71조",
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제74조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-objects-compensation",
+  "labels": [
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제75조",
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제75조의2"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-other-losses",
+  "labels": [
+   "국가통합교통체계효율화법 제53조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조",
+   "물류시설의 개발 및 운영에 관한 법률 제11조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조",
+   "신항만건설 촉진법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-relocation",
+  "labels": [
+   "대도시권 광역교통 관리에 관한 특별법 제11조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "lca-rights-compensation",
+  "labels": [
+   "도로법 제44조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제76조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "nlp-general",
+  "labels": [
+   "대도시권 광역교통 관리에 관한 특별법 제11조의2: 「국토의 계획 및 이용에 관한 법률」 제6조",
+   "대도시권 광역교통 관리에 관한 특별법 제7조의7: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "도시철도법 제7조: 「국토의 계획 및 이용에 관한 법률」 제32조"
+  ]
+ },
+ {
+  "src": "pwa-transport",
+  "dst": "rel-fishery-mining",
+  "labels": [
+   "마리나항만의 조성 및 관리 등에 관한 법률 제15조: 「수산업법」 제40조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제15조: 「수산업법」 제48조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제15조: 「수산업법」 제7조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「수산업법」 제40조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「수산업법」 제48조",
+   "마리나항만의 조성 및 관리 등에 관한 법률 제17조: 「수산업법」 제7조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제22조: 「수산업법」 제40조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제22조: 「수산업법」 제48조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제22조: 「수산업법」 제7조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「수산업법」 제40조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「수산업법」 제48조",
+   "항만 재개발 및 주변지역 발전에 관한 법률 제24조: 「수산업법」 제7조",
+   "항만법 제89조: 「수산업법」 제40조",
+   "항만법 제89조: 「수산업법」 제48조",
+   "항만법 제89조: 「수산업법」 제7조",
+   "항만법 제93조: 「수산업법」 제40조",
+   "항만법 제93조: 「수산업법」 제48조",
+   "항만법 제93조: 「수산업법」 제7조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-acquisition-by-agreement",
+  "labels": [
+   "공공주택 특별법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제14조",
+   "공공주택 특별법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제17조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제15조",
+   "공공토지의 비축에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제15조",
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제14조",
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제18조",
+   "도시재생 활성화 및 지원에 관한 특별법 제55조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제15조",
+   "지역 개발 및 지원에 관한 법률 제35조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제14조",
+   "지역 개발 및 지원에 관한 법률 제35조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제15조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "공공주택 특별법 제27조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제63조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제63조",
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제61조",
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제63조",
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제65조",
+   "도시재생 활성화 및 지원에 관한 특별법 제55조의3: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제63조",
+   "지역 개발 및 지원에 관한 법률 제35조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제61조",
+   "지역 개발 및 지원에 관한 법률 제35조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제63조",
+   "지역 개발 및 지원에 관한 법률 제35조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제65조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제49조",
+   "도시개발법 제38조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제50조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제49조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-expropriation-effects",
+  "labels": [
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제42조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "경제자유구역의 지정 및 운영에 관한 특별법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "경제자유구역의 지정 및 운영에 관한 특별법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "경제자유구역의 지정 및 운영에 관한 특별법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "경제자유구역의 지정 및 운영에 관한 특별법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "공공주택 특별법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "공공주택 특별법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "공공주택 특별법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "공공주택 특별법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "공공토지의 비축에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "공사중단 장기방치 건축물의 정비 등에 관한 특별조치법 제11조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "기업도시개발 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "기업도시개발 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "기업도시개발 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "기업도시개발 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "도시개발법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도시개발법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "도시개발법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "도시개발법 제22조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "도시재생 활성화 및 지원에 관한 특별법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도시재생 활성화 및 지원에 관한 특별법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "도시재생 활성화 및 지원에 관한 특별법 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "도시재생 활성화 및 지원에 관한 특별법 제55조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도시재생 활성화 및 지원에 관한 특별법 제55조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "도심융합특구 조성 및 육성에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도심융합특구 조성 및 육성에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "도심융합특구 조성 및 육성에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "도심융합특구 조성 및 육성에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "도청이전을 위한 도시건설 및 지원에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "도청이전을 위한 도시건설 및 지원에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "도청이전을 위한 도시건설 및 지원에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "도청이전을 위한 도시건설 및 지원에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "동ㆍ서ㆍ남해안 및 내륙권 발전 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "동ㆍ서ㆍ남해안 및 내륙권 발전 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "동ㆍ서ㆍ남해안 및 내륙권 발전 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "동ㆍ서ㆍ남해안 및 내륙권 발전 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "민간임대주택에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "민간임대주택에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "민간임대주택에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "민간임대주택에 관한 특별법 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "민간임대주택에 관한 특별법 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "민간임대주택에 관한 특별법 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "민간임대주택에 관한 특별법 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제11조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제11조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제11조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제11조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제35조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제35조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제35조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제35조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "역세권의 개발 및 이용에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "역세권의 개발 및 이용에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "역세권의 개발 및 이용에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "역세권의 개발 및 이용에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "역세권의 개발 및 이용에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "역세권의 개발 및 이용에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "연구개발특구의 육성에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "연구개발특구의 육성에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "연구개발특구의 육성에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "연구개발특구의 육성에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "주택법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "주택법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "주택법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "지방소도읍 육성 지원법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "지방소도읍 육성 지원법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "지역 개발 및 지원에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "지역 개발 및 지원에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "지역 개발 및 지원에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "지역 개발 및 지원에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "친수구역 활용에 관한 특별법 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "친수구역 활용에 관한 특별법 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "친수구역 활용에 관한 특별법 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "친수구역 활용에 관한 특별법 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "택지개발촉진법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "택지개발촉진법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "택지개발촉진법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "택지개발촉진법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "택지개발촉진법 제30조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "혁신도시 조성 및 발전에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "혁신도시 조성 및 발전에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "혁신도시 조성 및 발전에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "혁신도시 조성 및 발전에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "혁신도시 조성 및 발전에 관한 특별법 제51조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "혁신도시 조성 및 발전에 관한 특별법 제51조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-general",
+  "labels": [
+   "경제자유구역의 지정 및 운영에 관한 특별법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "공공주택 특별법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "공공토지의 비축에 관한 법률 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "공공토지의 비축에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "공공토지의 비축에 관한 법률 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제5조",
+   "공공토지의 비축에 관한 법률 제2조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "공공토지의 비축에 관한 법률 제5조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "규제자유특구 및 지역특화발전특구에 관한 규제특례법 제59조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "기업도시개발 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법 제21조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "도시개발법 제33조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "도시재생 활성화 및 지원에 관한 특별법 제55조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "도청이전을 위한 도시건설 및 지원에 관한 특별법 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "동ㆍ서ㆍ남해안 및 내륙권 발전 특별법 제16조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "민간임대주택에 관한 특별법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "민간임대주택에 관한 특별법 제26조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제11조의4: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제35조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "역세권의 개발 및 이용에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "연구개발특구의 육성에 관한 특별법 제31조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제2조",
+   "주택법 제2조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "지역 개발 및 지원에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "택지개발촉진법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "혁신도시 조성 및 발전에 관한 특별법 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "공공주택 특별법 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조",
+   "공공주택 특별법 제40조의10: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조",
+   "역세권의 개발 및 이용에 관한 법률 제17조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-objection-litigation",
+  "labels": [
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "도시개발법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "빈집 및 소규모주택 정비에 관한 특례법 제7조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조",
+   "주택법 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "주택법 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-other-losses",
+  "labels": [
+   "공공주택 특별법 제52조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조",
+   "기업도시개발 특별법 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제81조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-relocation",
+  "labels": [
+   "지방소도읍 육성 지원법 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "lca-repurchase-right",
+  "labels": [
+   "기업도시개발 특별법 제43조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제91조",
+   "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제91조",
+   "지역 개발 및 지원에 관한 법률 제72조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제91조",
+   "택지개발촉진법 제13조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제92조",
+   "혁신도시 조성 및 발전에 관한 특별법 제51조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제91조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제21조",
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제23조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "도시개발법 제38조: 「국토의 계획 및 이용에 관한 법률」 제56조",
+   "도시개발법 제65조: 「국토의 계획 및 이용에 관한 법률」 제56조",
+   "민간임대주택에 관한 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제56조",
+   "민간임대주택에 관한 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제57조",
+   "민간임대주택에 관한 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제60조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "공공주택 특별법 제12조: 「국토의 계획 및 이용에 관한 법률」 제51조",
+   "민간임대주택에 관한 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제50조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-general",
+  "labels": [
+   "민간임대주택에 관한 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제6조",
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제7조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제34조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-metropolitan-plan",
+  "labels": [
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제11조",
+   "주택법 제2조: 「국토의 계획 및 이용에 관한 법률」 제12조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-misc",
+  "labels": [
+   "공공주택 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제130조",
+   "공공주택 특별법 제26조: 「국토의 계획 및 이용에 관한 법률」 제131조",
+   "지역 개발 및 지원에 관한 법률 제35조: 「국토의 계획 및 이용에 관한 법률」 제131조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "공공주택 특별법 제12조: 「국토의 계획 및 이용에 관한 법률」 제43조"
+  ]
+ },
+ {
+  "src": "pwa-urban-housing-regional",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "공공주택 특별법 제12조: 「국토의 계획 및 이용에 관한 법률」 제36조"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "수자원의 조사ㆍ계획 및 관리에 관한 법률 제35조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제51조"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "금강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "금강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "금강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "금강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "낙동강수계 물관리 및 주민지원 등에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "낙동강수계 물관리 및 주민지원 등에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "낙동강수계 물관리 및 주민지원 등에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "낙동강수계 물관리 및 주민지원 등에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "댐건설ㆍ관리 및 주변지역지원 등에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "댐건설ㆍ관리 및 주변지역지원 등에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "댐건설ㆍ관리 및 주변지역지원 등에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "댐건설ㆍ관리 및 주변지역지원 등에 관한 법률 제15조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "소하천정비법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "소하천정비법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "소하천정비법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "소하천정비법 제12조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "수도법 제60조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "수도법 제60조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "수도법 제60조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "수도법 제60조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "수자원의 조사ㆍ계획 및 관리에 관한 법률 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "수자원의 조사ㆍ계획 및 관리에 관한 법률 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "수자원의 조사ㆍ계획 및 관리에 관한 법률 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "수자원의 조사ㆍ계획 및 관리에 관한 법률 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "영산강ㆍ섬진강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "영산강ㆍ섬진강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "영산강ㆍ섬진강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "영산강ㆍ섬진강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률 제20조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "하수도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "하수도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "하수도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "하수도법 제10조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "하천법 제78조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "하천법 제78조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "하천법 제78조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "하천법 제78조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "한강수계 상수원수질개선 및 주민지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "한강수계 상수원수질개선 및 주민지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "한강수계 상수원수질개선 및 주민지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "한강수계 상수원수질개선 및 주민지원 등에 관한 법률 제14조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조",
+   "한국수자원공사법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제20조",
+   "한국수자원공사법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제22조",
+   "한국수자원공사법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "한국수자원공사법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "lca-general",
+  "labels": [
+   "금강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "낙동강수계 물관리 및 주민지원 등에 관한 법률 제27조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "소하천정비법 제18조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "수도법 제60조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "수자원의 조사ㆍ계획 및 관리에 관한 법률 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "영산강ㆍ섬진강수계 물관리 및 주민지원 등에 관한 법률 제25조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "하천법 제70조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조",
+   "하천법 제78조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조",
+   "한국수자원공사법 제24조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "lca-objection-litigation",
+  "labels": [
+   "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제83조",
+   "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률 제19조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제87조",
+   "한국수자원공사법 제9조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제89조"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "lca-project-preparation",
+  "labels": [
+   "한국수자원공사법 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제13조",
+   "한국수자원공사법 제34조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제9조"
+  ]
+ },
+ {
+  "src": "pwa-water",
+  "dst": "lca-relocation",
+  "labels": [
+   "댐건설ㆍ관리 및 주변지역지원 등에 관한 법률 제2조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "rel-building-housing",
+  "dst": "lca-land-compensation",
+  "labels": [
+   "공사중단건축물법 시행령 제9조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제70조",
+   "공사중단건축물법 시행령 제9조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제73조"
+  ]
+ },
+ {
+  "src": "rel-building-housing",
+  "dst": "lca-objects-compensation",
+  "labels": [
+   "공사중단건축물법 시행령 제9조의2: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제75조"
+  ]
+ },
+ {
+  "src": "rel-building-housing",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "건축법 시행령 제119조: 「국토의 계획 및 이용에 관한 법률」 제47조"
+  ]
+ },
+ {
+  "src": "rel-building-housing",
+  "dst": "pda-standard-land-price",
+  "labels": [
+   "공사중단건축물법 시행령 제9조의2: 「부동산 가격공시에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "rel-fishery-mining",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "rel-forest-farm-salt",
+  "dst": "rel-tax-statistics-misc",
+  "labels": [
+   "산림자원법 시행령 제2조: 「장사 등에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "rel-tax-statistics-misc",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "택지개발촉진법 제11조: 「국토의 계획 및 이용에 관한 법률」 제56조"
+  ]
+ },
+ {
+  "src": "rel-tax-statistics-misc",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "택지개발촉진법 제11조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "택지개발촉진법 제11조: 「국토의 계획 및 이용에 관한 법률」 제88조"
+  ]
+ },
+ {
+  "src": "rel-tax-statistics-misc",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "택지개발촉진법 제11조: 「국토의 계획 및 이용에 관한 법률」 제30조"
+  ]
+ },
+ {
+  "src": "rel-tax-statistics-misc",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "택지개발촉진법 제11조: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "rel-tax-statistics-misc",
+  "dst": "rel-forest-farm-salt",
+  "labels": [
+   "장사법 제2조: 「산림자원의 조성 및 관리에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "법 제35조: 「주택법」 제2조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제12조",
+   "법 제13조의2",
+   "법 제14조",
+   "법 제15조",
+   "법 제16조",
+   "법 제17조",
+   "법 제20조",
+   "법 제21조",
+   "법 제4조",
+   "법 제5조",
+   "법 제7조",
+   "영 제10조",
+   "영 제14조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제86조의2",
+   "법 제89조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-cost-sharing",
+  "labels": [
+   "법 제93조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-general",
+  "labels": [
+   "법 제2조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제52조",
+   "법 제53조",
+   "법 제58조",
+   "영 제47조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-management-consulting-business",
+  "labels": [
+   "법 제102조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제72조",
+   "법 제73조",
+   "법 제74조",
+   "법 제80조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-penalties",
+  "labels": [
+   "법 제138조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조",
+   "법 제24조",
+   "법 제25조",
+   "법 제26조",
+   "법 제27조",
+   "법 제29조"
+  ]
+ },
+ {
+  "src": "ura-association",
+  "dst": "ura-supervision",
+  "labels": [
+   "법 제118조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제11조: 「국토의 계획 및 이용에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "nlp-development-permit",
+  "labels": [
+   "법 제19조: 「국토의 계획 및 이용에 관한 법률」 제56조",
+   "법 제19조: 「국토의 계획 및 이용에 관한 법률」 제57조",
+   "법 제19조: 「국토의 계획 및 이용에 관한 법률」 제60조",
+   "영 제15조: 「국토의 계획 및 이용에 관한 법률」 제56조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제17조: 「국토의 계획 및 이용에 관한 법률」 제50조",
+   "법 제17조: 「국토의 계획 및 이용에 관한 법률」 제52조",
+   "법 제9조: 「국토의 계획 및 이용에 관한 법률」 제52조",
+   "영 제11조의2: 「국토의 계획 및 이용에 관한 법률」 제52조의2",
+   "영 제14조: 「국토의 계획 및 이용에 관한 법률 시행령」 제46조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "nlp-general",
+  "labels": [
+   "규칙 제4조: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "영 제11조의2: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "영 제13조: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "영 제5조: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "영 제6조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "법 제7조: 「국토의 계획 및 이용에 관한 법률」 제113조",
+   "영 제16조: 「국토의 계획 및 이용에 관한 법률」 제106조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제11조: 「국토의 계획 및 이용에 관한 법률」 제36조",
+   "법 제9조: 「국토의 계획 및 이용에 관한 법률」 제36조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "법 제10조: 「주택법」 제2조",
+   "법 제19조: 「주택법」 제2조",
+   "영 제9조: 「주택법」 제2조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-association",
+  "labels": [
+   "규칙 제7조",
+   "법 제31조",
+   "법 제32조",
+   "법 제35조",
+   "영 제33조",
+   "영 제38조",
+   "영 제44조",
+   "영 제45조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "영 제76조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-cost-sharing",
+  "labels": [
+   "법 제101조",
+   "법 제97조",
+   "법 제98조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-general",
+  "labels": [
+   "법 제2조",
+   "영 제2조",
+   "영 제3조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제62조",
+   "법 제66조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제50조의3",
+   "법 제54조",
+   "법 제55조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제74조",
+   "법 제75조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조",
+   "법 제24조",
+   "법 제26조",
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "ura-basic-plan-zone-designation",
+  "dst": "ura-public-redevelopment",
+  "labels": [
+   "법 제101조의5",
+   "법 제101조의6"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-association",
+  "labels": [
+   "법 제44조"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제17조",
+   "영 제14조"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-cost-sharing",
+  "labels": [
+   "법 제93조",
+   "법 제95조"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-general",
+  "labels": [
+   "영 제3조"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제57조"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제74조",
+   "법 제79조"
+  ]
+ },
+ {
+  "src": "ura-completion-measures",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "lca-general",
+  "labels": [
+   "영 제79조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제4조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "nlp-management-plan-procedure",
+  "labels": [
+   "법 제97조: 「국토의 계획 및 이용에 관한 법률」 제30조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제20조",
+   "법 제21조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제83조",
+   "영 제76조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제52조",
+   "법 제59조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제79조",
+   "법 제80조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조"
+  ]
+ },
+ {
+  "src": "ura-cost-sharing",
+  "dst": "ura-supervision",
+  "labels": [
+   "법 제113조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "nlp-basic-plan",
+  "labels": [
+   "법 제2조: 「국토의 계획 및 이용에 관한 법률」 제18조",
+   "영 제1조의3: 「국토의 계획 및 이용에 관한 법률」 제18조",
+   "영 제2조: 「국토의 계획 및 이용에 관한 법률」 제19조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제2조: 「국토의 계획 및 이용에 관한 법률」 제2조",
+   "영 제2조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "영 제1조의2: 「국토의 계획 및 이용에 관한 법률」 제113조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "ura-association",
+  "labels": [
+   "법 제40조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제12조",
+   "법 제16조",
+   "법 제4조",
+   "법 제8조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제67조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제52조",
+   "법 제53조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제80조"
+  ]
+ },
+ {
+  "src": "ura-general",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제24조",
+   "법 제25조",
+   "법 제26조",
+   "법 제27조",
+   "법 제28조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "lca-expropriation-committee",
+  "labels": [
+   "법 제62조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제49조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "lca-expropriation-effects",
+  "labels": [
+   "법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제42조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "lca-expropriation-procedure",
+  "labels": [
+   "법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제23조",
+   "법 제65조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제28조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "lca-general",
+  "labels": [
+   "법 제63조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제3조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "lca-relocation",
+  "labels": [
+   "법 제69조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제78조",
+   "영 제54조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행령」 제40조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제66조: 「국토의 계획 및 이용에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "nlp-general",
+  "labels": [
+   "규칙 제11조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "nlp-planning-committee",
+  "labels": [
+   "규칙 제11조: 「국토의 계획 및 이용에 관한 법률」 제113조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "법 제68조: 「국토의 계획 및 이용에 관한 법률」 제43조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제69조: 「국토의 계획 및 이용에 관한 법률」 제36조",
+   "영 제58조: 「국토의 계획 및 이용에 관한 법률 시행령」 제30조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "pwa-transport",
+  "labels": [
+   "영 제55조: 「철도의 건설 및 철도시설 유지관리에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "영 제55조: 「공공주택 특별법」 제2조",
+   "영 제55조: 「주택법」 제2조",
+   "영 제57조: 「주택법」 제2조",
+   "영 제58조: 「공공주택 특별법」 제2조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "ura-association",
+  "labels": [
+   "법 제35조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제11조",
+   "법 제9조",
+   "영 제13조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제83조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제54조",
+   "법 제55조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제74조",
+   "법 제77조"
+  ]
+ },
+ {
+  "src": "ura-implementation-measures",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조",
+   "법 제24조",
+   "법 제25조",
+   "법 제26조",
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제54조: 「국토의 계획 및 이용에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "nlp-facility-project",
+  "labels": [
+   "법 제57조: 「국토의 계획 및 이용에 관한 법률」 제86조",
+   "법 제57조: 「국토의 계획 및 이용에 관한 법률」 제88조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "nlp-planning-facilities",
+  "labels": [
+   "영 제47조: 「국토의 계획 및 이용에 관한 법률 시행령」 제36조",
+   "영 제47조: 「국토의 계획 및 이용에 관한 법률 시행령」 제37조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "영 제47조의2: 「국토의 계획 및 이용에 관한 법률 시행령」 제30조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "nlp-zoning-restrictions",
+  "labels": [
+   "법 제54조: 「국토의 계획 및 이용에 관한 법률」 제76조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "pwa-environment-disaster",
+  "labels": [
+   "법 제57조: 「사방사업법」 제20조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "법 제52조: 「공공주택 특별법」 제2조",
+   "법 제58조: 「주택법」 제2조",
+   "영 제46조: 「주택법」 제2조",
+   "영 제50조: 「주택법」 제2조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-association",
+  "labels": [
+   "법 제35조",
+   "법 제45조",
+   "법 제48조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제10조",
+   "법 제15조",
+   "법 제16조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제89조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-cost-sharing",
+  "labels": [
+   "법 제97조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제61조",
+   "법 제63조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제73조",
+   "법 제74조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제24조",
+   "법 제25조",
+   "법 제26조",
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "ura-implementation-plan",
+  "dst": "ura-public-redevelopment",
+  "labels": [
+   "법 제101조의5",
+   "법 제101조의6"
+  ]
+ },
+ {
+  "src": "ura-management-consulting-business",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제12조"
+  ]
+ },
+ {
+  "src": "ura-management-consulting-business",
+  "dst": "ura-misc",
+  "labels": [
+   "영 제96조"
+  ]
+ },
+ {
+  "src": "ura-management-consulting-business",
+  "dst": "ura-supervision",
+  "labels": [
+   "법 제111조",
+   "법 제113조",
+   "법 제118조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "lca-compensation-principles",
+  "labels": [
+   "영 제60조: 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」 제68조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "rel-building-housing",
+  "labels": [
+   "법 제82조: 「건축법」 제21조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-association",
+  "labels": [
+   "법 제39조",
+   "법 제40조",
+   "법 제45조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제16조",
+   "법 제6조",
+   "영 제13조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제83조",
+   "법 제86조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-general",
+  "labels": [
+   "법 제2조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제64조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제52조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-misc",
+  "labels": [
+   "법 제129조",
+   "영 제93조"
+  ]
+ },
+ {
+  "src": "ura-management-disposal-plan",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조",
+   "법 제25조",
+   "법 제30조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-association",
+  "labels": [
+   "법 제31조",
+   "법 제34조",
+   "법 제35조",
+   "법 제36조",
+   "법 제39조",
+   "법 제42조",
+   "법 제43조",
+   "영 제25조",
+   "영 제30조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제17조",
+   "법 제19조",
+   "법 제4조",
+   "법 제7조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제83조",
+   "법 제86조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-cost-sharing",
+  "labels": [
+   "법 제94조",
+   "법 제98조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제69조",
+   "법 제70조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제52조",
+   "법 제55조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-management-consulting-business",
+  "labels": [
+   "법 제102조",
+   "법 제105조",
+   "법 제106조",
+   "법 제107조",
+   "법 제108조",
+   "영 제81조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제72조",
+   "법 제74조",
+   "법 제77조",
+   "영 제59조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-penalties",
+  "labels": [
+   "법 제142조"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제23조",
+   "법 제25조",
+   "법 제28조",
+   "법 제29조",
+   "영 제20조의2"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-public-redevelopment",
+  "labels": [
+   "법 제101조의5",
+   "법 제101조의6"
+  ]
+ },
+ {
+  "src": "ura-misc",
+  "dst": "ura-supervision",
+  "labels": [
+   "법 제111조의2",
+   "법 제113조의2",
+   "법 제115조",
+   "법 제119조",
+   "영 제88조",
+   "영 제89조의3",
+   "영 제90조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "pwa-urban-housing-regional",
+  "labels": [
+   "법 제138조: 「주택법」 제2조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-association",
+  "labels": [
+   "법 제31조",
+   "법 제32조",
+   "법 제34조",
+   "법 제35조",
+   "법 제36조",
+   "법 제39조",
+   "법 제45조",
+   "법 제47조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제12조",
+   "법 제19조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제83조",
+   "법 제86조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-management-consulting-business",
+  "labels": [
+   "법 제102조",
+   "법 제106조",
+   "법 제107조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제72조",
+   "법 제74조",
+   "법 제76조",
+   "법 제78조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-misc",
+  "labels": [
+   "법 제124조",
+   "법 제125조",
+   "법 제132조",
+   "법 제132조의2",
+   "법 제132조의3"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제27조",
+   "법 제29조"
+  ]
+ },
+ {
+  "src": "ura-penalties",
+  "dst": "ura-supervision",
+  "labels": [
+   "법 제111조",
+   "법 제111조의2",
+   "법 제112조",
+   "법 제113조",
+   "법 제115조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "nlp-general",
+  "labels": [
+   "법 제26조: 「국토의 계획 및 이용에 관한 법률」 제2조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-association",
+  "labels": [
+   "법 제35조",
+   "법 제47조",
+   "법 제48조",
+   "영 제27조",
+   "영 제33조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제14조",
+   "법 제15조",
+   "법 제16조",
+   "법 제18조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제88조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-general",
+  "labels": [
+   "법 제2조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제63조",
+   "법 제69조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제53조",
+   "법 제59조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제74조"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-public-operator-special",
+  "labels": [
+   "법 제101조의8"
+  ]
+ },
+ {
+  "src": "ura-project-methods",
+  "dst": "ura-supervision",
+  "labels": [
+   "법 제113조",
+   "법 제114조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "nlp-district-unit-plan",
+  "labels": [
+   "법 제101조의10: 「국토의 계획 및 이용에 관한 법률」 제50조",
+   "법 제101조의10: 「국토의 계획 및 이용에 관한 법률」 제52조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "ura-association",
+  "labels": [
+   "법 제35조",
+   "영 제33조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제10조",
+   "법 제13조",
+   "법 제15조",
+   "법 제16조",
+   "법 제17조",
+   "법 제8조",
+   "법 제9조",
+   "영 제13조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "ura-general",
+  "labels": [
+   "법 제2조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제63조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제50조의2",
+   "법 제51조",
+   "법 제52조",
+   "법 제53조",
+   "법 제57조",
+   "법 제59조"
+  ]
+ },
+ {
+  "src": "ura-public-operator-special",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제26조",
+   "법 제27조",
+   "영 제20조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "nlp-coverage-floor-area-ratio",
+  "labels": [
+   "법 제101조의5: 「국토의 계획 및 이용에 관한 법률」 제78조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "nlp-zoning-designation",
+  "labels": [
+   "법 제101조의6: 「국토의 계획 및 이용에 관한 법률」 제36조",
+   "영 제80조의3: 「국토의 계획 및 이용에 관한 법률 시행령」 제30조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제16조",
+   "법 제19조",
+   "법 제7조",
+   "법 제8조",
+   "법 제9조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "ura-implementation-measures",
+  "labels": [
+   "법 제66조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제54조",
+   "법 제55조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제77조"
+  ]
+ },
+ {
+  "src": "ura-public-redevelopment",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제24조",
+   "법 제26조",
+   "법 제27조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "00-lca-start",
+  "labels": [
+   "토지보상법 준용·인용(조문 미특정)"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-association",
+  "labels": [
+   "법 제31조",
+   "법 제32조",
+   "법 제34조",
+   "법 제35조",
+   "법 제41조",
+   "법 제45조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-basic-plan-zone-designation",
+  "labels": [
+   "법 제16조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-completion-measures",
+  "labels": [
+   "법 제83조",
+   "법 제86조의2"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-implementation-plan",
+  "labels": [
+   "법 제50조",
+   "법 제52조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-management-consulting-business",
+  "labels": [
+   "법 제106조",
+   "법 제107조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-management-disposal-plan",
+  "labels": [
+   "법 제74조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-misc",
+  "labels": [
+   "법 제124조",
+   "법 제126조",
+   "법 제132조",
+   "법 제132조의2",
+   "영 제96조"
+  ]
+ },
+ {
+  "src": "ura-supervision",
+  "dst": "ura-project-methods",
+  "labels": [
+   "법 제25조",
+   "법 제28조",
+   "법 제29조",
+   "법 제29조의2"
+  ]
+ }
+]

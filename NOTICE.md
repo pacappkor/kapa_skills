@@ -7,7 +7,8 @@
 
 - 스킬 묶음의 구성: 분류 체계, 폴더·스킬 이름, 조항 배정
 - `SKILL.md` 의 요약·확인사항·함께 읽을 스킬
-- `00-practice-standards-start`
+- 입구·작업 절차·규칙 스킬(`00-*-start`, `workflows/`, `rules/`)
+- 별표 가공본(`sources/laws/*/annex-md/`)의 표·목록 구성
 - 문서(README·AGENTS 등)
 - `tools/` 의 코드
 
@@ -25,7 +26,13 @@ License for more details. You should have received a copy of the GNU General Pub
 this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
-## 원문 (저작권 보호 대상 아님)
+## 관계법령 원문 (저작권 보호 대상 아님)
+
+- 출처: 국가법령정보센터(law.go.kr) 현행 법령
+- 수록 범위와 판본: `laws/README.md`, 각 법령 입구 스킬의 "판본" 표, `sources/laws/manifest.json`
+- 법령·시행령·시행규칙은 「저작권법」 제7조제1호에 따라 보호받지 못하는 저작물이다. 별표는 원본 PDF 의 페이지 이미지를 보고 표·목록으로 옮겼다(내용은 원문 그대로, 원본 PDF·HWP 링크 병기). 본문 산식 이미지는 전사했다(원본 이미지 동봉).
+
+## 「감정평가 실무기준」 원문 (저작권 보호 대상 아님)
 
 - 「감정평가 실무기준」 국토교통부고시 제2023-522호 (2023. 9. 13. 일부개정, 시행 2023. 9. 13.), 소관: 국토교통부(부동산평가과)
 - 출처: 국가법령정보센터 <https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000229230>
@@ -44,5 +51,5 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 ## 면책
 
-`SKILL.md` 의 요약·확인사항과 `00-practice-standards-start` 는 원문을 찾아 읽기 위한 보조 자료다. 원문과 다르면 원문이 우선한다.
-관계법규(감정평가법·감정평가에 관한 규칙, 토지보상법, 도정법 등)의 내용은 다루지 않는다. 법적 판단은 원문과 관계법규로 확인한다.
+`SKILL.md` 의 요약·확인사항, 입구 스킬, 별표 가공본은 원문을 찾아 읽기 위한 보조 자료다. 원문(실무기준 고시, 국가법령정보센터의 법령·별표 원본)과 다르면 원문이 우선한다.
+관계법령은 수집 시점의 현행본이며 B·C층은 일부 조문만 수록한다. 법적 판단은 해당 시점의 원문으로 확인한다.

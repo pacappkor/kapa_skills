@@ -1,0 +1,138 @@
+{
+ "collection": "appraisal-act",
+ "topics": [
+  {
+   "slug": "t01",
+   "title": "제1장 총칙",
+   "assign": {
+    "act": [
+     "1-2"
+    ],
+    "decree": [
+     "1-2"
+    ],
+    "rule": [
+     "1"
+    ],
+    "appraisal-rule": [
+     "1-12"
+    ]
+   }
+  },
+  {
+   "slug": "t02",
+   "title": "제2장 감정평가",
+   "assign": {
+    "act": [
+     "3-9"
+    ],
+    "decree": [
+     "3-4",
+     "6-8의2"
+    ],
+    "rule": [
+     "2-5"
+    ],
+    "appraisal-rule": [
+     "13-26"
+    ]
+   }
+  },
+  {
+   "slug": "t03",
+   "title": "제3장 감정평가사",
+   "assign": {
+    "act": [
+     "10-32"
+    ],
+    "decree": [
+     "9-29"
+    ],
+    "rule": [
+     "7-23"
+    ],
+    "appraisal-rule": [
+     "27-29"
+    ]
+   }
+  },
+  {
+   "slug": "t04",
+   "title": "제4장 한국감정평가사협회",
+   "assign": {
+    "act": [
+     "33-38"
+    ],
+    "decree": [
+     "5",
+     "30-33"
+    ],
+    "rule": [
+     "6",
+     "24"
+    ],
+    "appraisal-rule": []
+   }
+  },
+  {
+   "slug": "t05",
+   "title": "제5장 징계",
+   "assign": {
+    "act": [
+     "39-40"
+    ],
+    "decree": [
+     "34-42"
+    ],
+    "rule": [
+     "25"
+    ],
+    "appraisal-rule": []
+   }
+  },
+  {
+   "slug": "t06",
+   "title": "제6장 과징금",
+   "assign": {
+    "act": [
+     "41-44"
+    ],
+    "decree": [
+     "43-46"
+    ],
+    "rule": [
+     "26-27"
+    ],
+    "appraisal-rule": []
+   }
+  },
+  {
+   "slug": "t07",
+   "title": "제7장 보칙",
+   "assign": {
+    "act": [
+     "45-48"
+    ],
+    "decree": [
+     "47-49"
+    ],
+    "rule": [],
+    "appraisal-rule": []
+   }
+  },
+  {
+   "slug": "t08",
+   "title": "제8장 벌칙",
+   "assign": {
+    "act": [
+     "49-52"
+    ],
+    "decree": [
+     "50-51"
+    ],
+    "rule": [],
+    "appraisal-rule": []
+   }
+  }
+ ]
+}

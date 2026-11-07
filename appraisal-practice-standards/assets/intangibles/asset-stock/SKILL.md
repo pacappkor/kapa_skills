@@ -50,10 +50,22 @@ description: 감정평가 실무기준 [660-1] 상장주식의 거래가액·거
 
 <!-- BEGIN GENERATED:refs -->
 이 스킬의 원문이 인용하는 다른 조항:
-- `[660-3]` → [asset-enterprise-value](../../../assets/intangibles/asset-enterprise-value/SKILL.md)
+- `[660-3]` → [asset-enterprise-value](../asset-enterprise-value/SKILL.md)
 
 이 스킬의 조항을 인용하는 다른 스킬:
-- [asset-enterprise-value](../../../assets/intangibles/asset-enterprise-value/SKILL.md) — `[660-1.2.2]`
+- [asset-enterprise-value](../asset-enterprise-value/SKILL.md) — `[660-1.2.2]`
+
+이 스킬의 원문이 인용하는 관계법령 조문 (laws/ 컬렉션):
+- `「자본시장과 금융투자업에 관한 법률」 제373조의2` → [rel-movables-securities-accounting](../../../../laws/related-provisions/rel-movables-securities-accounting/SKILL.md)
 
 > 원문의 `[코드]` 인용을 자동 추출한 목록이라 완전한 체크리스트가 아니다. "[100 총칙]부터 [600 물건별 감정평가]까지" 같은 범위 인용은 첫 조항만 잡히고, 관계법규(「…법」) 인용은 포함하지 않는다.
 <!-- END GENERATED:refs -->
+
+## 들어오는 연결
+
+<!-- BEGIN GENERATED:incoming -->
+이 스킬의 원문을 인용·준용하는 다른 스킬이다. 출발점이 그쪽이라면 여기로, 여기서 출발했다면 그쪽으로 이동한다.
+
+**appraisal-practice-standards**
+- [asset-enterprise-value](../asset-enterprise-value/SKILL.md) — `[660-1.2.2]`
+<!-- END GENERATED:incoming -->

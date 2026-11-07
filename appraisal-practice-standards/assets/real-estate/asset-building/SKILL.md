@@ -66,9 +66,24 @@ description: 감정평가 실무기준 [610-2] 건물의 자료·면적사정, �
 - `[400-4]` → [foundation-procedure-and-approaches](../../../foundations/foundation-procedure-and-approaches/SKILL.md)
 
 이 스킬의 조항을 인용하는 다른 스킬:
-- [asset-factory-foundation](../../../assets/industrial/asset-factory-foundation/SKILL.md) — `[610-2]`
-- [asset-land-building-composite](../../../assets/real-estate/asset-land-building-composite/SKILL.md) — `[610-2.2]`
-- [asset-suspended-construction](../../../assets/real-estate/asset-suspended-construction/SKILL.md) — `[610-2.4]`
+- [asset-factory-foundation](../../industrial/asset-factory-foundation/SKILL.md) — `[610-2]`
+- [asset-land-building-composite](../asset-land-building-composite/SKILL.md) — `[610-2.2]`
+- [asset-suspended-construction](../asset-suspended-construction/SKILL.md) — `[610-2.4]`
+
+이 스킬의 원문이 인용하는 관계법령 조문 (laws/ 컬렉션):
+- `「건축법 시행령」 제119조` → [rel-building-housing](../../../../laws/related-provisions/rel-building-housing/SKILL.md)
+- `「녹색건축물 조성 지원법」 제2조` → [rel-building-housing](../../../../laws/related-provisions/rel-building-housing/SKILL.md)
 
 > 원문의 `[코드]` 인용을 자동 추출한 목록이라 완전한 체크리스트가 아니다. "[100 총칙]부터 [600 물건별 감정평가]까지" 같은 범위 인용은 첫 조항만 잡히고, 관계법규(「…법」) 인용은 포함하지 않는다.
 <!-- END GENERATED:refs -->
+
+## 들어오는 연결
+
+<!-- BEGIN GENERATED:incoming -->
+이 스킬의 원문을 인용·준용하는 다른 스킬이다. 출발점이 그쪽이라면 여기로, 여기서 출발했다면 그쪽으로 이동한다.
+
+**appraisal-practice-standards**
+- [asset-factory-foundation](../../industrial/asset-factory-foundation/SKILL.md) — `[610-2]`
+- [asset-land-building-composite](../asset-land-building-composite/SKILL.md) — `[610-2.2]`
+- [asset-suspended-construction](../asset-suspended-construction/SKILL.md) — `[610-2.4]`
+<!-- END GENERATED:incoming -->

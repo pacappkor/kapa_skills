@@ -1,0 +1,29 @@
+{
+  "collection": "appraisal-act",
+  "topics": [
+    {"slug": "general", "title": "총칙 — 목적·정의(토지등·감정평가·감정평가업·감정평가법인등)",
+     "assign": {"act": ["1-2"], "decree": ["1-2"], "rule": ["1"], "appraisal-rule": []}},
+    {"slug": "appraisal-basics", "title": "감정평가의 기준·직무·의뢰 — 토지 감정평가 기준(공시지가), 기준제정기관, 평가의뢰기관, 감정평가법인등 추천",
+     "assign": {"act": ["3-5"], "decree": ["3-5"], "rule": [], "appraisal-rule": []}},
+    {"slug": "appraisal-report-review", "title": "감정평가서·심사·적정성 검토·타당성조사·표본조사·정보체계",
+     "assign": {"act": ["6-9"], "decree": ["6-8의2"], "rule": ["2-6"], "appraisal-rule": []}},
+    {"slug": "appraiser-qualification", "title": "감정평가법인등의 업무, 감정평가사 자격·결격·자격취소, 시험·일부면제·부정행위, 실무수습·교육연수",
+     "assign": {"act": ["10-16"], "decree": ["9-16의2"], "rule": ["7-12의2"], "appraisal-rule": []}},
+    {"slug": "registration-office", "title": "등록·갱신등록·등록취소, 외국감정평가사, 사무소 개설·고용인·명칭, 수수료, 사무직원",
+     "assign": {"act": ["17-24"], "decree": ["17-22"], "rule": ["13-18의2"], "appraisal-rule": []}},
+    {"slug": "duties-liability", "title": "감정평가법인등의 의무와 책임 — 성실의무, 비밀엄수, 명의대여 금지, 손해배상책임(보험), 감정평가 유도·요구 금지",
+     "assign": {"act": ["25-28의2"], "decree": ["23"], "rule": ["19-19의3"], "appraisal-rule": []}},
+    {"slug": "appraisal-corporation", "title": "감정평가법인 — 설립·해산·자본금·인가취소, 합병·정관변경",
+     "assign": {"act": ["29-32"], "decree": ["24-29"], "rule": ["20-23"], "appraisal-rule": []}},
+    {"slug": "association", "title": "한국감정평가사협회 — 설립·회칙·회원가입·윤리규정·자문·교육연수, 공제사업",
+     "assign": {"act": ["33-38"], "decree": ["30-33"], "rule": ["24"], "appraisal-rule": []}},
+    {"slug": "discipline-penalty", "title": "징계·감정평가관리ㆍ징계위원회, 과징금, 보칙(청문·위탁·지도감독), 벌칙·과태료",
+     "assign": {"act": ["39-52"], "decree": ["34-51"], "rule": ["25-27"], "appraisal-rule": []}},
+    {"slug": "rule-principles-procedure", "title": "감정평가에 관한 규칙 — 총칙·의무·적용범위, 시장가치·현황·개별물건 기준 원칙, 절차, 기본적 사항, 대상물건 확인, 감정평가방식과 시산가액 조정",
+     "assign": {"act": [], "decree": [], "rule": [], "appraisal-rule": ["1-12"]}},
+    {"slug": "rule-methods-by-object", "title": "감정평가에 관한 규칙 — 물건별 감정평가방법(토지·건물·일괄·산림·과수원·공장재단·광업재단·자동차 등·동산·임대료·무형자산·유가증권·가치하락분·그 밖의 물건)",
+     "assign": {"act": [], "decree": [], "rule": [], "appraisal-rule": ["14-26"]}},
+    {"slug": "rule-report-advisory", "title": "감정평가에 관한 규칙 — 감정평가서 작성·전자문서 발급, 조언·정보 제공, 그 밖의 감정평가 기준, 규제의 재검토",
+     "assign": {"act": [], "decree": [], "rule": [], "appraisal-rule": ["13-13의2", "27-29"]}}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "collection": "price-disclosure-act",
+  "topics": [
+    {"slug": "general", "title": "총칙 — 목적·정의(주택·공동주택·단독주택·비주거용 부동산·적정가격)",
+     "assign": {"act": ["1-2"], "decree": ["1"], "rule": ["1"]}},
+    {"slug": "standard-land-price", "title": "표준지공시지가 — 표준지 선정, 조사·평가 기준·의뢰·절차, 공시, 열람, 이의신청, 적용, 효력",
+     "assign": {"act": ["3-9"], "decree": ["2-13"], "rule": ["2-4"]}},
+    {"slug": "individual-land-price", "title": "개별공시지가 — 결정·공시, 산정 기준, 검증, 의견청취, 이의신청, 정정, 타인토지 출입, 비용 보조, 부동산 가격정보 조사",
+     "assign": {"act": ["10-15"], "decree": ["14-25"], "rule": ["5-9"]}},
+    {"slug": "housing-price", "title": "주택가격 공시 — 표준주택가격, 개별주택가격, 공동주택가격, 주택가격 공시의 효력",
+     "assign": {"act": ["16-19"], "decree": ["26-47"], "rule": ["10-20"]}},
+    {"slug": "non-residential-price", "title": "비주거용 부동산가격 공시 — 비주거용 표준·개별·집합부동산가격, 공시의 효력",
+     "assign": {"act": ["20-23"], "decree": ["48-70"], "rule": ["21-31"]}},
+    {"slug": "committee-misc", "title": "부동산가격공시위원회와 보칙 — 중앙·시군구 위원회, 공시보고서, 적정가격 반영 계획, 공시가격정보체계, 회의록 공개, 업무위탁, 수수료, 공무원 의제",
+     "assign": {"act": ["24-30"], "decree": ["71-77"], "rule": ["32"]}}
+  ]
+}

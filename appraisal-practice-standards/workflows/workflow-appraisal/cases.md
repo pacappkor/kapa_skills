@@ -15,7 +15,7 @@
 | 8 | 공장 저당을 위한 공장재단 평가 | 평가 수행 | F2=담보, F3=공장재단 | overlay-collateral > [asset-factory-foundation](../../assets/industrial/asset-factory-foundation/SKILL.md) → 준용: asset-land, asset-building, [asset-machinery](../../assets/industrial/asset-machinery/SKILL.md), asset-goodwill, asset-intellectual-property | [620-1.3.1], [620-1.3.2]~[620-1.3.6] |
 | 9 | 상가 임차인 권리금 감정평가 (소송) | 평가 수행 | F2=없음, F3=권리금 | [asset-key-money](../../assets/income-and-loss/asset-key-money/SKILL.md) > foundations | [670-4.3.1] |
 | 10 | 비상장 주식 가치 | 평가 수행 | F3=비상장주식 | [asset-stock](../../assets/intangibles/asset-stock/SKILL.md) → [asset-enterprise-value](../../assets/intangibles/asset-enterprise-value/SKILL.md) | [660-1.2.3-①·②], [660-3] |
-| 11 | 공익사업 편입 건물(지장물) 보상 | 평가 수행 | F1=지장물 | 실무기준에 절 없음 → "실무기준 밖 — 관계법규 확인 필요" + 일반 규정 [asset-building](../../assets/real-estate/asset-building/SKILL.md) 참고 | [800] 구성(810~840) |
+| 11 | 공익사업 편입 건물(지장물) 보상 | 평가 수행 | F1=지장물 | 실무기준에 절 없음 → 관계법령 [lca-objects-compensation](../../../laws/land-compensation-act/lca-objects-compensation/SKILL.md) (법 제75조, 규칙 제33조 등) + 일반 규정 [asset-building](../../assets/real-estate/asset-building/SKILL.md) 참고 | [800] 구성(810~840), 토지보상법 제75조 |
 | 12 | "맹지는 어떻게 평가하나?" | 조항 질의 | — | [lookup-clause](../lookup-clause/SKILL.md) → terms.md → asset-land | [610-1.7.12] |
 | 13 | "보상평가의 기준시점은?" | 조항 질의 | 맥락=보상 | lookup-clause → [810-5.7]; 일반 기준시점 [300-4]와 구분 | [810-5.7], [300-4] |
 | 14 | 동료가 쓴 담보 감정평가서 심사 | 검토 | F2=담보 | [workflow-report-review](../workflow-report-review/SKILL.md) → 사례 1 스택 | [500-3], [500-4-②~④] |
