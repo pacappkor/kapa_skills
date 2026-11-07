@@ -37,6 +37,9 @@ python -I tools/validate.py                 # 구조·링크·입구/workflows �
 
 ## 저장소 운영
 
+- 변경은 `CHANGELOG.md` 의 `[Unreleased]` 에 기록한다. 버전 규칙과 릴리스·실무기준 개정 반영 절차는 `docs/RELEASING.md` 에 있다.
+  실무기준 개정은 MINOR, 정정은 PATCH, 스킬 경로·이름 변경은 호환성 깨짐이다.
+
 - 기본 브랜치 `main` 에 직접 커밋하지 않는다. 작업 브랜치를 만들고 PR 로 반영한다.
 - 저장소는 비공개(private)로 유지한다.
 - 토큰과 인증정보를 커밋, 로그, PR 본문에 남기지 않는다.

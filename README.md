@@ -73,6 +73,13 @@ python -I tools/validate.py                # 검증 (오류 0 이어야 함)
 2. `split_standard.py` 의 `SEQ`·`NOTICE`·배정표를 고친다.
 3. 다시 생성한 뒤 `git diff` 로 바뀐 조항을 보고, 해당 스킬의 요약과 확인사항을 고친다.
 
+## 버전과 변경 이력
+
+- 현재 버전과 변경 내용: [CHANGELOG.md](CHANGELOG.md)
+- 버전 규칙과 실무기준 개정 반영 절차: [docs/RELEASING.md](docs/RELEASING.md)
+  - 실무기준이 개정되면 MINOR 를 올린다.
+  - 근거 고시 번호는 CHANGELOG 각 버전에 기록한다.
+
 ## 라이선스와 출처
 
 이 저장소는 **[GNU GPL v3.0](LICENSE)** 으로 배포한다. GPL 이 적용되는 범위는 다음과 같다.
