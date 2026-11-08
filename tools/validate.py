@@ -124,21 +124,21 @@ def main():
         for f in skills:
             if coll in f.parents and f.parent.name not in nav:
                 errors.append(f'navigation: {f.parent.name} 이(가) 입구·workflows 어디에도 없음')
-        r = subprocess.run([sys.executable, '-I', str(ROOT / 'tools' / 'split_standard.py'), '--check'],
+        r = subprocess.run([sys.executable, '-I', '-B', str(ROOT / 'tools' / 'split_standard.py'), '--check'],
                            capture_output=True, text=True, encoding='utf-8')
         if r.returncode:
             errors.append('split_standard.py --check 실패: ' + r.stdout.strip())
     if (ROOT / 'laws').exists():
-        r = subprocess.run([sys.executable, '-I', str(ROOT / 'tools' / 'laws' / 'build_laws.py'), '--check'],
+        r = subprocess.run([sys.executable, '-I', '-B', str(ROOT / 'tools' / 'laws' / 'build_laws.py'), '--check'],
                            capture_output=True, text=True, encoding='utf-8')
         if r.returncode:
             bad = [l for l in r.stdout.splitlines() if l.startswith('ERROR')]
             errors.append(f'build_laws.py --check 실패 ({len(bad)}건): ' + '; '.join(bad[:5]))
-    r = subprocess.run([sys.executable, '-I', str(ROOT / 'tools' / 'graph.py'), '--check'],
+    r = subprocess.run([sys.executable, '-I', '-B', str(ROOT / 'tools' / 'graph.py'), '--check'],
                        capture_output=True, text=True, encoding='utf-8')
     if r.returncode:
         errors.append('graph.py --check 실패(들어오는 연결 블록 갱신 필요): ' + r.stdout.strip().splitlines()[0])
-    r = subprocess.run([sys.executable, '-I', str(ROOT / 'tools/laws/build_index.py'), '--check'],
+    r = subprocess.run([sys.executable, '-I', '-B', str(ROOT / 'tools/laws/build_index.py'), '--check'],
                        capture_output=True, text=True, encoding='utf-8')
     if r.returncode:
         errors.append('build_index.py --check 실패: ' + (r.stdout + r.stderr).strip())

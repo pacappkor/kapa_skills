@@ -1,0 +1,166 @@
+# SPDX-License-Identifier: GPL-3.0-only
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  offline-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Reject tracked symlinks
+        run: python -I -B tools/ci_integrity.py --symlinks-only
+      - name: Select checks from changed paths
+        id: changes
+        shell: bash
+        env:
+          CI_EVENT: ${{ github.event_name }}
+          CI_BASE: ${{ github.event.pull_request.base.sha }}
+          CI_BEFORE: ${{ github.event.before }}
+        run: |
+          python -I -B - <<'PY'
+          import os
+          import subprocess
+
+          def select_checks(paths, force_reason=None):
+              flags = dict.fromkeys(('standards', 'laws', 'validation', 'tests'), False)
+              reasons = set()
+              if force_reason:
+                  return dict.fromkeys(flags, True), {force_reason}
+              for path in paths:
+                  # Any path can be a Markdown link target (for example LICENSE).
+                  flags['validation'] = True
+                  reasons.add('changed path may be a link target')
+                  name = path.rsplit('/', 1)[-1]
+                  # Shared helpers/configuration can affect both generators.
+                  known_tools = {
+                      'tools/split_standard.py', 'tools/graph.py',
+                      'tools/validate.py', 'tools/markdown_prose.py',
+                      'tools/laws/build_laws.py', 'tools/laws/build_index.py',
+                  }
+                  shared_tool = (path.startswith('tools/') and
+                                 path not in known_tools and
+                                 not (name.startswith('test_') and name.endswith('.py')))
+                  if (path.startswith('.github/workflows/') or
+                      'manifest' in name.lower() or shared_tool):
+                      return dict.fromkeys(flags, True), {'workflow, manifest, or shared tool changed'}
+                  if path.startswith('appraisal-practice-standards/') or path == 'tools/split_standard.py':
+                      flags['standards'] = flags['validation'] = True
+                      reasons.add('standard generation inputs')
+                  # Law B-layer generation parses the standard source and imports its parser.
+                  if path.startswith('sources/appraisal-practice-standards/') or path == 'tools/split_standard.py':
+                      flags['standards'] = flags['laws'] = flags['validation'] = True
+                      reasons.add('standard source/parser also feeds law citations')
+                  if path.startswith(('laws/', 'sources/laws/', 'tools/laws/')) or path == 'docs/law-index.json':
+                      flags['laws'] = flags['validation'] = True
+                      reasons.add('law generation inputs')
+                  # Standard references use lawindex, which reads law JSON and topic assignments.
+                  if path.startswith(('sources/laws/', 'tools/laws/')):
+                      flags['standards'] = True
+                      reasons.add('law data/tools also feed standard references')
+                  if (path.endswith('.md') or path.startswith(('rules/', '00-')) or
+                      path in {'docs/law-index.json', 'tools/graph.py',
+                               'tools/validate.py', 'tools/markdown_prose.py'}):
+                      flags['validation'] = True
+                      reasons.add('Markdown, routing, or validation inputs')
+                  if path.startswith(('tools/', 'sources/laws/')):
+                      flags['tests'] = True
+                      reasons.add('tool changes')
+              return flags, reasons or {'no check-specific inputs changed'}
+
+          event = os.environ.get('CI_EVENT', '')
+          resolved = dict(line.split('=', 1) for line in subprocess.check_output(
+              ['bash', 'tools/ci_base.sh'], text=True).splitlines())
+          base = resolved['base']
+          force_reason = 'no usable base, manual run, or rewritten history' if resolved['all'] == 'true' else None
+          paths = []
+          if not force_reason:
+              try:
+                  result = subprocess.run(
+                      ['git', 'diff', '--no-renames', '--name-only', '-z',
+                       f'{base}{"..." if event == "pull_request" else ".."}HEAD'],
+                      check=True, stdout=subprocess.PIPE)
+                  paths = result.stdout.decode('utf-8', errors='surrogateescape').split('\0')
+                  paths = [path for path in paths if path]
+              except (OSError, subprocess.CalledProcessError):
+                  force_reason = 'git diff failed; conservative fallback'
+          flags, reasons = select_checks(paths, force_reason)
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              print(f"whitespace_base={resolved['whitespace_base']}", file=output)
+              for group, enabled in flags.items():
+                  print(f'{group}={str(enabled).lower()}', file=output)
+          summary = '## CI check selection\n\n' + '\n'.join(
+              f'- {group}: {"run" if enabled else "skip"}' for group, enabled in flags.items())
+          summary += '\n- whitespace: selected unless no new commits (see resolver note)\n\nReason: ' + '; '.join(sorted(reasons)) + '\n'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as output:
+              output.write(summary)
+          print(summary)
+          PY
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check practice standard generation
+        if: steps.changes.outputs.standards == 'true'
+        run: python -I -B tools/split_standard.py --check
+      - name: Check law generation
+        if: steps.changes.outputs.laws == 'true'
+        run: python -I -B tools/laws/build_laws.py --check
+      - name: Report law topic coverage
+        if: steps.changes.outputs.laws == 'true'
+        run: python -I -B tools/laws/build_laws.py --status
+      - name: Check law index when available
+        if: steps.changes.outputs.laws == 'true'
+        shell: bash
+        run: |
+          if [ -f tools/laws/build_index.py ]; then
+            python -I -B tools/laws/build_index.py --check
+          fi
+      - name: Check incoming links
+        if: steps.changes.outputs.validation == 'true'
+        run: python -I -B tools/graph.py --check
+      - name: Check graph JSON is current
+        if: steps.changes.outputs.validation == 'true'
+        shell: bash
+        run: |
+          python -I -B tools/graph.py --json
+          STATUS=$(git status --porcelain --untracked-files=all -- docs/graph.json)
+          if [ -n "$STATUS" ]; then
+            echo "$STATUS"
+            exit 1
+          fi
+      - name: Validate repository
+        if: steps.changes.outputs.validation == 'true'
+        run: python -I -B tools/validate.py
+      - name: Run stock unittest discovery with layout and summary checks
+        if: steps.changes.outputs.tests == 'true'
+        shell: bash
+        run: python -I -B tools/ci_tests_supervise.py
+      - name: Check generated blobs and whole working tree
+        shell: bash
+        run: |
+          generated=(docs/graph.json)
+          if [ -f docs/law-index.json ]; then
+            generated+=(docs/law-index.json)
+          fi
+          python -I -B tools/ci_integrity.py "${generated[@]}"
+      - name: Check diff whitespace
+        env:
+          BASE_SHA: ${{ steps.changes.outputs.whitespace_base }}
+        run: bash tools/ci_whitespace.sh "$BASE_SHA"
