@@ -76,6 +76,55 @@ class VersionsTest(unittest.TestCase):
                 self.assertEqual(data['efYd'], row['efYd'])
                 self.assertEqual(data['addenda'], body['addenda'])
 
+    def test_store_whole_repeal(self):
+        row = dict(lsiSeq='7', efYd='20270909', ancYd='20260908', ancNo='1',
+                   name='시험 법', kind='타법폐지')
+        identity = ('<input id="lsNm" value="시험 법"><input id="lsiSeq" value="7">'
+                    '<input id="efYd" value="20270909"><input id="lsId" value="000001">')
+        sentence = '「시험 법」을 폐지한다.'
+        addenda = '<div id="arDivArea"><p class="pty3_dep1">' + sentence + '</p></div>'
+        with tempfile.TemporaryDirectory() as tmp:
+            src = pathlib.Path(tmp)
+            base = src / 'test' / 'versions'
+            base.mkdir(parents=True)
+            history = base / 'act.json'
+            (src / 'test' / 'act.json').write_text('{}', encoding='utf-8')
+            cat = dict(collections=[dict(id='test', docs=[dict(level='act', label='법')])])
+            output = base / 'act' / '7-20270909.json'
+            cases = [
+                ('타법폐지', identity + addenda, True),
+                ('폐지', identity + addenda.replace('」을', '」를'), True),
+                ('타법폐지', identity, False),
+                ('일부개정', identity + addenda, False),
+                ('폐지제정', identity + addenda, False),
+                ('타법폐지', (identity + addenda).replace('value="시험 법"', 'value="다른 법"'), False),
+                ('타법폐지', (identity + addenda).replace('value="7"', 'value="8"'), False),
+                ('타법폐지', (identity + addenda).replace('value="20270909"', 'value="20270910"'), False),
+                ('타법폐지', identity + addenda.replace(sentence, '「다른 법」을 폐지한다.'), False),
+                ('타법폐지', identity + addenda.replace(sentence, '<script>' + sentence + '</script>'), False),
+                ('타법폐지', identity + '<p class="pty3_dep1">' + sentence + '</p>', False),
+                ('타법폐지', identity + addenda.replace('폐지한다.', '폐지한다는 뜻이다.'), False),
+            ]
+            with patch.object(fetch_version, 'SRC', src), patch.object(fetch_version, 'CAT', cat), \
+                 patch.object(sys, 'argv', ['fetch_version', 'test', 'act', '7', '--ef', '2027-09-09']), \
+                 patch('sys.stdout', Output()), patch('sys.stderr', Output()):
+                for kind, page, accepted in cases:
+                    with self.subTest(kind=kind, page=page):
+                        history.write_text(json.dumps(dict(versions=[dict(row, kind=kind)])), encoding='utf-8')
+                        before = output.read_bytes() if output.exists() else None
+                        with patch.object(lawgo, 'fetch_body', return_value=page):
+                            self.assertEqual(fetch_version.main(), 0 if accepted else 1)
+                        if accepted:
+                            saved = json.loads(output.read_text(encoding='utf-8'))
+                            self.assertEqual(saved['articles'], [])
+                            self.assertIn('폐지한다.', saved['addenda'])
+                            self.assertEqual((saved['lsiSeq'], saved['efYd']), ('7', '20270909'))
+                        else:
+                            self.assertEqual(output.read_bytes() if output.exists() else None, before)
+            # The shared verifier must still reject article-less bodies.
+            with self.assertRaisesRegex(ValueError, '조문 없음'):
+                lawgo.verify_body(identity + addenda, row['name'], row['lsiSeq'], row['efYd'])
+
     def test_check_scheduled_exit_status(self):
         page = item('7', '20200101', '20990101', '새 법') + item('6', '20200101', '20200101', '법')
         rows = parse_history(page, '법', '6')

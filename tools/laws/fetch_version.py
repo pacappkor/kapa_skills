@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: GPL-3.0-only
 """Fetch one historical body by lsiSeq or the version in force on --at YYYY-MM-DD."""
-import argparse, datetime, json, pathlib, sys
+import argparse, datetime, json, pathlib, re, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import lawgo
 from fetch_laws import CAT, SRC, wbytes
@@ -23,6 +23,26 @@ def select(versions, seq, ef=None):
     if len(rows) != 1:
         raise ValueError('판본 없음 또는 lsiSeq 중복: --ef YYYY-MM-DD 또는 --at YYYY-MM-DD 로 시행일 지정 필요')
     return rows[0]
+
+
+def verify_version(page, version):
+    """Keep article-less repeal verification local to historical body storage."""
+    name, seq, ef = version['name'], version['lsiSeq'], version['efYd']
+    if not lawgo.is_repeal(version.get('kind', '')):
+        lawgo.verify_body(page, name, seq, ef)
+        return
+    body = lawgo.parse(page)
+    if body['articles']:
+        lawgo.verify_body(page, name, seq, ef)
+        return
+    if re.sub(r'\s+', '', lawgo.hidden(page, 'lsNm')) != re.sub(r'\s+', '', name):
+        raise ValueError(f'법령명 불일치: {name}')
+    lawgo.verify_identity(page, seq, ef)
+    # Match legal text only: raw HTML, scripts and controls are not evidence.
+    title = r'\s*'.join(re.escape(c) for c in re.sub(r'\s+', '', name))
+    sentence = rf'「\s*{title}\s*」\s*[을를]\s*폐지한다(?=\.|\s|$)'
+    if not re.search(sentence, body['addenda']):
+        raise ValueError('전체 폐지 부칙 문장 없음')
 
 
 def main():
@@ -49,7 +69,7 @@ def main():
             ef = datetime.date.fromisoformat(args.ef).strftime('%Y%m%d') if args.ef else None
             v = select(history['versions'], args.lsiSeq, ef)
         page = lawgo.fetch_body(v['lsiSeq'], v['efYd'])
-        lawgo.verify_body(page, v['name'], v['lsiSeq'], v['efYd'])
+        verify_version(page, v)
         body = lawgo.parse(page)
         out = dict(name=v['name'], level=d['level'], label=d['label'],
                    lsiSeq=v['lsiSeq'], efYd=v['efYd'], ancYd=v['ancYd'], ancNo=v['ancNo'],
