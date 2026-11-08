@@ -8,6 +8,70 @@
 조문 번호는 '70', '70의2' 형식의 키로 다룬다.
 """
 import html as H, re, time, urllib.parse, urllib.request
+from html.parser import HTMLParser
+
+
+class _AddendaParser(HTMLParser):
+    """Read legal paragraphs only inside arDivArea, not the following annex UI.
+
+    HTMLParser handles literal <...> in quoted onclick/alt attributes; stripping
+    tags with a regex mistakes their > for the end of the tag and leaks JS.
+    """
+    VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input',
+            'link', 'meta', 'param', 'source', 'track', 'wbr'}
+    CONTROLS = {'script', 'style', 'button', 'select', 'textarea', 'iframe', 'object'}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.stack = []
+        self.region = None
+        self.paragraph = None
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'div' and attrs.get('id') == 'arDivArea':
+            self.region = len(self.stack)
+        suppressed = (bool(self.stack) and self.stack[-1][1]) or tag in self.CONTROLS
+        # Links to legal text remain text; file downloads are page controls.
+        if tag == 'a' and re.search(r'flDownload|bylInfoDiv|javascript:.*down',
+                                  attrs.get('href', '') + attrs.get('onclick', ''), re.I):
+            suppressed = True
+        if self.region is not None and tag == 'p':
+            classes = attrs.get('class', '').split()
+            if any(re.fullmatch(r'pty3(?:_dep\d+)?', c) for c in classes):
+                self.paragraph = len(self.stack)
+        if tag not in self.VOID:
+            self.stack.append((tag, suppressed))
+        self.parts.append(' ')
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        if tag not in self.VOID:
+            self.handle_endtag(tag)
+
+    def handle_endtag(self, tag):
+        for i in range(len(self.stack) - 1, -1, -1):
+            if self.stack[i][0] == tag:
+                if self.paragraph is not None and i <= self.paragraph:
+                    self.paragraph = None
+                if self.region is not None and i <= self.region:
+                    self.region = None
+                del self.stack[i:]
+                break
+        self.parts.append(' ')
+
+    def handle_data(self, data):
+        if (self.region is not None and self.paragraph is not None
+                and not self.stack[-1][1]):
+            self.parts.append(data)
+
+
+def _addenda(page):
+    parser = _AddendaParser()
+    parser.feed(page)
+    parser.close()
+    return re.sub(r'\s+', ' ', ''.join(parser.parts)).strip()
 
 UA = {'User-Agent': 'Mozilla/5.0'}
 BASE = 'https://www.law.go.kr'
@@ -87,9 +151,10 @@ ART = re.compile(r'^제(\d+)조(?:의(\d+))?\s*(?:\(([^)]*(?:\([^)]*\)[^)]*)*)\)
 
 def parse(page):
     """→ dict(headings=[{key, level, title, before}], articles=[{key, no, title, lines, deleted, path}], annexes=[...], addenda=str)"""
-    i_add = page.find('<!-- 부칙')
-    if i_add < 0:
-        i_add = len(page)
+    # The site's comment before this container can itself say "영역 끝".
+    # Use the actual container boundary rather than interpreting that comment.
+    add_start = re.search(r'''<div\b[^>]*\bid\s*=\s*["']arDivArea["'][^>]*>''', page, re.I)
+    i_add = add_start.start() if add_start else len(page)
     i_byl = page.find('<!-- 별표 서식 시작')
     body = page[:min(i_add, i_byl if i_byl > 0 else len(page))]
     # 블록 순서대로: 제목(gtit) / 조문(lawcon)
@@ -137,7 +202,7 @@ def parse(page):
             hwp = re.search(r'flSeq=(\d+)&amp;bylClsCd=\d+" target="_blank">\s*<img alt="HWP', m.group(3))
             annexes.append(dict(id=m.group(1), title=_text(m.group(2)),
                                 pdf=pdf.group(1) if pdf else None, hwp=hwp.group(1) if hwp else None))
-    addenda = _text(page[i_add:]) if i_add < len(page) else ''
+    addenda = _addenda(page[i_add:]) if i_add < len(page) else ''
     return dict(headings=heads, articles=arts, annexes=annexes, addenda=addenda)
 
 def download(flseq, seq):
