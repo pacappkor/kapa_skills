@@ -1,6 +1,6 @@
 ---
 name: apa-appraisal-corporation
-description: 「감정평가법」 법 제29~32조·영·규칙: 법인 구성·인가·합병·해산·자본금과 인가취소·업무정지.
+description: 「감정평가법」 법 제29–32조·영·규칙: 법인 구성·인가·합병·해산·자본금과 인가취소·업무정지.
 ---
 
 # apa-appraisal-corporation

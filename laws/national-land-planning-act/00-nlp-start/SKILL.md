@@ -19,25 +19,25 @@ description: 국토계획법(국토의 계획 및 이용에 관한 법률)·시�
 <!-- BEGIN GENERATED:map -->
 | 스킬 | 주제 | 조문 |
 |---|---|---|
-| [nlp-general](../nlp-general/SKILL.md) | 총칙 — 목적·정의·국토 이용 원칙·도시계획의 지위·용도지역 구분 등 | 법 1~9조 · 영 1~6조 · 규칙 1~2조 |
-| [nlp-metropolitan-plan](../nlp-metropolitan-plan/SKILL.md) | 광역도시계획 | 법 10~17의2조 · 영 7~13의2조 |
-| [nlp-basic-plan](../nlp-basic-plan/SKILL.md) | 도시·군기본계획 | 법 18~23조 · 영 14~17의2조 |
-| [nlp-management-plan-procedure](../nlp-management-plan-procedure/SKILL.md) | 도시·군관리계획의 수립 절차 — 입안·제안·기초조사·주민의견·결정·고시·지형도면 | 법 24~35조 · 영 18, 19의2~29, 49조 · 규칙 2의2~3조 |
-| [nlp-spatial-restructuring-plan](../nlp-spatial-restructuring-plan/SKILL.md) | 공간재구조화계획 | 법 35의2~35의7조 · 영 29의2~29의6조 |
-| [nlp-zoning-designation](../nlp-zoning-designation/SKILL.md) | 용도지역·용도지구·용도구역의 지정 — 세분, 개발제한구역·도시자연공원구역·시가화조정구역·수산자원보호구역·도시혁신구역 등 | 법 36~42조 · 영 19, 30~34조 · 규칙 4~5조 |
-| [nlp-planning-facilities](../nlp-planning-facilities/SKILL.md) | 도시·군계획시설 — 설치·관리, 공동구, 광역시설, 장기미집행 시설의 매수청구·실효·해제 | 법 43~48의2조 · 영 35~42의2조 · 규칙 6~8의2조 |
-| [nlp-district-unit-plan](../nlp-district-unit-plan/SKILL.md) | 지구단위계획 — 구역 지정, 계획 내용, 건축 제한 완화 | 법 49~55조 · 영 42의3~48, 50~50의2조 · 규칙 8의3~8의4조 |
-| [nlp-development-permit](../nlp-development-permit/SKILL.md) | 개발행위의 허가 — 대상·기준·절차·준공검사·공공시설 귀속 | 법 56~65조 · 영 51~61조 · 규칙 9~11조 |
-| [nlp-development-infrastructure](../nlp-development-infrastructure/SKILL.md) | 개발행위에 따른 기반시설의 설치 — 개발밀도관리구역·기반시설부담구역·기반시설설치비용 | 법 66~75조 · 영 62~70의11조 · 규칙 11의2~12조 |
-| [nlp-growth-management-plan](../nlp-growth-management-plan/SKILL.md) | 성장관리계획 | 법 75의2~75의4조 · 영 70의12~70의15조 |
-| [nlp-zoning-restrictions](../nlp-zoning-restrictions/SKILL.md) | 용도지역·용도지구·용도구역에서의 행위 제한 — 건축제한(별표), 미지정·미세분 지역, 개발제한구역 등, 시가화조정구역, 기존 건축물 특례, 둘 이상 지역에 걸친 대지 | 법 76, 79~84조 · 영 71~83, 86~94조 · 규칙 13~13의2조 |
-| [nlp-coverage-floor-area-ratio](../nlp-coverage-floor-area-ratio/SKILL.md) | 용도지역의 건폐율·용적률 | 법 77~78조 · 영 84~85조 |
-| [nlp-facility-project](../nlp-facility-project/SKILL.md) | 도시·군계획시설사업의 시행 — 단계별 집행계획, 시행자, 실시계획, 토지 수용·사용(토지보상법 준용) | 법 85~100조 · 영 95~103조 · 규칙 14~17조 |
-| [nlp-costs](../nlp-costs/SKILL.md) | 비용 — 비용 부담, 보조·융자, 공공시설 관리자 비용 부담 | 법 101~105의2조 · 영 104~107조 |
-| [nlp-planning-committee](../nlp-planning-committee/SKILL.md) | 도시계획위원회 — 중앙·지방 도시계획위원회, 분과위원회, 전문위원 | 법 106~116조 · 영 108~115조 · 규칙 18~30조 |
-| [nlp-land-transaction-permit](../nlp-land-transaction-permit/SKILL.md) | 토지거래의 허가 등 (제10장) | 법 117~126조 · 영 116~125조 |
-| [nlp-misc](../nlp-misc/SKILL.md) | 보칙 — 시범도시, 보고·검사, 청문, 권한 위임·위탁, 도시계획 정보 | 법 127~139조 · 영 126~133의2조 · 규칙 31~35조 |
-| [nlp-penalties](../nlp-penalties/SKILL.md) | 벌칙 — 벌칙·양벌규정·과태료 | 법 140~144조 · 영 134조 · 규칙 36~37조 |
+| [nlp-general](../nlp-general/SKILL.md) | 총칙 — 목적·정의·국토 이용 원칙·도시계획의 지위·용도지역 구분 등 | 법 1–9조 · 영 1–6조 · 규칙 1–2조 |
+| [nlp-metropolitan-plan](../nlp-metropolitan-plan/SKILL.md) | 광역도시계획 | 법 10–17의2조 · 영 7–13의2조 |
+| [nlp-basic-plan](../nlp-basic-plan/SKILL.md) | 도시·군기본계획 | 법 18–23조 · 영 14–17의2조 |
+| [nlp-management-plan-procedure](../nlp-management-plan-procedure/SKILL.md) | 도시·군관리계획의 수립 절차 — 입안·제안·기초조사·주민의견·결정·고시·지형도면 | 법 24–35조 · 영 18, 19의2–29, 49조 · 규칙 2의2–3조 |
+| [nlp-spatial-restructuring-plan](../nlp-spatial-restructuring-plan/SKILL.md) | 공간재구조화계획 | 법 35의2–35의7조 · 영 29의2–29의6조 |
+| [nlp-zoning-designation](../nlp-zoning-designation/SKILL.md) | 용도지역·용도지구·용도구역의 지정 — 세분, 개발제한구역·도시자연공원구역·시가화조정구역·수산자원보호구역·도시혁신구역 등 | 법 36–42조 · 영 19, 30–34조 · 규칙 4–5조 |
+| [nlp-planning-facilities](../nlp-planning-facilities/SKILL.md) | 도시·군계획시설 — 설치·관리, 공동구, 광역시설, 장기미집행 시설의 매수청구·실효·해제 | 법 43–48의2조 · 영 35–42의2조 · 규칙 6–8의2조 |
+| [nlp-district-unit-plan](../nlp-district-unit-plan/SKILL.md) | 지구단위계획 — 구역 지정, 계획 내용, 건축 제한 완화 | 법 49–55조 · 영 42의3–48, 50–50의2조 · 규칙 8의3–8의4조 |
+| [nlp-development-permit](../nlp-development-permit/SKILL.md) | 개발행위의 허가 — 대상·기준·절차·준공검사·공공시설 귀속 | 법 56–65조 · 영 51–61조 · 규칙 9–11조 |
+| [nlp-development-infrastructure](../nlp-development-infrastructure/SKILL.md) | 개발행위에 따른 기반시설의 설치 — 개발밀도관리구역·기반시설부담구역·기반시설설치비용 | 법 66–75조 · 영 62–70의11조 · 규칙 11의2–12조 |
+| [nlp-growth-management-plan](../nlp-growth-management-plan/SKILL.md) | 성장관리계획 | 법 75의2–75의4조 · 영 70의12–70의15조 |
+| [nlp-zoning-restrictions](../nlp-zoning-restrictions/SKILL.md) | 용도지역·용도지구·용도구역에서의 행위 제한 — 건축제한(별표), 미지정·미세분 지역, 개발제한구역 등, 시가화조정구역, 기존 건축물 특례, 둘 이상 지역에 걸친 대지 | 법 76, 79–84조 · 영 71–83, 86–94조 · 규칙 13–13의2조 |
+| [nlp-coverage-floor-area-ratio](../nlp-coverage-floor-area-ratio/SKILL.md) | 용도지역의 건폐율·용적률 | 법 77–78조 · 영 84–85조 |
+| [nlp-facility-project](../nlp-facility-project/SKILL.md) | 도시·군계획시설사업의 시행 — 단계별 집행계획, 시행자, 실시계획, 토지 수용·사용(토지보상법 준용) | 법 85–100조 · 영 95–103조 · 규칙 14–17조 |
+| [nlp-costs](../nlp-costs/SKILL.md) | 비용 — 비용 부담, 보조·융자, 공공시설 관리자 비용 부담 | 법 101–105의2조 · 영 104–107조 |
+| [nlp-planning-committee](../nlp-planning-committee/SKILL.md) | 도시계획위원회 — 중앙·지방 도시계획위원회, 분과위원회, 전문위원 | 법 106–116조 · 영 108–115조 · 규칙 18–30조 |
+| [nlp-land-transaction-permit](../nlp-land-transaction-permit/SKILL.md) | 토지거래의 허가 등 (제10장) | 법 117–126조 · 영 116–125조 |
+| [nlp-misc](../nlp-misc/SKILL.md) | 보칙 — 시범도시, 보고·검사, 청문, 권한 위임·위탁, 도시계획 정보 | 법 127–139조 · 영 126–133의2조 · 규칙 31–35조 |
+| [nlp-penalties](../nlp-penalties/SKILL.md) | 벌칙 — 벌칙·양벌규정·과태료 | 법 140–144조 · 영 134조 · 규칙 36–37조 |
 <!-- END GENERATED:map -->
 
 ## 찾는 순서

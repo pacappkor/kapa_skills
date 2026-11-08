@@ -1,6 +1,6 @@
 ---
 name: nlp-spatial-restructuring-plan
-description: 「국토계획법」 법 제35조의2~제35조의7·영: 공간재구조화계획의 입안·주민제안·결정과 계획 변경 의제.
+description: 「국토계획법」 법 제35조의2–제35조의7·영: 공간재구조화계획의 입안·주민제안·결정과 계획 변경 의제.
 ---
 
 # nlp-spatial-restructuring-plan

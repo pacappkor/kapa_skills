@@ -8,7 +8,8 @@
   "fetched": "2026-11-08",
   "articles": 56,
   "annexes": 0,
-  "sha256": "d3756ec5ce3e72f5"
+  "sha256": "d3756ec5ce3e72f5",
+  "lsId": "012481"
  },
  "appraisal-act/appraisal-rule": {
   "name": "감정평가에 관한 규칙",
@@ -19,7 +20,8 @@
   "fetched": "2026-11-08",
   "articles": 30,
   "annexes": 0,
-  "sha256": "9548a62a806106fc"
+  "sha256": "9548a62a806106fc",
+  "lsId": "006140"
  },
  "appraisal-act/decree": {
   "name": "감정평가 및 감정평가사에 관한 법률 시행령",
@@ -30,7 +32,8 @@
   "fetched": "2026-11-08",
   "articles": 61,
   "annexes": 4,
-  "sha256": "00dc8f3a456b6e5b"
+  "sha256": "00dc8f3a456b6e5b",
+  "lsId": "012651"
  },
  "appraisal-act/rule": {
   "name": "감정평가 및 감정평가사에 관한 법률 시행규칙",
@@ -41,7 +44,8 @@
   "fetched": "2026-11-08",
   "articles": 31,
   "annexes": 23,
-  "sha256": "0f26dbedad0a33b4"
+  "sha256": "0f26dbedad0a33b4",
+  "lsId": "012655"
  },
  "land-compensation-act/act": {
   "name": "공익사업을 위한 토지 등의 취득 및 보상에 관한 법률",
@@ -52,7 +56,8 @@
   "fetched": "2026-11-08",
   "articles": 108,
   "annexes": 1,
-  "sha256": "da81368268dfa4ca"
+  "sha256": "da81368268dfa4ca",
+  "lsId": "009295"
  },
  "land-compensation-act/decree": {
   "name": "공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행령",
@@ -63,7 +68,8 @@
   "fetched": "2026-11-08",
   "articles": 64,
   "annexes": 2,
-  "sha256": "b84dbd92e3529d31"
+  "sha256": "b84dbd92e3529d31",
+  "lsId": "009451"
  },
  "land-compensation-act/rule": {
   "name": "공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 시행규칙",
@@ -74,7 +80,8 @@
   "fetched": "2026-11-08",
   "articles": 75,
   "annexes": 24,
-  "sha256": "2985dd69707bca25"
+  "sha256": "2985dd69707bca25",
+  "lsId": "009471"
  },
  "national-land-planning-act/act": {
   "name": "국토의 계획 및 이용에 관한 법률",
@@ -85,7 +92,8 @@
   "fetched": "2026-11-08",
   "articles": 182,
   "annexes": 0,
-  "sha256": "3f8b263db332e193"
+  "sha256": "3f8b263db332e193",
+  "lsId": "009294"
  },
  "national-land-planning-act/decree": {
   "name": "국토의 계획 및 이용에 관한 법률 시행령",
@@ -96,7 +104,8 @@
   "fetched": "2026-11-08",
   "articles": 189,
   "annexes": 30,
-  "sha256": "0d753eac9683227e"
+  "sha256": "0d753eac9683227e",
+  "lsId": "009419"
  },
  "national-land-planning-act/rule": {
   "name": "국토의 계획 및 이용에 관한 법률 시행규칙",
@@ -107,7 +116,8 @@
   "fetched": "2026-11-08",
   "articles": 56,
   "annexes": 35,
-  "sha256": "8971bd1118e4f761"
+  "sha256": "8971bd1118e4f761",
+  "lsId": "009469"
  },
  "price-disclosure-act/act": {
   "name": "부동산 가격공시에 관한 법률",
@@ -118,7 +128,8 @@
   "fetched": "2026-11-08",
   "articles": 32,
   "annexes": 0,
-  "sha256": "22601e1edab743b2"
+  "sha256": "22601e1edab743b2",
+  "lsId": "001827"
  },
  "price-disclosure-act/decree": {
   "name": "부동산 가격공시에 관한 법률 시행령",
@@ -129,7 +140,8 @@
   "fetched": "2026-11-08",
   "articles": 79,
   "annexes": 0,
-  "sha256": "c76521d5ee7c5ad3"
+  "sha256": "c76521d5ee7c5ad3",
+  "lsId": "005036"
  },
  "price-disclosure-act/rule": {
   "name": "부동산 가격공시에 관한 법률 시행규칙",
@@ -140,7 +152,8 @@
   "fetched": "2026-11-08",
   "articles": 32,
   "annexes": 31,
-  "sha256": "5b337817b268634f"
+  "sha256": "5b337817b268634f",
+  "lsId": "008306"
  },
  "public-works-acts/pw001": {
   "name": "공간정보의 구축 및 관리 등에 관한 법률",
@@ -151,7 +164,8 @@
   "fetched": "2026-11-08",
   "articles": 123,
   "annexes": 0,
-  "sha256": "22bbf1ad5689b885"
+  "sha256": "22bbf1ad5689b885",
+  "lsId": "011023"
  },
  "public-works-acts/pw002": {
   "name": "공공토지의 비축에 관한 법률",
@@ -162,7 +176,8 @@
   "fetched": "2026-11-08",
   "articles": 31,
   "annexes": 0,
-  "sha256": "dbff5146d68c764e"
+  "sha256": "dbff5146d68c764e",
+  "lsId": "010915"
  },
  "public-works-acts/pw003": {
   "name": "국립대학법인 서울대학교 설립ㆍ운영에 관한 법률",
@@ -173,7 +188,8 @@
   "fetched": "2026-11-08",
   "articles": 43,
   "annexes": 0,
-  "sha256": "0f0e12e35115af0a"
+  "sha256": "0f0e12e35115af0a",
+  "lsId": "011316"
  },
  "public-works-acts/pw004": {
   "name": "국립대학법인 인천대학교 설립ㆍ운영에 관한 법률",
@@ -184,7 +200,8 @@
   "fetched": "2026-11-08",
   "articles": 36,
   "annexes": 0,
-  "sha256": "819d82ca55143578"
+  "sha256": "819d82ca55143578",
+  "lsId": "011524"
  },
  "public-works-acts/pw005": {
   "name": "규제자유특구 및 지역특화발전특구에 관한 규제특례법",
@@ -195,7 +212,8 @@
   "fetched": "2026-11-08",
   "articles": 155,
   "annexes": 0,
-  "sha256": "7a8b2778893c8552"
+  "sha256": "7a8b2778893c8552",
+  "lsId": "009641"
  },
  "public-works-acts/pw006": {
   "name": "농어업재해대책법",
@@ -206,7 +224,8 @@
   "fetched": "2026-11-08",
   "articles": 19,
   "annexes": 0,
-  "sha256": "7d7e71c6156aab43"
+  "sha256": "7d7e71c6156aab43",
+  "lsId": "000446"
  },
  "public-works-acts/pw007": {
   "name": "대기환경보전법",
@@ -217,7 +236,8 @@
   "fetched": "2026-11-08",
   "articles": 160,
   "annexes": 0,
-  "sha256": "775c9a9c00c07e89"
+  "sha256": "775c9a9c00c07e89",
+  "lsId": "001773"
  },
  "public-works-acts/pw008": {
   "name": "문화유산의 보존 및 활용에 관한 법률",
@@ -228,7 +248,8 @@
   "fetched": "2026-11-08",
   "articles": 161,
   "annexes": 0,
-  "sha256": "9d3183dce5132dfa"
+  "sha256": "9d3183dce5132dfa",
+  "lsId": "001607"
  },
  "public-works-acts/pw009": {
   "name": "자연유산의 보존 및 활용에 관한 법률",
@@ -239,7 +260,8 @@
   "fetched": "2026-11-08",
   "articles": 76,
   "annexes": 0,
-  "sha256": "46b105925bcd5a33"
+  "sha256": "46b105925bcd5a33",
+  "lsId": "014410"
  },
  "public-works-acts/pw010": {
   "name": "석면안전관리법",
@@ -250,7 +272,8 @@
   "fetched": "2026-11-08",
   "articles": 55,
   "annexes": 1,
-  "sha256": "66dd9ee509d83a97"
+  "sha256": "66dd9ee509d83a97",
+  "lsId": "011384"
  },
  "public-works-acts/pw011": {
   "name": "석탄산업법",
@@ -261,7 +284,8 @@
   "fetched": "2026-11-08",
   "articles": 61,
   "annexes": 0,
-  "sha256": "930967fd1f9a269f"
+  "sha256": "930967fd1f9a269f",
+  "lsId": "001861"
  },
  "public-works-acts/pw012": {
   "name": "수목원ㆍ정원의 조성 및 진흥에 관한 법률",
@@ -272,7 +296,8 @@
   "fetched": "2026-11-08",
   "articles": 58,
   "annexes": 0,
-  "sha256": "25d1ae1236156d46"
+  "sha256": "25d1ae1236156d46",
+  "lsId": "009201"
  },
  "public-works-acts/pw013": {
   "name": "자동차관리법",
@@ -283,7 +308,8 @@
   "fetched": "2026-11-08",
   "articles": 198,
   "annexes": 0,
-  "sha256": "f1df7a95103a2bb2"
+  "sha256": "f1df7a95103a2bb2",
+  "lsId": "001747"
  },
  "public-works-acts/pw014": {
   "name": "전기사업법",
@@ -294,7 +320,8 @@
   "fetched": "2026-11-08",
   "articles": 142,
   "annexes": 0,
-  "sha256": "b3e1e96f73c795d0"
+  "sha256": "b3e1e96f73c795d0",
+  "lsId": "001854"
  },
  "public-works-acts/pw015": {
   "name": "전기통신사업법",
@@ -305,7 +332,8 @@
   "fetched": "2026-11-08",
   "articles": 165,
   "annexes": 0,
-  "sha256": "629919bdbdfdf43d"
+  "sha256": "629919bdbdfdf43d",
+  "lsId": "001733"
  },
  "public-works-acts/pw016": {
   "name": "지능형 로봇 개발 및 보급 촉진법",
@@ -316,7 +344,8 @@
   "fetched": "2026-11-08",
   "articles": 60,
   "annexes": 0,
-  "sha256": "1402401891c6785e"
+  "sha256": "1402401891c6785e",
+  "lsId": "010728"
  },
  "public-works-acts/pw017": {
   "name": "지하수법",
@@ -327,7 +356,8 @@
   "fetched": "2026-11-08",
   "articles": 73,
   "annexes": 0,
-  "sha256": "0e0bf9a673166401"
+  "sha256": "0e0bf9a673166401",
+  "lsId": "000262"
  },
  "public-works-acts/pw018": {
   "name": "집단에너지사업법",
@@ -338,7 +368,8 @@
   "fetched": "2026-11-08",
   "articles": 67,
   "annexes": 0,
-  "sha256": "cf73e9b73c5fd909"
+  "sha256": "cf73e9b73c5fd909",
+  "lsId": "001866"
  },
  "public-works-acts/pw019": {
   "name": "청소년활동 진흥법",
@@ -349,7 +380,8 @@
   "fetched": "2026-11-08",
   "articles": 95,
   "annexes": 0,
-  "sha256": "bfbd38a265475121"
+  "sha256": "bfbd38a265475121",
+  "lsId": "009684"
  },
  "public-works-acts/pw020": {
   "name": "한국석유공사법",
@@ -360,7 +392,8 @@
   "fetched": "2026-11-08",
   "articles": 21,
   "annexes": 0,
-  "sha256": "ec7d49916165c3aa"
+  "sha256": "ec7d49916165c3aa",
+  "lsId": "000303"
  },
  "public-works-acts/pw021": {
   "name": "2018 평창 동계올림픽대회 및 동계패럴림픽대회 지원 등에 관한 특별법",
@@ -371,7 +404,8 @@
   "fetched": "2026-11-08",
   "articles": 99,
   "annexes": 0,
-  "sha256": "0710522199e391f0"
+  "sha256": "0710522199e391f0",
+  "lsId": "011532"
  },
  "public-works-acts/pw022": {
   "name": "간선급행버스체계의 건설 및 운영에 관한 특별법",
@@ -382,7 +416,8 @@
   "fetched": "2026-11-08",
   "articles": 43,
   "annexes": 0,
-  "sha256": "a513eafa67432eb7"
+  "sha256": "a513eafa67432eb7",
+  "lsId": "012071"
  },
  "public-works-acts/pw023": {
   "name": "간척지의 농어업적 이용 및 관리에 관한 법률",
@@ -393,7 +428,8 @@
   "fetched": "2026-11-08",
   "articles": 41,
   "annexes": 0,
-  "sha256": "167fb0406cfda404"
+  "sha256": "167fb0406cfda404",
+  "lsId": "011522"
  },
  "public-works-acts/pw024": {
   "name": "건설기계관리법",
@@ -404,7 +440,8 @@
   "fetched": "2026-11-08",
   "articles": 74,
   "annexes": 0,
-  "sha256": "5389a29a868f9811"
+  "sha256": "5389a29a868f9811",
+  "lsId": "000239"
  },
  "public-works-acts/pw025": {
   "name": "경제자유구역의 지정 및 운영에 관한 특별법",
@@ -415,7 +452,8 @@
   "fetched": "2026-11-08",
   "articles": 80,
   "annexes": 0,
-  "sha256": "938ccff94c719d90"
+  "sha256": "938ccff94c719d90",
+  "lsId": "009411"
  },
  "public-works-acts/pw026": {
   "name": "고도 보존 및 육성에 관한 특별법",
@@ -426,7 +464,8 @@
   "fetched": "2026-11-08",
   "articles": 40,
   "annexes": 0,
-  "sha256": "2af040607cbae27f"
+  "sha256": "2af040607cbae27f",
+  "lsId": "009671"
  },
  "public-works-acts/pw027": {
   "name": "공공주택 특별법",
@@ -437,7 +476,8 @@
   "fetched": "2026-11-08",
   "articles": 119,
   "annexes": 0,
-  "sha256": "9aa6a64cb89b11c5"
+  "sha256": "9aa6a64cb89b11c5",
+  "lsId": "009595"
  },
  "public-works-acts/pw028": {
   "name": "공사중단 장기방치 건축물의 정비 등에 관한 특별조치법",
@@ -448,7 +488,8 @@
   "fetched": "2026-11-08",
   "articles": 23,
   "annexes": 0,
-  "sha256": "986705b6b1b5989d"
+  "sha256": "986705b6b1b5989d",
+  "lsId": "011858"
  },
  "public-works-acts/pw029": {
   "name": "공항시설법",
@@ -459,7 +500,8 @@
   "fetched": "2026-11-08",
   "articles": 88,
   "annexes": 0,
-  "sha256": "bae4f41080fb7ac8"
+  "sha256": "bae4f41080fb7ac8",
+  "lsId": "012522"
  },
  "public-works-acts/pw030": {
   "name": "관광진흥법",
@@ -470,7 +512,8 @@
   "fetched": "2026-11-08",
   "articles": 128,
   "annexes": 0,
-  "sha256": "12ae74042dbefeaa"
+  "sha256": "12ae74042dbefeaa",
+  "lsId": "001744"
  },
  "public-works-acts/pw031": {
   "name": "광산피해의 방지 및 복구에 관한 법률",
@@ -481,7 +524,8 @@
   "fetched": "2026-11-08",
   "articles": 58,
   "annexes": 0,
-  "sha256": "073ac2d07c9b9eaa"
+  "sha256": "073ac2d07c9b9eaa",
+  "lsId": "009941"
  },
  "public-works-acts/pw032": {
   "name": "광업법",
@@ -492,7 +536,8 @@
   "fetched": "2026-11-08",
   "articles": 111,
   "annexes": 0,
-  "sha256": "6abcfad0637dfe1a"
+  "sha256": "6abcfad0637dfe1a",
+  "lsId": "001865"
  },
  "public-works-acts/pw033": {
   "name": "국가통합교통체계효율화법",
@@ -503,7 +548,8 @@
   "fetched": "2026-11-08",
   "articles": 125,
   "annexes": 0,
-  "sha256": "5459787987d31b36"
+  "sha256": "5459787987d31b36",
+  "lsId": "001968"
  },
  "public-works-acts/pw034": {
   "name": "국방ㆍ군사시설 사업에 관한 법률",
@@ -514,7 +560,8 @@
   "fetched": "2026-11-08",
   "articles": 17,
   "annexes": 0,
-  "sha256": "7a1375a4e137cbf4"
+  "sha256": "7a1375a4e137cbf4",
+  "lsId": "000934"
  },
  "public-works-acts/pw035": {
   "name": "국제경기대회 지원법",
@@ -525,7 +572,8 @@
   "fetched": "2026-11-08",
   "articles": 37,
   "annexes": 0,
-  "sha256": "56d881603746edd3"
+  "sha256": "56d881603746edd3",
+  "lsId": "011619"
  },
  "public-works-acts/pw036": {
   "name": "군 공항 이전 및 지원에 관한 특별법",
@@ -536,7 +584,8 @@
   "fetched": "2026-11-08",
   "articles": 25,
   "annexes": 0,
-  "sha256": "2d48309a757c275f"
+  "sha256": "2d48309a757c275f",
+  "lsId": "011825"
  },
  "public-works-acts/pw037": {
   "name": "금강수계 물관리 및 주민지원 등에 관한 법률",
@@ -547,7 +596,8 @@
   "fetched": "2026-11-08",
   "articles": 49,
   "annexes": 0,
-  "sha256": "8cd8f908648cfa83"
+  "sha256": "8cd8f908648cfa83",
+  "lsId": "009281"
  },
  "public-works-acts/pw038": {
   "name": "급경사지 재해예방에 관한 법률",
@@ -558,7 +608,8 @@
   "fetched": "2026-11-08",
   "articles": 43,
   "annexes": 0,
-  "sha256": "ee671e8090556091"
+  "sha256": "ee671e8090556091",
+  "lsId": "010491"
  },
  "public-works-acts/pw039": {
   "name": "기업도시개발 특별법",
@@ -569,7 +620,8 @@
   "fetched": "2026-11-08",
   "articles": 65,
   "annexes": 0,
-  "sha256": "c0b9782b644559be"
+  "sha256": "c0b9782b644559be",
+  "lsId": "009848"
  },
  "public-works-acts/pw040": {
   "name": "낙동강수계 물관리 및 주민지원 등에 관한 법률",
@@ -580,7 +632,8 @@
   "fetched": "2026-11-08",
   "articles": 52,
   "annexes": 0,
-  "sha256": "4a62f33d1102c9a5"
+  "sha256": "4a62f33d1102c9a5",
+  "lsId": "009282"
  },
  "public-works-acts/pw041": {
   "name": "농어촌도로 정비법",
@@ -591,7 +644,8 @@
   "fetched": "2026-11-08",
   "articles": 38,
   "annexes": 0,
-  "sha256": "7edec00722437aad"
+  "sha256": "7edec00722437aad",
+  "lsId": "000996"
  },
  "public-works-acts/pw042": {
   "name": "농어촌마을 주거환경 개선 및 리모델링 촉진을 위한 특별법",
@@ -602,7 +656,8 @@
   "fetched": "2026-11-08",
   "articles": 46,
   "annexes": 0,
-  "sha256": "40c6d719ea787f5d"
+  "sha256": "40c6d719ea787f5d",
+  "lsId": "011872"
  },
  "public-works-acts/pw043": {
   "name": "농어촌정비법",
@@ -613,7 +668,8 @@
   "fetched": "2026-11-08",
   "articles": 155,
   "annexes": 0,
-  "sha256": "0690c2d7ffbec6b7"
+  "sha256": "0690c2d7ffbec6b7",
+  "lsId": "000478"
  },
  "public-works-acts/pw044": {
   "name": "농업생산기반시설 및 주변지역 활용에 관한 특별법",
@@ -624,7 +680,8 @@
   "fetched": "2026-11-08",
   "articles": 33,
   "annexes": 0,
-  "sha256": "355840444305fcae"
+  "sha256": "355840444305fcae",
+  "lsId": "011020"
  },
  "public-works-acts/pw045": {
   "name": "댐건설ㆍ관리 및 주변지역지원 등에 관한 법률",
@@ -635,7 +692,8 @@
   "fetched": "2026-11-08",
   "articles": 63,
   "annexes": 0,
-  "sha256": "e22217ebff7b2551"
+  "sha256": "e22217ebff7b2551",
+  "lsId": "001981"
  },
  "public-works-acts/pw046": {
   "name": "도로법",
@@ -646,7 +704,8 @@
   "fetched": "2026-11-08",
   "articles": 126,
   "annexes": 0,
-  "sha256": "deb0237e46509d54"
+  "sha256": "deb0237e46509d54",
+  "lsId": "001821"
  },
  "public-works-acts/pw047": {
   "name": "도시개발법",
@@ -657,7 +716,8 @@
   "fetched": "2026-11-08",
   "articles": 99,
   "annexes": 0,
-  "sha256": "bd0b7819be6e46c2"
+  "sha256": "bd0b7819be6e46c2",
+  "lsId": "002024"
  },
  "public-works-acts/pw048": {
   "name": "도시교통정비 촉진법",
@@ -668,7 +728,8 @@
   "fetched": "2026-11-08",
   "articles": 71,
   "annexes": 0,
-  "sha256": "e1fd5e643985de44"
+  "sha256": "e1fd5e643985de44",
+  "lsId": "001754"
  },
  "public-works-acts/pw049": {
   "name": "도시철도법",
@@ -679,7 +740,8 @@
   "fetched": "2026-11-08",
   "articles": 54,
   "annexes": 0,
-  "sha256": "e422935a504a8d80"
+  "sha256": "e422935a504a8d80",
+  "lsId": "001751"
  },
  "public-works-acts/pw050": {
   "name": "도청이전을 위한 도시건설 및 지원에 관한 특별법",
@@ -690,7 +752,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "ac900f17b9462d67"
+  "sha256": "ac900f17b9462d67",
+  "lsId": "010723"
  },
  "public-works-acts/pw051": {
   "name": "동ㆍ서ㆍ남해안 및 내륙권 발전 특별법",
@@ -701,7 +764,8 @@
   "fetched": "2026-11-08",
   "articles": 47,
   "annexes": 0,
-  "sha256": "c5aa2919b9f4b9d4"
+  "sha256": "c5aa2919b9f4b9d4",
+  "lsId": "010608"
  },
  "public-works-acts/pw052": {
   "name": "마리나항만의 조성 및 관리 등에 관한 법률",
@@ -712,7 +776,8 @@
   "fetched": "2026-11-08",
   "articles": 60,
   "annexes": 0,
-  "sha256": "1733d14fcef40871"
+  "sha256": "1733d14fcef40871",
+  "lsId": "011016"
  },
  "public-works-acts/pw053": {
   "name": "물류시설의 개발 및 운영에 관한 법률",
@@ -723,7 +788,8 @@
   "fetched": "2026-11-08",
   "articles": 95,
   "annexes": 0,
-  "sha256": "682df197b26ff5aa"
+  "sha256": "682df197b26ff5aa",
+  "lsId": "000091"
  },
  "public-works-acts/pw054": {
   "name": "물환경보전법",
@@ -734,7 +800,8 @@
   "fetched": "2026-11-08",
   "articles": 146,
   "annexes": 0,
-  "sha256": "3754951819acc718"
+  "sha256": "3754951819acc718",
+  "lsId": "000166"
  },
  "public-works-acts/pw055": {
   "name": "민간임대주택에 관한 특별법",
@@ -745,7 +812,8 @@
   "fetched": "2026-11-08",
   "articles": 89,
   "annexes": 0,
-  "sha256": "43eb286791010b98"
+  "sha256": "43eb286791010b98",
+  "lsId": "000243"
  },
  "public-works-acts/pw056": {
   "name": "빈집 및 소규모주택 정비에 관한 특례법",
@@ -756,7 +824,8 @@
   "fetched": "2026-11-08",
   "articles": 81,
   "annexes": 0,
-  "sha256": "517982dabcfc2a2f"
+  "sha256": "517982dabcfc2a2f",
+  "lsId": "012805"
  },
  "public-works-acts/pw057": {
   "name": "사방사업법",
@@ -767,7 +836,8 @@
   "fetched": "2026-11-08",
   "articles": 38,
   "annexes": 0,
-  "sha256": "db5a46a7fa779124"
+  "sha256": "db5a46a7fa779124",
+  "lsId": "000398"
  },
  "public-works-acts/pw058": {
   "name": "사회기반시설에 대한 민간투자법",
@@ -778,7 +848,8 @@
   "fetched": "2026-11-08",
   "articles": 98,
   "annexes": 0,
-  "sha256": "e4d5c6c33081b946"
+  "sha256": "e4d5c6c33081b946",
+  "lsId": "001587"
  },
  "public-works-acts/pw059": {
   "name": "산림복지 진흥에 관한 법률",
@@ -789,7 +860,8 @@
   "fetched": "2026-11-08",
   "articles": 68,
   "annexes": 0,
-  "sha256": "c6a27ed1c21fd595"
+  "sha256": "c6a27ed1c21fd595",
+  "lsId": "012270"
  },
  "public-works-acts/pw060": {
   "name": "산업입지 및 개발에 관한 법률",
@@ -800,7 +872,8 @@
   "fetched": "2026-11-08",
   "articles": 114,
   "annexes": 0,
-  "sha256": "2f58958de2c06259"
+  "sha256": "2f58958de2c06259",
+  "lsId": "001839"
  },
  "public-works-acts/pw061": {
   "name": "새만금사업 추진 및 지원에 관한 특별법",
@@ -811,7 +884,8 @@
   "fetched": "2026-11-08",
   "articles": 131,
   "annexes": 0,
-  "sha256": "b516d90fe9a41516"
+  "sha256": "b516d90fe9a41516",
+  "lsId": "011724"
  },
  "public-works-acts/pw062": {
   "name": "소규모 공공시설 안전관리 등에 관한 법률",
@@ -822,7 +896,8 @@
   "fetched": "2026-11-08",
   "articles": 23,
   "annexes": 0,
-  "sha256": "c95f97d09c18dbea"
+  "sha256": "c95f97d09c18dbea",
+  "lsId": "012334"
  },
  "public-works-acts/pw063": {
   "name": "소하천정비법",
@@ -833,7 +908,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "9577191529ed346f"
+  "sha256": "9577191529ed346f",
+  "lsId": "000958"
  },
  "public-works-acts/pw064": {
   "name": "수도법",
@@ -844,7 +920,8 @@
   "fetched": "2026-11-08",
   "articles": 123,
   "annexes": 0,
-  "sha256": "c1e36eeb04c3c5c3"
+  "sha256": "c1e36eeb04c3c5c3",
+  "lsId": "001818"
  },
  "public-works-acts/pw065": {
   "name": "수자원의 조사ㆍ계획 및 관리에 관한 법률",
@@ -855,7 +932,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "51c75423e2ac5510"
+  "sha256": "51c75423e2ac5510",
+  "lsId": "012789"
  },
  "public-works-acts/pw066": {
   "name": "신항만건설 촉진법",
@@ -866,7 +944,8 @@
   "fetched": "2026-11-08",
   "articles": 36,
   "annexes": 0,
-  "sha256": "730d70d3cfc13d43"
+  "sha256": "730d70d3cfc13d43",
+  "lsId": "000061"
  },
  "public-works-acts/pw067": {
   "name": "신행정수도 후속대책을 위한 연기ㆍ공주지역 행정중심복합도시 건설을 위한 특별법",
@@ -877,7 +956,8 @@
   "fetched": "2026-11-08",
   "articles": 90,
   "annexes": 1,
-  "sha256": "12a5a666a6bb46ae"
+  "sha256": "12a5a666a6bb46ae",
+  "lsId": "009915"
  },
  "public-works-acts/pw068": {
   "name": "어촌ㆍ어항법",
@@ -888,7 +968,8 @@
   "fetched": "2026-11-08",
   "articles": 83,
   "annexes": 0,
-  "sha256": "06513a063c87e2dd"
+  "sha256": "06513a063c87e2dd",
+  "lsId": "009943"
  },
  "public-works-acts/pw069": {
   "name": "어촌특화발전 지원 특별법",
@@ -899,7 +980,8 @@
   "fetched": "2026-11-08",
   "articles": 42,
   "annexes": 1,
-  "sha256": "dd2e89a3d320b293"
+  "sha256": "dd2e89a3d320b293",
+  "lsId": "011621"
  },
  "public-works-acts/pw070": {
   "name": "역세권의 개발 및 이용에 관한 법률",
@@ -910,7 +992,8 @@
   "fetched": "2026-11-08",
   "articles": 42,
   "annexes": 0,
-  "sha256": "0d8e3ba03aea83b6"
+  "sha256": "0d8e3ba03aea83b6",
+  "lsId": "011184"
  },
  "public-works-acts/pw071": {
   "name": "연구개발특구의 육성에 관한 특별법",
@@ -921,7 +1004,8 @@
   "fetched": "2026-11-08",
   "articles": 110,
   "annexes": 0,
-  "sha256": "58a1c2e5ffef4f6a"
+  "sha256": "58a1c2e5ffef4f6a",
+  "lsId": "009878"
  },
  "public-works-acts/pw072": {
   "name": "연안관리법",
@@ -932,7 +1016,8 @@
   "fetched": "2026-11-08",
   "articles": 55,
   "annexes": 0,
-  "sha256": "243af5ac0611c933"
+  "sha256": "243af5ac0611c933",
+  "lsId": "001994"
  },
  "public-works-acts/pw073": {
   "name": "영산강ㆍ섬진강수계 물관리 및 주민지원 등에 관한 법률",
@@ -943,7 +1028,8 @@
   "fetched": "2026-11-08",
   "articles": 48,
   "annexes": 0,
-  "sha256": "65f00e4cf2bfe498"
+  "sha256": "65f00e4cf2bfe498",
+  "lsId": "009286"
  },
  "public-works-acts/pw074": {
   "name": "온천법",
@@ -954,7 +1040,8 @@
   "fetched": "2026-11-08",
   "articles": 47,
   "annexes": 0,
-  "sha256": "31bc30c9d519e61f"
+  "sha256": "31bc30c9d519e61f",
+  "lsId": "000994"
  },
  "public-works-acts/pw075": {
   "name": "용산공원 조성 특별법",
@@ -965,7 +1052,8 @@
   "fetched": "2026-11-08",
   "articles": 67,
   "annexes": 0,
-  "sha256": "19931c7f0829f4e2"
+  "sha256": "19931c7f0829f4e2",
+  "lsId": "010479"
  },
  "public-works-acts/pw076": {
   "name": "자연공원법",
@@ -976,7 +1064,8 @@
   "fetched": "2026-11-08",
   "articles": 111,
   "annexes": 0,
-  "sha256": "788a5ada70ad7745"
+  "sha256": "788a5ada70ad7745",
+  "lsId": "001837"
  },
  "public-works-acts/pw077": {
   "name": "자연재해대책법",
@@ -987,7 +1076,8 @@
   "fetched": "2026-11-08",
   "articles": 134,
   "annexes": 0,
-  "sha256": "5d292690b569f226"
+  "sha256": "5d292690b569f226",
+  "lsId": "000959"
  },
  "public-works-acts/pw078": {
   "name": "자연환경보전법",
@@ -998,7 +1088,8 @@
   "fetched": "2026-11-08",
   "articles": 91,
   "annexes": 0,
-  "sha256": "0a72ab8c028a3513"
+  "sha256": "0a72ab8c028a3513",
+  "lsId": "000169"
  },
  "public-works-acts/pw079": {
   "name": "재해위험 개선사업 및 이주대책에 관한 특별법",
@@ -1009,7 +1100,8 @@
   "fetched": "2026-11-08",
   "articles": 40,
   "annexes": 0,
-  "sha256": "4acfef3a5b962a34"
+  "sha256": "4acfef3a5b962a34",
+  "lsId": "010504"
  },
  "public-works-acts/pw080": {
   "name": "저수지ㆍ댐의 안전관리 및 재해예방에 관한 법률",
@@ -1020,7 +1112,8 @@
   "fetched": "2026-11-08",
   "articles": 34,
   "annexes": 0,
-  "sha256": "463a5fb95aa43051"
+  "sha256": "463a5fb95aa43051",
+  "lsId": "010756"
  },
  "public-works-acts/pw081": {
   "name": "전원개발촉진법",
@@ -1031,7 +1124,8 @@
   "fetched": "2026-11-08",
   "articles": 22,
   "annexes": 0,
-  "sha256": "98d36ca4fd84717e"
+  "sha256": "98d36ca4fd84717e",
+  "lsId": "001852"
  },
  "public-works-acts/pw082": {
   "name": "접경지역 지원 특별법",
@@ -1042,7 +1136,8 @@
   "fetched": "2026-11-08",
   "articles": 31,
   "annexes": 0,
-  "sha256": "09604d03b8f3ea8e"
+  "sha256": "09604d03b8f3ea8e",
+  "lsId": "002038"
  },
  "public-works-acts/pw083": {
   "name": "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법",
@@ -1053,7 +1148,8 @@
   "fetched": "2026-11-08",
   "articles": 493,
   "annexes": 0,
-  "sha256": "9ec95cbe20bbb767"
+  "sha256": "9ec95cbe20bbb767",
+  "lsId": "010162"
  },
  "public-works-acts/pw084": {
   "name": "주택법",
@@ -1064,7 +1160,8 @@
   "fetched": "2026-11-08",
   "articles": 125,
   "annexes": 0,
-  "sha256": "e5ea7fdf40c761cc"
+  "sha256": "e5ea7fdf40c761cc",
+  "lsId": "001809"
  },
  "public-works-acts/pw085": {
   "name": "주한미군 공여구역주변지역 등 지원 특별법",
@@ -1075,7 +1172,8 @@
   "fetched": "2026-11-08",
   "articles": 40,
   "annexes": 0,
-  "sha256": "7d15df23430aeff8"
+  "sha256": "7d15df23430aeff8",
+  "lsId": "010163"
  },
  "public-works-acts/pw086": {
   "name": "주한미군기지 이전에 따른 평택시 등의 지원 등에 관한 특별법",
@@ -1086,7 +1184,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "fb964685f572263a"
+  "sha256": "fb964685f572263a",
+  "lsId": "009844"
  },
  "public-works-acts/pw087": {
   "name": "중소기업진흥에 관한 법률",
@@ -1097,7 +1196,8 @@
   "fetched": "2026-11-08",
   "articles": 134,
   "annexes": 0,
-  "sha256": "0a0986b63d294d88"
+  "sha256": "0a0986b63d294d88",
+  "lsId": "001476"
  },
  "public-works-acts/pw088": {
   "name": "지방소도읍 육성 지원법",
@@ -1108,7 +1208,8 @@
   "fetched": "2026-11-08",
   "articles": 22,
   "annexes": 0,
-  "sha256": "22808682f4af12ca"
+  "sha256": "22808682f4af12ca",
+  "lsId": "009174"
  },
  "public-works-acts/pw089": {
   "name": "지역 개발 및 지원에 관한 법률",
@@ -1119,7 +1220,8 @@
   "fetched": "2026-11-08",
   "articles": 86,
   "annexes": 1,
-  "sha256": "4f23a300ca999e64"
+  "sha256": "4f23a300ca999e64",
+  "lsId": "012067"
  },
  "public-works-acts/pw090": {
   "name": "철도의 건설 및 철도시설 유지관리에 관한 법률",
@@ -1130,7 +1232,8 @@
   "fetched": "2026-11-08",
   "articles": 59,
   "annexes": 0,
-  "sha256": "90503a180cbbc89b"
+  "sha256": "90503a180cbbc89b",
+  "lsId": "009847"
  },
  "public-works-acts/pw091": {
   "name": "친수구역 활용에 관한 특별법",
@@ -1141,7 +1244,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "1196e6a9664fbd51"
+  "sha256": "1196e6a9664fbd51",
+  "lsId": "011321"
  },
  "public-works-acts/pw092": {
   "name": "태권도 진흥 및 태권도공원 조성 등에 관한 법률",
@@ -1152,7 +1256,8 @@
   "fetched": "2026-11-08",
   "articles": 27,
   "annexes": 0,
-  "sha256": "537153609acabad0"
+  "sha256": "537153609acabad0",
+  "lsId": "010597"
  },
  "public-works-acts/pw093": {
   "name": "택지개발촉진법",
@@ -1163,7 +1268,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "9c8cab855570aec0"
+  "sha256": "9c8cab855570aec0",
+  "lsId": "000242"
  },
  "public-works-acts/pw094": {
   "name": "토양환경보전법",
@@ -1174,7 +1280,8 @@
   "fetched": "2026-11-08",
   "articles": 74,
   "annexes": 0,
-  "sha256": "ad723e79e12933d2"
+  "sha256": "ad723e79e12933d2",
+  "lsId": "000160"
  },
  "public-works-acts/pw095": {
   "name": "폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 법률",
@@ -1185,7 +1292,8 @@
   "fetched": "2026-11-08",
   "articles": 40,
   "annexes": 0,
-  "sha256": "fbf0700bfd9aa404"
+  "sha256": "fbf0700bfd9aa404",
+  "lsId": "000156"
  },
  "public-works-acts/pw096": {
   "name": "하수도법",
@@ -1196,7 +1304,8 @@
   "fetched": "2026-11-08",
   "articles": 99,
   "annexes": 0,
-  "sha256": "0f7b33b6ccda0d84"
+  "sha256": "0f7b33b6ccda0d84",
+  "lsId": "001815"
  },
  "public-works-acts/pw097": {
   "name": "하천법",
@@ -1207,7 +1316,8 @@
   "fetched": "2026-11-08",
   "articles": 103,
   "annexes": 0,
-  "sha256": "239d5236d1bbf24b"
+  "sha256": "239d5236d1bbf24b",
+  "lsId": "001836"
  },
  "public-works-acts/pw098": {
   "name": "학교시설사업 촉진법",
@@ -1218,7 +1328,8 @@
   "fetched": "2026-11-08",
   "articles": 18,
   "annexes": 0,
-  "sha256": "30ff9ace65c58aa9"
+  "sha256": "30ff9ace65c58aa9",
+  "lsId": "000895"
  },
  "public-works-acts/pw099": {
   "name": "한강수계 상수원수질개선 및 주민지원 등에 관한 법률",
@@ -1229,7 +1340,8 @@
   "fetched": "2026-11-08",
   "articles": 52,
   "annexes": 0,
-  "sha256": "12cc73a1c07a134a"
+  "sha256": "12cc73a1c07a134a",
+  "lsId": "009136"
  },
  "public-works-acts/pw100": {
   "name": "한국가스공사법",
@@ -1240,7 +1352,8 @@
   "fetched": "2026-11-08",
   "articles": 27,
   "annexes": 0,
-  "sha256": "c7307657596af2c7"
+  "sha256": "c7307657596af2c7",
+  "lsId": "001855"
  },
  "public-works-acts/pw101": {
   "name": "한국수자원공사법",
@@ -1251,7 +1364,8 @@
   "fetched": "2026-11-08",
   "articles": 49,
   "annexes": 0,
-  "sha256": "91bf28e038c47875"
+  "sha256": "91bf28e038c47875",
+  "lsId": "001846"
  },
  "public-works-acts/pw102": {
   "name": "한국환경공단법",
@@ -1262,7 +1376,8 @@
   "fetched": "2026-11-08",
   "articles": 34,
   "annexes": 0,
-  "sha256": "9b9a562a8c091f70"
+  "sha256": "9b9a562a8c091f70",
+  "lsId": "010912"
  },
  "public-works-acts/pw103": {
   "name": "항만공사법",
@@ -1273,7 +1388,8 @@
   "fetched": "2026-11-08",
   "articles": 56,
   "annexes": 0,
-  "sha256": "f13846dd8e8cbb54"
+  "sha256": "f13846dd8e8cbb54",
+  "lsId": "009512"
  },
  "public-works-acts/pw104": {
   "name": "항만법",
@@ -1284,7 +1400,8 @@
   "fetched": "2026-11-08",
   "articles": 113,
   "annexes": 0,
-  "sha256": "6d28434aaea68ef8"
+  "sha256": "6d28434aaea68ef8",
+  "lsId": "001737"
  },
  "public-works-acts/pw105": {
   "name": "항만 재개발 및 주변지역 발전에 관한 법률",
@@ -1295,7 +1412,8 @@
   "fetched": "2026-11-08",
   "articles": 49,
   "annexes": 0,
-  "sha256": "0d5cad740ffaa5f8"
+  "sha256": "0d5cad740ffaa5f8",
+  "lsId": "013663"
  },
  "public-works-acts/pw106": {
   "name": "해수욕장의 이용 및 관리에 관한 법률",
@@ -1306,7 +1424,8 @@
   "fetched": "2026-11-08",
   "articles": 48,
   "annexes": 0,
-  "sha256": "f88dc17e6f3a7d8e"
+  "sha256": "f88dc17e6f3a7d8e",
+  "lsId": "012065"
  },
  "public-works-acts/pw107": {
   "name": "해양산업클러스터의 지정 및 육성 등에 관한 특별법",
@@ -1317,7 +1436,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "05fa9dc6ca572370"
+  "sha256": "05fa9dc6ca572370",
+  "lsId": "012569"
  },
  "public-works-acts/pw108": {
   "name": "해저광물자원 개발법",
@@ -1328,7 +1448,8 @@
   "fetched": "2026-11-08",
   "articles": 43,
   "annexes": 0,
-  "sha256": "bcee6c59b484a850"
+  "sha256": "bcee6c59b484a850",
+  "lsId": "001863"
  },
  "public-works-acts/pw109": {
   "name": "혁신도시 조성 및 발전에 관한 특별법",
@@ -1339,7 +1460,8 @@
   "fetched": "2026-11-08",
   "articles": 79,
   "annexes": 0,
-  "sha256": "1e4b817ae0029e86"
+  "sha256": "1e4b817ae0029e86",
+  "lsId": "010372"
  },
  "public-works-acts/pw110": {
   "name": "화물자동차 운수사업법",
@@ -1350,7 +1472,8 @@
   "fetched": "2026-11-08",
   "articles": 128,
   "annexes": 0,
-  "sha256": "d3e2fc45a1d280c8"
+  "sha256": "d3e2fc45a1d280c8",
+  "lsId": "001748"
  },
  "public-works-acts/pw111": {
   "name": "도시재생 활성화 및 지원에 관한 특별법",
@@ -1361,7 +1484,8 @@
   "fetched": "2026-11-08",
   "articles": 72,
   "annexes": 0,
-  "sha256": "2a253678c0b6746e"
+  "sha256": "2a253678c0b6746e",
+  "lsId": "011869"
  },
  "public-works-acts/pw112": {
   "name": "도심융합특구 조성 및 육성에 관한 특별법",
@@ -1372,7 +1496,8 @@
   "fetched": "2026-11-08",
   "articles": 46,
   "annexes": 0,
-  "sha256": "6a64aef7bdf54b05"
+  "sha256": "6a64aef7bdf54b05",
+  "lsId": "014519"
  },
  "public-works-acts/pw113": {
   "name": "가덕도신공항 건설을 위한 특별법",
@@ -1383,7 +1508,8 @@
   "fetched": "2026-11-08",
   "articles": 33,
   "annexes": 0,
-  "sha256": "780cb2459151b794"
+  "sha256": "780cb2459151b794",
+  "lsId": "014035"
  },
  "public-works-acts/pw114": {
   "name": "대구경북통합신공항 건설을 위한 특별법",
@@ -1394,7 +1520,8 @@
   "fetched": "2026-11-08",
   "articles": 43,
   "annexes": 0,
-  "sha256": "677fecd6d1e5a95a"
+  "sha256": "677fecd6d1e5a95a",
+  "lsId": "014430"
  },
  "public-works-acts/pw115": {
   "name": "대도시권 광역교통 관리에 관한 특별법",
@@ -1405,7 +1532,8 @@
   "fetched": "2026-11-08",
   "articles": 46,
   "annexes": 0,
-  "sha256": "c6f7e45ab11e1456"
+  "sha256": "c6f7e45ab11e1456",
+  "lsId": "000106"
  },
  "related-provisions/aviation-safety-act": {
   "name": "항공안전법",
@@ -1416,7 +1544,8 @@
   "fetched": "2026-11-08",
   "articles": 194,
   "annexes": 1,
-  "sha256": "d5779b6f7b0bff86"
+  "sha256": "d5779b6f7b0bff86",
+  "lsId": "012524"
  },
  "related-provisions/bok-act": {
   "name": "한국은행법",
@@ -1427,7 +1556,8 @@
   "fetched": "2026-11-08",
   "articles": 114,
   "annexes": 0,
-  "sha256": "ed5bea5daf02ad24"
+  "sha256": "ed5bea5daf02ad24",
+  "lsId": "001550"
  },
  "related-provisions/building-act": {
   "name": "건축법",
@@ -1438,7 +1568,8 @@
   "fetched": "2026-11-08",
   "articles": 166,
   "annexes": 0,
-  "sha256": "86c33b2a3e52b8ff"
+  "sha256": "86c33b2a3e52b8ff",
+  "lsId": "001823"
  },
  "related-provisions/building-decree": {
   "name": "건축법 시행령",
@@ -1449,7 +1580,8 @@
   "fetched": "2026-11-08",
   "articles": 198,
   "annexes": 5,
-  "sha256": "afaf6f0aa748bfd5"
+  "sha256": "afaf6f0aa748bfd5",
+  "lsId": "002118"
  },
  "related-provisions/capital-market-act": {
   "name": "자본시장과 금융투자업에 관한 법률",
@@ -1460,7 +1592,8 @@
   "fetched": "2026-11-08",
   "articles": 596,
   "annexes": 17,
-  "sha256": "01b6aa2fba19d02c"
+  "sha256": "01b6aa2fba19d02c",
+  "lsId": "010513"
  },
  "related-provisions/civil-act": {
   "name": "민법",
@@ -1471,7 +1604,8 @@
   "fetched": "2026-11-08",
   "articles": 1193,
   "annexes": 0,
-  "sha256": "b89eda29e899d6ce"
+  "sha256": "b89eda29e899d6ce",
+  "lsId": "001706"
  },
  "related-provisions/copyright-act": {
   "name": "저작권법",
@@ -1482,7 +1616,8 @@
   "fetched": "2026-11-08",
   "articles": 201,
   "annexes": 0,
-  "sha256": "fea5f4ad13b7665b"
+  "sha256": "fea5f4ad13b7665b",
+  "lsId": "000798"
  },
  "related-provisions/external-audit-act": {
   "name": "주식회사 등의 외부감사에 관한 법률",
@@ -1493,7 +1628,8 @@
   "fetched": "2026-11-08",
   "articles": 52,
   "annexes": 2,
-  "sha256": "b00e40e802c94dd1"
+  "sha256": "b00e40e802c94dd1",
+  "lsId": "001701"
  },
  "related-provisions/farm-business-act": {
   "name": "농어업경영체 육성 및 지원에 관한 법률",
@@ -1504,7 +1640,8 @@
   "fetched": "2026-11-08",
   "articles": 57,
   "annexes": 0,
-  "sha256": "b3a094635451af4d"
+  "sha256": "b3a094635451af4d",
+  "lsId": "010958"
  },
  "related-provisions/farmland-act": {
   "name": "농지법",
@@ -1515,7 +1652,8 @@
   "fetched": "2026-11-08",
   "articles": 88,
   "annexes": 0,
-  "sha256": "5e10cc0bc3e00770"
+  "sha256": "5e10cc0bc3e00770",
+  "lsId": "000479"
  },
  "related-provisions/farmland-decree": {
   "name": "농지법 시행령",
@@ -1526,7 +1664,8 @@
   "fetched": "2026-11-08",
   "articles": 100,
   "annexes": 8,
-  "sha256": "c1f53cfab4d93edb"
+  "sha256": "c1f53cfab4d93edb",
+  "lsId": "003263"
  },
  "related-provisions/fisheries-act": {
   "name": "수산업법",
@@ -1537,7 +1676,8 @@
   "fetched": "2026-11-08",
   "articles": 116,
   "annexes": 0,
-  "sha256": "a2d62c24c349bd50"
+  "sha256": "a2d62c24c349bd50",
+  "lsId": "001486"
  },
  "related-provisions/fisheries-decree": {
   "name": "수산업법 시행령",
@@ -1548,7 +1688,8 @@
   "fetched": "2026-11-08",
   "articles": 84,
   "annexes": 14,
-  "sha256": "69b6c78fa2058aa5"
+  "sha256": "69b6c78fa2058aa5",
+  "lsId": "004019"
  },
  "related-provisions/forest-act": {
   "name": "산림자원의 조성 및 관리에 관한 법률",
@@ -1559,7 +1700,8 @@
   "fetched": "2026-11-08",
   "articles": 124,
   "annexes": 0,
-  "sha256": "3bc340c7eade811d"
+  "sha256": "3bc340c7eade811d",
+  "lsId": "010005"
  },
  "related-provisions/forest-decree": {
   "name": "산림자원의 조성 및 관리에 관한 법률 시행령",
@@ -1570,7 +1712,8 @@
   "fetched": "2026-11-08",
   "articles": 118,
   "annexes": 3,
-  "sha256": "2e7e8dc1902f014b"
+  "sha256": "2e7e8dc1902f014b",
+  "lsId": "010265"
  },
  "related-provisions/forest-rule": {
   "name": "산림자원의 조성 및 관리에 관한 법률 시행규칙",
@@ -1581,7 +1724,8 @@
   "fetched": "2026-11-08",
   "articles": 100,
   "annexes": 69,
-  "sha256": "fde00a0ee1f41772"
+  "sha256": "fde00a0ee1f41772",
+  "lsId": "010317"
  },
  "related-provisions/funeral-act": {
   "name": "장사 등에 관한 법률",
@@ -1592,7 +1736,8 @@
   "fetched": "2026-11-08",
   "articles": 54,
   "annexes": 0,
-  "sha256": "0dae379bae5a047b"
+  "sha256": "0dae379bae5a047b",
+  "lsId": "001794"
  },
  "related-provisions/green-building-act": {
   "name": "녹색건축물 조성 지원법",
@@ -1603,7 +1748,8 @@
   "fetched": "2026-11-08",
   "articles": 46,
   "annexes": 0,
-  "sha256": "920347cfdcf61c5b"
+  "sha256": "920347cfdcf61c5b",
+  "lsId": "011557"
  },
  "related-provisions/housing-act": {
   "name": "주택법",
@@ -1614,7 +1760,8 @@
   "fetched": "2026-11-08",
   "articles": 125,
   "annexes": 0,
-  "sha256": "e5ea7fdf40c761cc"
+  "sha256": "e5ea7fdf40c761cc",
+  "lsId": "001809"
  },
  "related-provisions/housing-site-act": {
   "name": "택지개발촉진법",
@@ -1625,7 +1772,8 @@
   "fetched": "2026-11-08",
   "articles": 44,
   "annexes": 0,
-  "sha256": "9c8cab855570aec0"
+  "sha256": "9c8cab855570aec0",
+  "lsId": "000242"
  },
  "related-provisions/inland-fisheries-act": {
   "name": "내수면어업법",
@@ -1636,7 +1784,8 @@
   "fetched": "2026-11-08",
   "articles": 35,
   "annexes": 0,
-  "sha256": "0a73422d057e941f"
+  "sha256": "0a73422d057e941f",
+  "lsId": "000385"
  },
  "related-provisions/livestock-act": {
   "name": "축산법",
@@ -1647,7 +1796,8 @@
   "fetched": "2026-11-08",
   "articles": 83,
   "annexes": 0,
-  "sha256": "83e4ebefce946876"
+  "sha256": "83e4ebefce946876",
+  "lsId": "001509"
  },
  "related-provisions/mining-act": {
   "name": "광업법",
@@ -1658,7 +1808,8 @@
   "fetched": "2026-11-08",
   "articles": 111,
   "annexes": 0,
-  "sha256": "6abcfad0637dfe1a"
+  "sha256": "6abcfad0637dfe1a",
+  "lsId": "001865"
  },
  "related-provisions/mining-decree": {
   "name": "광업법 시행령",
@@ -1669,7 +1820,8 @@
   "fetched": "2026-11-08",
   "articles": 76,
   "annexes": 3,
-  "sha256": "b0fd92d364fa6d7c"
+  "sha256": "b0fd92d364fa6d7c",
+  "lsId": "002537"
  },
  "related-provisions/mining-rule": {
   "name": "광업법 시행규칙",
@@ -1680,7 +1832,8 @@
   "fetched": "2026-11-08",
   "articles": 34,
   "annexes": 42,
-  "sha256": "23b77270327be290"
+  "sha256": "23b77270327be290",
+  "lsId": "006511"
  },
  "related-provisions/motor-vehicle-act": {
   "name": "자동차관리법",
@@ -1691,7 +1844,8 @@
   "fetched": "2026-11-08",
   "articles": 198,
   "annexes": 0,
-  "sha256": "f1df7a95103a2bb2"
+  "sha256": "f1df7a95103a2bb2",
+  "lsId": "001747"
  },
  "related-provisions/passenger-transport-decree": {
   "name": "여객자동차 운수사업법 시행령",
@@ -1702,7 +1856,8 @@
   "fetched": "2026-11-08",
   "articles": 106,
   "annexes": 9,
-  "sha256": "89d45008116f163d"
+  "sha256": "89d45008116f163d",
+  "lsId": "004175"
  },
  "related-provisions/real-estate-transaction-act": {
   "name": "부동산 거래신고 등에 관한 법률",
@@ -1713,7 +1868,8 @@
   "fetched": "2026-11-08",
   "articles": 36,
   "annexes": 0,
-  "sha256": "ed80d98a9fe89806"
+  "sha256": "ed80d98a9fe89806",
+  "lsId": "012480"
  },
  "related-provisions/resident-registration-act": {
   "name": "주민등록법",
@@ -1724,7 +1880,8 @@
   "fetched": "2026-11-08",
   "articles": 57,
   "annexes": 0,
-  "sha256": "8414b6ded5fc8c61"
+  "sha256": "8414b6ded5fc8c61",
+  "lsId": "001655"
  },
  "related-provisions/salt-act": {
   "name": "소금산업 진흥법",
@@ -1735,7 +1892,8 @@
   "fetched": "2026-11-08",
   "articles": 70,
   "annexes": 0,
-  "sha256": "a7c7226809f4965d"
+  "sha256": "a7c7226809f4965d",
+  "lsId": "000319"
  },
  "related-provisions/ship-act": {
   "name": "선박법",
@@ -1746,7 +1904,8 @@
   "fetched": "2026-11-08",
   "articles": 45,
   "annexes": 0,
-  "sha256": "07a01a39c4781bd6"
+  "sha256": "07a01a39c4781bd6",
+  "lsId": "000068"
  },
  "related-provisions/soil-act": {
   "name": "토양환경보전법",
@@ -1757,7 +1916,8 @@
   "fetched": "2026-11-08",
   "articles": 74,
   "annexes": 0,
-  "sha256": "ad723e79e12933d2"
+  "sha256": "ad723e79e12933d2",
+  "lsId": "000160"
  },
  "related-provisions/standing-timber-act": {
   "name": "입목에 관한 법률",
@@ -1768,7 +1928,8 @@
   "fetched": "2026-11-08",
   "articles": 23,
   "annexes": 0,
-  "sha256": "fd58d86f8c6adfea"
+  "sha256": "fd58d86f8c6adfea",
+  "lsId": "001258"
  },
  "related-provisions/statistics-act": {
   "name": "통계법",
@@ -1779,7 +1940,8 @@
   "fetched": "2026-11-08",
   "articles": 58,
   "annexes": 0,
-  "sha256": "d5a27a5fcac37d56"
+  "sha256": "d5a27a5fcac37d56",
+  "lsId": "000658"
  },
  "related-provisions/suspended-building-decree": {
   "name": "공사중단 장기방치 건축물의 정비 등에 관한 특별조치법 시행령",
@@ -1790,7 +1952,8 @@
   "fetched": "2026-11-08",
   "articles": 26,
   "annexes": 1,
-  "sha256": "41b9cc043bdd7c76"
+  "sha256": "41b9cc043bdd7c76",
+  "lsId": "012043"
  },
  "related-provisions/vat-act": {
   "name": "부가가치세법",
@@ -1801,7 +1964,8 @@
   "fetched": "2026-11-08",
   "articles": 85,
   "annexes": 0,
-  "sha256": "a47e667e1f2acdec"
+  "sha256": "a47e667e1f2acdec",
+  "lsId": "001571"
  },
  "related-provisions/vat-decree": {
   "name": "부가가치세법 시행령",
@@ -1812,7 +1976,8 @@
   "fetched": "2026-11-08",
   "articles": 131,
   "annexes": 1,
-  "sha256": "13a59ed69ef2d14d"
+  "sha256": "13a59ed69ef2d14d",
+  "lsId": "003666"
  },
  "related-provisions/waste-act": {
   "name": "폐기물관리법",
@@ -1823,7 +1988,8 @@
   "fetched": "2026-11-08",
   "articles": 109,
   "annexes": 0,
-  "sha256": "746a36a1830fb67c"
+  "sha256": "746a36a1830fb67c",
+  "lsId": "001771"
  },
  "urban-redevelopment-act/act": {
   "name": "도시 및 주거환경정비법",
@@ -1834,7 +2000,8 @@
   "fetched": "2026-11-08",
   "articles": 167,
   "annexes": 0,
-  "sha256": "76cd633e48ce43d6"
+  "sha256": "76cd633e48ce43d6",
+  "lsId": "009410"
  },
  "urban-redevelopment-act/decree": {
   "name": "도시 및 주거환경정비법 시행령",
@@ -1845,7 +2012,8 @@
   "fetched": "2026-11-08",
   "articles": 122,
   "annexes": 8,
-  "sha256": "23f49c0e3bc7c73b"
+  "sha256": "23f49c0e3bc7c73b",
+  "lsId": "009521"
  },
  "urban-redevelopment-act/rule": {
   "name": "도시 및 주거환경정비법 시행규칙",
@@ -1856,6 +2024,7 @@
   "fetched": "2026-11-08",
   "articles": 30,
   "annexes": 20,
-  "sha256": "9a638642827d39ed"
+  "sha256": "9a638642827d39ed",
+  "lsId": "009524"
  }
 }

@@ -1,6 +1,6 @@
 ---
 name: nlp-facility-project
-description: 「국토계획법」 법 제85~100조·영·규칙: 도시·군계획시설사업의 집행계획·시행자·실시계획과 수용·준공·귀속.
+description: 「국토계획법」 법 제85–100조·영·규칙: 도시·군계획시설사업의 집행계획·시행자·실시계획과 수용·준공·귀속.
 ---
 
 # nlp-facility-project

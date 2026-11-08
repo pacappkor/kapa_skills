@@ -1,6 +1,6 @@
 ---
 name: apa-appraisal-basics
-description: 「감정평가법」 법 제3~5조·영: 토지 평가기준, 실무기준 제정기관, 직무와 의뢰·추천 절차.
+description: 「감정평가법」 법 제3–5조·영: 토지 평가기준, 실무기준 제정기관, 직무와 의뢰·추천 절차.
 ---
 
 # apa-appraisal-basics

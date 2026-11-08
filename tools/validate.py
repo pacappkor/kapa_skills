@@ -17,6 +17,8 @@ usage: python -I tools/validate.py
 종료 코드: 오류가 있으면 1.
 """
 import pathlib, re, subprocess, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from markdown_prose import original_text, prose_parts
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SKIP = {'.git', 'sources', 'tools', '.github'}
@@ -106,6 +108,8 @@ def main():
         if '.git' in md.parts:
             continue
         t = md.read_text(encoding='utf-8')
+        if not original_text(md.relative_to(ROOT)) and any('~' in part for prose, part in prose_parts(t) if prose):
+            errors.append(f'{md.relative_to(ROOT).as_posix()}: Markdown 본문의 물결표는 en dash(–)로 쓴다')
         for target in re.findall(r'\]\(([^)\s]+)\)', t):
             if re.match(r'[a-z]+:', target) or target.startswith('#'):
                 continue
@@ -134,6 +138,10 @@ def main():
                        capture_output=True, text=True, encoding='utf-8')
     if r.returncode:
         errors.append('graph.py --check 실패(들어오는 연결 블록 갱신 필요): ' + r.stdout.strip().splitlines()[0])
+    r = subprocess.run([sys.executable, '-I', str(ROOT / 'tools/laws/build_index.py'), '--check'],
+                       capture_output=True, text=True, encoding='utf-8')
+    if r.returncode:
+        errors.append('build_index.py --check 실패: ' + (r.stdout + r.stderr).strip())
     print(f'skills: {len(skills)}  errors: {len(errors)}')
     for e in errors:
         print('ERROR', e)

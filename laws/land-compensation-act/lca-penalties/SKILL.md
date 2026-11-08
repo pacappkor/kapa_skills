@@ -1,6 +1,6 @@
 ---
 name: lca-penalties
-description: 「토지보상법」 법 제93~99조·영: 부정 보상·감정평가 등 벌칙, 양벌규정과 과태료 기준.
+description: 「토지보상법」 법 제93–99조·영: 부정 보상·감정평가 등 벌칙, 양벌규정과 과태료 기준.
 ---
 
 # lca-penalties

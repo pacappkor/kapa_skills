@@ -1,6 +1,6 @@
 ---
 name: ura-basic-plan-zone-designation
-description: 「도시 및 주거환경정비법」 법 제4~22조·영·규칙: 기본계획, 정비계획, 재건축진단, 정비구역 지정·해제와 행위제한.
+description: 「도시 및 주거환경정비법」 법 제4–22조·영·규칙: 기본계획, 정비계획, 재건축진단, 정비구역 지정·해제와 행위제한.
 ---
 
 # ura-basic-plan-zone-designation

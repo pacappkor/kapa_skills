@@ -16,7 +16,7 @@
 |---|---|---|---|
 | 입구 | [00-practice-standards-start](00-practice-standards-start/SKILL.md) | — | 작업 유형 → 작업 절차 스킬 |
 | 작업 절차 | [workflows/](workflows) | — | 평가 수행, 조항 찾기, 평가서 검토, 수임 판단. 무엇을 어떤 순서로 읽을지 정한다 |
-| 기반: 공통 | [foundations/](foundations) | [100]~[500] (+[900], 부칙) | 모든 평가에 깔리는 정의·윤리·수임·절차와 방법·감정평가서 |
+| 기반: 공통 | [foundations/](foundations) | [100]–[500] (+[900], 부칙) | 모든 평가에 깔리는 정의·윤리·수임·절차와 방법·감정평가서 |
 | 기반: 물건 | [assets/](assets) | [600] | 물건 계열별 하위 폴더: real-estate · industrial · movables · intangibles · income-and-loss |
 | 특칙 | [overlays/](overlays) | [700] 목적별 · [800] 보상평가 | 기반 위에 덮어쓰는 규정: purpose/ · compensation/ |
 

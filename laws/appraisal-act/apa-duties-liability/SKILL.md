@@ -1,6 +1,6 @@
 ---
 name: apa-duties-liability
-description: 「감정평가법」 법 제25~28조의2·영·규칙: 공정·비밀·명의대여 금지와 손해배상·보험·능력기준.
+description: 「감정평가법」 법 제25–28조의2·영·규칙: 공정·비밀·명의대여 금지와 손해배상·보험·능력기준.
 ---
 
 # apa-duties-liability

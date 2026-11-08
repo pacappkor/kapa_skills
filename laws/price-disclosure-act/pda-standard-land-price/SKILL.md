@@ -1,6 +1,6 @@
 ---
 name: pda-standard-land-price
-description: 「부동산 가격공시법」 법 제3조~제9조·영·규칙의 표준지공시지가 조사·공시 및 적용.
+description: 「부동산 가격공시법」 법 제3조–제9조·영·규칙의 표준지공시지가 조사·공시 및 적용.
 ---
 
 # pda-standard-land-price

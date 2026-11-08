@@ -1,6 +1,6 @@
 ---
 name: nlp-planning-committee
-description: 「국토계획법」 법 제106~116조·영·규칙: 중앙·지방도시계획위원회의 구성·심의·회의록 공개·제척과 운영.
+description: 「국토계획법」 법 제106–116조·영·규칙: 중앙·지방도시계획위원회의 구성·심의·회의록 공개·제척과 운영.
 ---
 
 # nlp-planning-committee

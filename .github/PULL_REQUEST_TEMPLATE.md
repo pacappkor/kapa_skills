@@ -11,7 +11,7 @@
 ## 확인
 - [ ] `CHANGELOG.md` 의 `[Unreleased]` 에 항목을 추가했다
   - 실무기준 개정: 조항별 표(개정 반영 항목 템플릿) / 관계법령 개정: `### 관계법령 갱신`(판본 변화, diff 표, 행별 처리)
-- [ ] 개정 반영이면 `rules/skill-update-maintenance` 1~6단계를 모두 수행했다 (`fetch_standard.py --check`·`fetch_laws.py --check` 둘 다)
+- [ ] 개정 반영이면 `rules/skill-update-maintenance` 1–6단계를 모두 수행했다 (`fetch_standard.py --check`·`fetch_laws.py --check` 둘 다)
 - [ ] `python -I tools/split_standard.py --check` 통과
 - [ ] `python -I tools/laws/build_laws.py --check` 통과 (`--status` 모든 주제 OK)
 - [ ] `python -I tools/validate.py` → errors 0

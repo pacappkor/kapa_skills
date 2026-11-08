@@ -1,6 +1,6 @@
 ---
 name: apa-rule-methods-by-object
-description: 「감정평가에 관한 규칙」 제14~26조: 토지·건물·재단·동산·임대료·무형자산·증권 등 물건별 방법.
+description: 「감정평가에 관한 규칙」 제14–26조: 토지·건물·재단·동산·임대료·무형자산·증권 등 물건별 방법.
 ---
 
 # apa-rule-methods-by-object

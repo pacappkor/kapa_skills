@@ -1,6 +1,6 @@
 ---
 name: ura-implementation-measures
-description: 「도시정비법」 법 제61~71조·영·규칙: 임시거주, 수용·사용, 매도청구와 시행 특례.
+description: 「도시정비법」 법 제61–71조·영·규칙: 임시거주, 수용·사용, 매도청구와 시행 특례.
 ---
 
 # ura-implementation-measures

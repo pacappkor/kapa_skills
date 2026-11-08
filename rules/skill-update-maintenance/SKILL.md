@@ -26,11 +26,13 @@ description: 감정평가 실무기준이나 관계법령이 개정됐을 때 �
 ```sh
 python -I tools/fetch_standard.py --check     # 「감정평가 실무기준」 현행 고시 = 저장소 판본?
 python -I tools/laws/fetch_laws.py --check    # 관계법령 전부 = manifest 판본?
+python -I tools/laws/fetch_versions.py --check # 연혁 변화·공포됨/미시행 개정 확인; 부칙·경과조치도 확인
 ```
 
 | 결과 | 다음 |
 |---|---|
-| 둘 다 같음 | 바뀐 것이 없다. 확인 일자와 두 결과를 사용자에게 보고하고 끝낸다(파일 변경 없음) |
+| 실무기준·현행 법령·연혁 모두 같음 | 바뀐 것이 없다. 확인 일자와 세 결과를 사용자에게 보고하고 끝낸다(파일 변경 없음) |
+| 실무기준·현행 법령은 같고 연혁만 바뀜 | 2 → 3-L(연혁 목록 갱신, 새 미시행 개정의 부칙·경과조치 검토) → 4 → 5 → 6. 현행 본문이 같아도 종료하지 않는다 |
 | 실무기준만 바뀜 | 2 → 3-S → 4 → 5 → 6 |
 | 법령만 바뀜 | 2 → 3-L → 4 → 5 → 6 |
 | 둘 다 바뀜 | 2 → 3-S → 3-L → 4 → 5 → 6 (실무기준 먼저: 법령 쪽 B층 배정이 실무기준 인용에 따라 달라진다) |
@@ -66,6 +68,9 @@ python -I tools/laws/fetch_laws.py --check    # 관계법령 전부 = manifest �
 ## 3-L. 관계법령 개정
 
 1. 바뀐 컬렉션만 다시 받는다: `python -I tools/laws/fetch_laws.py <컬렉션id …>`
+   - 연혁도 재수집한다: `python -I tools/laws/fetch_versions.py <컬렉션id …>`
+   - 조문 배정 반영 후 색인을 재생성한다: `python -I tools/laws/build_index.py`
+   - 과거 본문이 필요하면 `python -I tools/laws/fetch_version.py <컬렉션> <level> --at YYYY-MM-DD` 로 해당 시행 판본만 저장한다.
 2. 조문 단위 변경 목록을 만든다: `python -I tools/laws/diff_laws.py --markdown`
    - 결과는 스크래치 경로에 저장한다.
    - 이 표의 **모든 행**이 처리 대상이다. 행마다 6단계 표에 결과를 적는다.
@@ -93,6 +98,7 @@ python -I tools/laws/build_laws.py      # 법령 source.md·생성 블록
 python -I tools/split_standard.py       # 실무기준 source.md·생성 블록(법령 링크 포함)
 python -I tools/graph.py --json         # 모든 스킬의 들어오는 연결, docs/graph.json
 python -I tools/fix_links.py            # 스킬 링크 경로
+python -I tools/laws/build_index.py     # 법령·조문·실무기준 조항 식별자 색인
 ```
 
 ## 작성 규칙 (3단계에서 지킬 것)
@@ -121,6 +127,8 @@ python -I tools/fix_links.py            # 스킬 링크 경로
 ```sh
 python -I tools/fetch_standard.py --check      # 실무기준: 같은 현행 고시
 python -I tools/laws/fetch_laws.py --check     # 법령: 같은 현행 판본
+python -I tools/laws/fetch_versions.py --check # 연혁·미시행 개정 재확인, 부칙 검토 결과 기록
+python -I tools/laws/build_index.py --check    # 식별자 색인 최신
 python -I tools/split_standard.py --check      # 실무기준 배정·생성 블록 최신
 python -I tools/laws/build_laws.py --check     # 법령 배정·생성물·요약 인용·별표 가공본
 python -I tools/laws/build_laws.py --status    # 모든 주제 OK

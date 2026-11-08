@@ -53,6 +53,9 @@ laws/
 |---|---|
 | `python -I tools/laws/fetch_laws.py [컬렉션…]` | 현행 법령 수집 → `sources/laws/` (조문 JSON, 부칙, 별표 텍스트, manifest) |
 | `python -I tools/laws/fetch_laws.py --check` | 수집하지 않고 현행 판본과 manifest 비교(바뀐 법령 보고) |
+| `python -I tools/laws/fetch_versions.py [컬렉션…] [--check]` | 연혁 목록 수집·manifest 법령ID 보강 / 미시행 개정과 목록 변화 확인(쓰기 없음) |
+| `python -I tools/laws/fetch_version.py <컬렉션> <level> (<lsiSeq> [--ef YYYY-MM-DD] 또는 --at YYYY-MM-DD)` | 필요한 과거 시행 판본 본문·부칙 저장. 중복 lsiSeq 는 시행일 필수([판본 식별](../docs/LAW-VERSIONS.md)) |
+| `python -I tools/laws/build_index.py [--check]` | `docs/law-index.json` 법령·현행 조문·실무기준 조항 색인 생성 / 최신 검사 |
 | `python -I tools/laws/diff_laws.py [--markdown]` | 기준 커밋 대비 조문 단위 변경 목록(신설·삭제·내용 변경 등과 영향 스킬) |
 | `python -I tools/laws/build_laws.py` | 배정표대로 `source.md`·생성 블록·입구 지도 생성 |
 | `python -I tools/laws/build_laws.py --check` / `--status` / `--coverage` | 배정·생성물·요약 인용 누락 검사 / 주제별 진행 상태 / 누락 조문 |

@@ -49,6 +49,8 @@ def main():
                     changed.append((key, d['name'], old.get('efYd'), r['efYd'], old.get('lsiSeq'), r['lsiSeq']))
                 continue
             page = lawgo.fetch_body(r['lsiSeq'], r['efYd'])
+            lawgo.verify_body(page, d['name'], r['lsiSeq'], r['efYd'])
+            r['lsId'] = lawgo.hidden(page, 'lsId')
             p = lawgo.parse(page)
             out = dict(name=d['name'], level=d['level'], label=d['label'], **r,
                        headings=p['headings'], articles=p['articles'], annexes=p['annexes'])
@@ -67,7 +69,7 @@ def main():
                     except Exception as e:
                         txt = f'(PDF 텍스트 추출 실패: {e})'
                     wbytes(SRC / c['id'] / 'annex' / f"{d['level']}-{a['id']}.txt", txt)
-            man[key] = dict(name=d['name'], lsiSeq=r['lsiSeq'], ancNo=r['ancNo'], ancYd=r['ancYd'], efYd=r['efYd'],
+            man[key] = dict(name=d['name'], lsId=r['lsId'], lsiSeq=r['lsiSeq'], ancNo=r['ancNo'], ancYd=r['ancYd'], efYd=r['efYd'],
                             fetched=datetime.date.today().isoformat(),
                             articles=len(p['articles']), annexes=len(p['annexes']),
                             sha256=hashlib.sha256(json.dumps(p['articles'], ensure_ascii=False).encode()).hexdigest()[:16])

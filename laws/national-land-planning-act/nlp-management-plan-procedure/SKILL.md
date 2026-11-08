@@ -1,6 +1,6 @@
 ---
 name: nlp-management-plan-procedure
-description: 「국토계획법」 법 제24~35조·영·규칙: 도시·군관리계획의 입안·제안·조사·의견청취·결정·고시와 정비.
+description: 「국토계획법」 법 제24–35조·영·규칙: 도시·군관리계획의 입안·제안·조사·의견청취·결정·고시와 정비.
 ---
 
 # nlp-management-plan-procedure

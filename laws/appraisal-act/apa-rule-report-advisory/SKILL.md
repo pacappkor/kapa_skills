@@ -1,6 +1,6 @@
 ---
 name: apa-rule-report-advisory
-description: 「감정평가에 관한 규칙」 제13조·제13조의2·제27~29조: 평가서·전자발급, 조언·정보와 세부기준.
+description: 「감정평가에 관한 규칙」 제13조·제13조의2·제27–29조: 평가서·전자발급, 조언·정보와 세부기준.
 ---
 
 # apa-rule-report-advisory

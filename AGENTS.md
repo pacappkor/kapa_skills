@@ -5,7 +5,7 @@
 | 작업 | 따를 스킬 | 할 수 있는 일 |
 |---|---|---|
 | 스킬을 읽고 답하기 (의뢰 처리, 조문·조항 질의, 평가서 검토) | [skill-reading-rules](rules/skill-reading-rules/SKILL.md) | 읽기만 한다. 파일을 고치지 않고, 어긋난 내용은 보고한다 |
-| 실무기준·관계법령 개정에 따른 기존 스킬 갱신 (사용자가 명시적으로 지시했을 때만) | [skill-update-maintenance](rules/skill-update-maintenance/SKILL.md) | 1~6단계 전체를 수행하고 PR 로 반영한다 |
+| 실무기준·관계법령 개정에 따른 기존 스킬 갱신 (사용자가 명시적으로 지시했을 때만) | [skill-update-maintenance](rules/skill-update-maintenance/SKILL.md) | 1–6단계 전체를 수행하고 PR 로 반영한다 |
 
 - 읽기 규칙(원문 확인, 인용 형식, 우선순위, 판본)은 `skill-reading-rules` 에만 둔다. 입구 스킬은 그곳을 가리킨다.
 - 갱신 명령·절차는 `skill-update-maintenance` 에만 둔다. 다른 스킬 폴더의 파일에는 도구 명령을 쓰지 않는다.
@@ -17,10 +17,10 @@
 - **`source.md` 는 직접 고치지 않는다.** 생성기가 원문에서 만든다.
   - 실무기준: `tools/split_standard.py`. 원문 텍스트를 바로잡으려면 `tools/fetch_standard.py` 의 변환 로직이나 `split_standard.py` 의 `IMAGE_TEXT` 를 고친다.
   - 관계법령: `tools/laws/build_laws.py`. `tools/laws/fetch_laws.py`·`tools/laws/image_text.json`·별표 가공본(`sources/laws/<컬렉션>/annex-md/`)을 고친다.
-- `SKILL.md` 의 `<!-- BEGIN GENERATED:x -->` ~ `<!-- END GENERATED:x -->` 블록은 자동 생성이므로 손대지 않는다.
+- `SKILL.md` 의 `<!-- BEGIN GENERATED:x -->` – `<!-- END GENERATED:x -->` 블록은 자동 생성이므로 손대지 않는다.
   사람이 쓰는 부분은 `description`, `## 언제 읽나`, `## 핵심 내용`, `## 적용 시 확인사항` 이다.
 - description 은 한 줄로 쓴다. 근거(실무기준 조항 또는 법령·조문)와 다루는 대상을 사실대로 적는다(140자 이하).
-  트리거 문구("~할 때 반드시 사용")나 키워드 나열은 넣지 않는다.
+  트리거 문구("…할 때 반드시 사용")나 키워드 나열은 넣지 않는다.
 - 새 스킬을 만들 때:
   - 폴더 이름을 `name` 과 같게 한다.
   - 스킬 폴더 안에 또 다른 스킬을 두지 않는다(leaf rule).
@@ -50,6 +50,7 @@
 ```sh
 python -I tools/split_standard.py --check   # 원문 배정·생성 블록 최신 여부
 python -I tools/laws/build_laws.py --check   # 법령: 조문 배정·생성물·요약 인용 누락
+python -I tools/laws/build_index.py --check  # 현행 조문·실무기준 조항 식별자 색인
 python -I tools/validate.py                 # 구조·링크·입구/workflows 범위·법령 검사 포함 (errors: 0)
 ```
 

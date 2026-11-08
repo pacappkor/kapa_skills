@@ -1,6 +1,6 @@
 ---
 name: nlp-metropolitan-plan
-description: 「국토계획법」 법 제10~17조의2·영: 광역계획권 지정, 광역도시계획의 수립·조사·의견청취·승인·조정.
+description: 「국토계획법」 법 제10–17조의2·영: 광역계획권 지정, 광역도시계획의 수립·조사·의견청취·승인·조정.
 ---
 
 # nlp-metropolitan-plan

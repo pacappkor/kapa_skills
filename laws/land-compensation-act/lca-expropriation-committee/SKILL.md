@@ -1,6 +1,6 @@
 ---
 name: lca-expropriation-committee
-description: 「토지보상법」 법 제49~60조의2·영·규칙: 위원회 관할·구성, 심리조사 권한과 재결정보체계.
+description: 「토지보상법」 법 제49–60조의2·영·규칙: 위원회 관할·구성, 심리조사 권한과 재결정보체계.
 ---
 
 # lca-expropriation-committee

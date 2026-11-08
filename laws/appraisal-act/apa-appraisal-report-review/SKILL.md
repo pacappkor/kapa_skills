@@ -1,6 +1,6 @@
 ---
 name: apa-appraisal-report-review
-description: 「감정평가법」 법 제6~9조·영·규칙: 평가서 발급·보존, 심사·적정성 검토·조사와 정보체계 등록.
+description: 「감정평가법」 법 제6–9조·영·규칙: 평가서 발급·보존, 심사·적정성 검토·조사와 정보체계 등록.
 ---
 
 # apa-appraisal-report-review

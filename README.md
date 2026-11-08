@@ -4,7 +4,7 @@
 
 | 컬렉션 | 내용 | 입구 |
 |---|---|---|
-| [appraisal-practice-standards](appraisal-practice-standards/README.md) | 「감정평가 실무기준」(국토교통부고시 제2023-522호) [100]~[900] 전 조항. 입구 1 + 작업 절차 4 + 내용 스킬 41 | [00-practice-standards-start](appraisal-practice-standards/00-practice-standards-start/SKILL.md) |
+| [appraisal-practice-standards](appraisal-practice-standards/README.md) | 「감정평가 실무기준」(국토교통부고시 제2023-522호) [100]–[900] 전 조항. 입구 1 + 작업 절차 4 + 내용 스킬 41 | [00-practice-standards-start](appraisal-practice-standards/00-practice-standards-start/SKILL.md) |
 | [laws](laws/README.md) | 관계법령. A층(전문): 토지보상법, 감정평가법·감정평가에 관한 규칙, 부동산공시법, 국토계획법, 도시정비법. B층: 실무기준·토지보상법 시행규칙이 인용한 다른 법령 조항. 주제 스킬 80 + 입구 | [00-laws-start](laws/00-laws-start/SKILL.md) |
 
 ## 에이전트가 이 저장소를 쓰는 방법

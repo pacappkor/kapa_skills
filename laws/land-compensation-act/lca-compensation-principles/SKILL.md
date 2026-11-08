@@ -1,6 +1,6 @@
 ---
 name: lca-compensation-principles
-description: 「토지보상법」 법 제61~69조·영·규칙: 손실보상의 원칙, 보상방법과 보상평가·보상채권.
+description: 「토지보상법」 법 제61–69조·영·규칙: 손실보상의 원칙, 보상방법과 보상평가·보상채권.
 ---
 
 # lca-compensation-principles

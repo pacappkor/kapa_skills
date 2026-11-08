@@ -1,6 +1,6 @@
 ---
 name: nlp-district-unit-plan
-description: 「국토계획법」 법 제49조~제54조·영·규칙: 지구단위계획의 지정·내용·완화 및 공공시설 비용.
+description: 「국토계획법」 법 제49조–제54조·영·규칙: 지구단위계획의 지정·내용·완화 및 공공시설 비용.
 ---
 
 # nlp-district-unit-plan

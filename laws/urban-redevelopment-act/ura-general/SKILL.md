@@ -1,6 +1,6 @@
 ---
 name: ura-general
-description: 「도시 및 주거환경정비법」 법 제1조~제3조·영·규칙의 목적, 정의 및 기본방침.
+description: 「도시 및 주거환경정비법」 법 제1조–제3조·영·규칙의 목적, 정의 및 기본방침.
 ---
 
 # ura-general

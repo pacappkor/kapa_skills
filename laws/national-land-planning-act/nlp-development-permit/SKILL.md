@@ -1,6 +1,6 @@
 ---
 name: nlp-development-permit
-description: 「국토계획법」 법 제56조~제65조·영·규칙: 개발행위허가의 대상·기준·절차와 공공시설 귀속.
+description: 「국토계획법」 법 제56조–제65조·영·규칙: 개발행위허가의 대상·기준·절차와 공공시설 귀속.
 ---
 
 # nlp-development-permit

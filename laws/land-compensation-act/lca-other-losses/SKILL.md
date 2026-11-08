@@ -1,6 +1,6 @@
 ---
 name: lca-other-losses
-description: 「토지보상법」 법 제79~82조·영·규칙: 지구 밖 손실, 보상 재결·위탁 및 보상협의회.
+description: 「토지보상법」 법 제79–82조·영·규칙: 지구 밖 손실, 보상 재결·위탁 및 보상협의회.
 ---
 
 # lca-other-losses

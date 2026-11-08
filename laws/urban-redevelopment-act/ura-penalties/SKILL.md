@@ -1,6 +1,6 @@
 ---
 name: ura-penalties
-description: 「도시 및 주거환경정비법」 법 제135조~제142조·영의 벌칙, 양벌규정 및 과태료.
+description: 「도시 및 주거환경정비법」 법 제135조–제142조·영의 벌칙, 양벌규정 및 과태료.
 ---
 
 # ura-penalties

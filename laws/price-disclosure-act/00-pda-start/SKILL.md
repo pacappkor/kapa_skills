@@ -18,12 +18,12 @@ description: 부동산공시법(부동산 가격공시에 관한 법률)·시행
 <!-- BEGIN GENERATED:map -->
 | 스킬 | 주제 | 조문 |
 |---|---|---|
-| [pda-general](../pda-general/SKILL.md) | 총칙 — 목적·정의(주택·공동주택·단독주택·비주거용 부동산·적정가격) | 법 1~2조 · 영 1조 · 규칙 1조 |
-| [pda-standard-land-price](../pda-standard-land-price/SKILL.md) | 표준지공시지가 — 표준지 선정, 조사·평가 기준·의뢰·절차, 공시, 열람, 이의신청, 적용, 효력 | 법 3~9조 · 영 2~13조 · 규칙 2~4조 |
-| [pda-individual-land-price](../pda-individual-land-price/SKILL.md) | 개별공시지가 — 결정·공시, 산정 기준, 검증, 의견청취, 이의신청, 정정, 타인토지 출입, 비용 보조, 부동산 가격정보 조사 | 법 10~15조 · 영 14~25조 · 규칙 5~9조 |
-| [pda-housing-price](../pda-housing-price/SKILL.md) | 주택가격 공시 — 표준주택가격, 개별주택가격, 공동주택가격, 주택가격 공시의 효력 | 법 16~19조 · 영 26~47조 · 규칙 10~20조 |
-| [pda-non-residential-price](../pda-non-residential-price/SKILL.md) | 비주거용 부동산가격 공시 — 비주거용 표준·개별·집합부동산가격, 공시의 효력 | 법 20~23조 · 영 48~70조 · 규칙 21~31조 |
-| [pda-committee-misc](../pda-committee-misc/SKILL.md) | 부동산가격공시위원회와 보칙 — 중앙·시군구 위원회, 공시보고서, 적정가격 반영 계획, 공시가격정보체계, 회의록 공개, 업무위탁, 수수료, 공무원 의제 | 법 24~30조 · 영 71~77조 · 규칙 32조 |
+| [pda-general](../pda-general/SKILL.md) | 총칙 — 목적·정의(주택·공동주택·단독주택·비주거용 부동산·적정가격) | 법 1–2조 · 영 1조 · 규칙 1조 |
+| [pda-standard-land-price](../pda-standard-land-price/SKILL.md) | 표준지공시지가 — 표준지 선정, 조사·평가 기준·의뢰·절차, 공시, 열람, 이의신청, 적용, 효력 | 법 3–9조 · 영 2–13조 · 규칙 2–4조 |
+| [pda-individual-land-price](../pda-individual-land-price/SKILL.md) | 개별공시지가 — 결정·공시, 산정 기준, 검증, 의견청취, 이의신청, 정정, 타인토지 출입, 비용 보조, 부동산 가격정보 조사 | 법 10–15조 · 영 14–25조 · 규칙 5–9조 |
+| [pda-housing-price](../pda-housing-price/SKILL.md) | 주택가격 공시 — 표준주택가격, 개별주택가격, 공동주택가격, 주택가격 공시의 효력 | 법 16–19조 · 영 26–47조 · 규칙 10–20조 |
+| [pda-non-residential-price](../pda-non-residential-price/SKILL.md) | 비주거용 부동산가격 공시 — 비주거용 표준·개별·집합부동산가격, 공시의 효력 | 법 20–23조 · 영 48–70조 · 규칙 21–31조 |
+| [pda-committee-misc](../pda-committee-misc/SKILL.md) | 부동산가격공시위원회와 보칙 — 중앙·시군구 위원회, 공시보고서, 적정가격 반영 계획, 공시가격정보체계, 회의록 공개, 업무위탁, 수수료, 공무원 의제 | 법 24–30조 · 영 71–77조 · 규칙 32조 |
 <!-- END GENERATED:map -->
 
 ## 찾는 순서

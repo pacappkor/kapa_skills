@@ -1,6 +1,6 @@
 ---
 name: apa-rule-principles-procedure
-description: 「감정평가에 관한 규칙」 제1~12조: 가치·현황·개별물건 원칙, 기본사항·실지조사·방식·시산가액 조정.
+description: 「감정평가에 관한 규칙」 제1–12조: 가치·현황·개별물건 원칙, 기본사항·실지조사·방식·시산가액 조정.
 ---
 
 # apa-rule-principles-procedure

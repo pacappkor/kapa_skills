@@ -1,6 +1,6 @@
 ---
 name: ura-implementation-plan
-description: 「도시정비법」 법 제50~60조·영·규칙: 사업시행계획인가, 통합심의와 주택 공급.
+description: 「도시정비법」 법 제50–60조·영·규칙: 사업시행계획인가, 통합심의와 주택 공급.
 ---
 
 # ura-implementation-plan

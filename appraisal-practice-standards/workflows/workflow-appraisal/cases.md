@@ -12,13 +12,13 @@
 | 5 | 공익사업으로 음식점 휴업 — 영업손실 | 평가 수행 | F1=영업손실 | [overlay-compensation-business-loss](../../overlays/compensation/overlay-compensation-business-loss/SKILL.md) > foundations | [840-2], [840-6.1], [840-6.3] |
 | 6 | 재개발 조합의 종전자산 평가 | 평가 수행 | F2=도시정비, F3=토지·건물 | [overlay-urban-redevelopment](../../overlays/purpose/overlay-urban-redevelopment/SKILL.md) > asset-land / asset-building / asset-condominium | [730-1-①], [730-3.1] |
 | 7 | 상장사 투자부동산 공정가치 (K-IFRS) | 평가 수행 | F2=재무보고, F4=공정가치 | [overlay-financial-reporting](../../overlays/purpose/overlay-financial-reporting/SKILL.md) > 해당 asset | [740-1-①], [740-3], [610-1.5.1-③-1] |
-| 8 | 공장 저당을 위한 공장재단 평가 | 평가 수행 | F2=담보, F3=공장재단 | overlay-collateral > [asset-factory-foundation](../../assets/industrial/asset-factory-foundation/SKILL.md) → 준용: asset-land, asset-building, [asset-machinery](../../assets/industrial/asset-machinery/SKILL.md), asset-goodwill, asset-intellectual-property | [620-1.3.1], [620-1.3.2]~[620-1.3.6] |
+| 8 | 공장 저당을 위한 공장재단 평가 | 평가 수행 | F2=담보, F3=공장재단 | overlay-collateral > [asset-factory-foundation](../../assets/industrial/asset-factory-foundation/SKILL.md) → 준용: asset-land, asset-building, [asset-machinery](../../assets/industrial/asset-machinery/SKILL.md), asset-goodwill, asset-intellectual-property | [620-1.3.1], [620-1.3.2]–[620-1.3.6] |
 | 9 | 상가 임차인 권리금 감정평가 (소송) | 평가 수행 | F2=없음, F3=권리금 | [asset-key-money](../../assets/income-and-loss/asset-key-money/SKILL.md) > foundations | [670-4.3.1] |
 | 10 | 비상장 주식 가치 | 평가 수행 | F3=비상장주식 | [asset-stock](../../assets/intangibles/asset-stock/SKILL.md) → [asset-enterprise-value](../../assets/intangibles/asset-enterprise-value/SKILL.md) | [660-1.2.3-①·②], [660-3] |
-| 11 | 공익사업 편입 건물(지장물) 보상 | 평가 수행 | F1=지장물 | 실무기준에 절 없음 → 관계법령 [lca-objects-compensation](../../../laws/land-compensation-act/lca-objects-compensation/SKILL.md) (법 제75조, 규칙 제33조 등) + 일반 규정 [asset-building](../../assets/real-estate/asset-building/SKILL.md) 참고 | [800] 구성(810~840), 토지보상법 제75조 |
+| 11 | 공익사업 편입 건물(지장물) 보상 | 평가 수행 | F1=지장물 | 실무기준에 절 없음 → 관계법령 [lca-objects-compensation](../../../laws/land-compensation-act/lca-objects-compensation/SKILL.md) (법 제75조, 규칙 제33조 등) + 일반 규정 [asset-building](../../assets/real-estate/asset-building/SKILL.md) 참고 | [800] 구성(810–840), 토지보상법 제75조 |
 | 12 | "맹지는 어떻게 평가하나?" | 조항 질의 | — | [lookup-clause](../lookup-clause/SKILL.md) → terms.md → asset-land | [610-1.7.12] |
 | 13 | "보상평가의 기준시점은?" | 조항 질의 | 맥락=보상 | lookup-clause → [810-5.7]; 일반 기준시점 [300-4]와 구분 | [810-5.7], [300-4] |
-| 14 | 동료가 쓴 담보 감정평가서 심사 | 검토 | F2=담보 | [workflow-report-review](../workflow-report-review/SKILL.md) → 사례 1 스택 | [500-3], [500-4-②~④] |
+| 14 | 동료가 쓴 담보 감정평가서 심사 | 검토 | F2=담보 | [workflow-report-review](../workflow-report-review/SKILL.md) → 사례 1 스택 | [500-3], [500-4-②–④] |
 | 15 | 감정평가사 친족 소유 토지의 시가 평가 의뢰 | 수임 판단 | — | [workflow-engagement-check](../workflow-engagement-check/SKILL.md) | [300-2], [200-4.2-②-1] |
 | 16 | 지식산업센터 내 호실 (집합건물) 경매 | 평가 수행 | F2=경매, F3=구분소유 | overlay-auction > asset-condominium | [720-②], [610-3.1.3] |
 | 17 | 신탁회사가 대출 담보로 임대 중인 오피스 빌딩(토지·건물 일체 거래) 평가 의뢰 | 평가 수행 | F2=담보, F3=복합부동산 | overlay-collateral > asset-land-building-composite (+asset-land, asset-building) > foundations. **asset-rent 아님**(임대수익은 수익방식 검토 자료) | [710-①·②], [610-3.2.3-①·②], [400-4-②], [610-1.5.1-③-4] |

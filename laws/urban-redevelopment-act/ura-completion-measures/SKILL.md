@@ -1,6 +1,6 @@
 ---
 name: ura-completion-measures
-description: 「도시정비법」 법 제83~91조·영·규칙: 준공인가, 이전고시와 청산기준가격.
+description: 「도시정비법」 법 제83–91조·영·규칙: 준공인가, 이전고시와 청산기준가격.
 ---
 
 # ura-completion-measures

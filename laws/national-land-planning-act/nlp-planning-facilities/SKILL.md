@@ -1,6 +1,6 @@
 ---
 name: nlp-planning-facilities
-description: 「국토계획법」 법 제43조~제48조의2·영·규칙: 도시·군계획시설과 공동구, 미집행시설의 매수·실효·해제.
+description: 「국토계획법」 법 제43조–제48조의2·영·규칙: 도시·군계획시설과 공동구, 미집행시설의 매수·실효·해제.
 ---
 
 # nlp-planning-facilities

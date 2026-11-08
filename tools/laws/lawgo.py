@@ -19,7 +19,10 @@ def _get(url, data=None, referer=None, tries=3):
     for k in range(tries):
         try:
             req = urllib.request.Request(url, data=data, headers=h)
-            return urllib.request.urlopen(req, timeout=90).read()
+            body = urllib.request.urlopen(req, timeout=90).read()
+            if any(s in body.decode('utf-8', 'replace') for s in ('현재 사용자가 많아', '서비스 이용에 불편을 드려')):
+                raise RuntimeError('law.go.kr 오류 응답 (HTTP 200)')
+            return body
         except Exception:
             if k == tries - 1:
                 raise
@@ -42,6 +45,35 @@ def fetch_body(seq, ef):
                                        nwJoYnInfo='Y', efGubun='Y', vSct='*')).encode()
     return _get(f'{BASE}/LSW/lsInfoR.do', data=data,
                 referer=f'{BASE}/LSW/lsInfoP.do?lsiSeq={seq}').decode('utf-8', 'replace')
+
+def hidden(page, name):
+    """Read a hidden input independently of attribute ordering."""
+    for tag in re.findall(r'<input\b[^>]*>', page, re.I):
+        attrs = dict(re.findall(r'([\w-]+)=["\']([^"\']*)["\']', tag))
+        if attrs.get('id') == name:
+            return H.unescape(attrs.get('value', ''))
+    raise ValueError(f'법령 본문 식별자 없음: {name}')
+
+
+def is_repeal(kind):
+    """폐지제정 is a new enactment, not the end of a law's force."""
+    return kind in {'폐지', '타법폐지'}
+
+
+def verify_identity(page, seq, ef=None):
+    if hidden(page, 'lsiSeq') != str(seq):
+        raise ValueError(f'lsiSeq 불일치: {seq}')
+    if ef is not None and hidden(page, 'efYd') != str(ef):
+        raise ValueError(f'시행일 efYd 불일치: 요청 {ef}')
+
+
+def verify_body(page, name, seq, ef=None):
+    if re.sub(r'\s+', '', hidden(page, 'lsNm')) != re.sub(r'\s+', '', name):
+        raise ValueError(f'법령명 불일치: {name}')
+    verify_identity(page, seq, ef)
+    if not parse(page)['articles']:
+        raise ValueError('법령 조문 없음')
+
 
 def _text(fragment):
     s = re.sub(r'(?is)<(script|style)\b.*?</\1>', ' ', fragment)

@@ -1,6 +1,6 @@
 ---
 name: nlp-zoning-designation
-description: 「국토계획법」 법 제36~42조·영·규칙: 용도지역·지구·구역의 지정·세분, 공공기여와 용도지역 의제·환원.
+description: 「국토계획법」 법 제36–42조·영·규칙: 용도지역·지구·구역의 지정·세분, 공공기여와 용도지역 의제·환원.
 ---
 
 # nlp-zoning-designation

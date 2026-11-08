@@ -18,21 +18,21 @@ description: 도시정비법(도시 및 주거환경정비법)·시행령·시�
 <!-- BEGIN GENERATED:map -->
 | 스킬 | 주제 | 조문 |
 |---|---|---|
-| [ura-general](../ura-general/SKILL.md) | 총칙 — 목적·정의(정비사업·정비기반시설·토지등소유자 등)·도시·주거환경정비 기본방침 | 법 1~3조 · 영 1~4조 · 규칙 1조 |
-| [ura-basic-plan-zone-designation](../ura-basic-plan-zone-designation/SKILL.md) | 기본계획의 수립 및 정비구역의 지정 — 기본계획, 정비계획 입안·결정, 정비구역 지정·해제, 행위제한 | 법 4~22조 · 영 5~17조 · 규칙 2~5조 |
-| [ura-project-methods](../ura-project-methods/SKILL.md) | 정비사업의 시행방법 등 — 시행방법, 시행자, 시공자 선정, 계약 방법 | 법 23~30조 · 영 18~24의2조 · 규칙 6~6의2조 |
-| [ura-association](../ura-association/SKILL.md) | 조합설립추진위원회 및 조합의 설립 — 추진위원회, 조합설립인가, 토지등소유자 동의, 조합원 자격, 정관, 임원, 총회, 대의원회 | 법 31~49조 · 영 25~45조 · 규칙 7~9조 |
-| [ura-implementation-plan](../ura-implementation-plan/SKILL.md) | 사업시행계획 — 사업시행계획인가, 계획서 작성, 임대주택 건설, 재건축사업 등의 용적률 완화 | 법 50~60조 · 영 46~52조 · 규칙 10조 |
-| [ura-implementation-measures](../ura-implementation-measures/SKILL.md) | 정비사업 시행을 위한 조치 — 임시거주시설, 손실보상, 토지등 수용·사용(토지보상법 준용), 매도청구, 지상권 등 계약 해지 | 법 61~71조 · 영 53~58조 · 규칙 11조 |
-| [ura-management-disposal-plan](../ura-management-disposal-plan/SKILL.md) | 관리처분계획 — 분양공고·신청, 관리처분계획 인가·기준, 주택 공급, 종전자산·종후자산 평가, 이전고시 전 조치 | 법 72~82조 · 영 59~73조 · 규칙 12~14조 |
-| [ura-completion-measures](../ura-completion-measures/SKILL.md) | 공사완료에 따른 조치 — 준공인가, 이전고시, 대지·건축물 권리 확정, 청산금 | 법 83~91조 · 영 74~76조 · 규칙 15조 |
-| [ura-cost-sharing](../ura-cost-sharing/SKILL.md) | 비용의 부담 등 — 비용부담 원칙, 정비기반시설 관리자 부담, 보조·융자, 국공유재산 처분·임대 | 법 92~101조 · 영 77~80조 · 규칙 16~17조 |
-| [ura-public-redevelopment](../ura-public-redevelopment/SKILL.md) | 공공재개발사업 및 공공재건축사업 | 법 101의2~101의7조 · 영 80의2~80의3조 |
-| [ura-public-operator-special](../ura-public-operator-special/SKILL.md) | 공공시행자 및 지정개발자 사업시행의 특례 | 법 101의8~101의10조 · 영 80의4~80의6조 · 규칙 17의2~17의4조 |
-| [ura-management-consulting-business](../ura-management-consulting-business/SKILL.md) | 정비사업전문관리업 | 법 102~110조 · 영 81~87조 · 규칙 18~20조 |
-| [ura-supervision](../ura-supervision/SKILL.md) | 감독 — 자료 제출, 회계감사, 감독, 시정명령, 정비사업 지원기구 | 법 111~121조 · 영 87의2~91조 · 규칙 21~21의2조 |
-| [ura-misc](../ura-misc/SKILL.md) | 보칙 — 토지등소유자 설명의무, 관련 자료 공개·보관, 권한 위임, 벌칙 적용 공무원 의제 등 | 법 122~134조 · 영 92~98조 · 규칙 22~23조 |
-| [ura-penalties](../ura-penalties/SKILL.md) | 벌칙 — 벌칙·양벌규정·과태료 | 법 135~142조 · 영 99조 |
+| [ura-general](../ura-general/SKILL.md) | 총칙 — 목적·정의(정비사업·정비기반시설·토지등소유자 등)·도시·주거환경정비 기본방침 | 법 1–3조 · 영 1–4조 · 규칙 1조 |
+| [ura-basic-plan-zone-designation](../ura-basic-plan-zone-designation/SKILL.md) | 기본계획의 수립 및 정비구역의 지정 — 기본계획, 정비계획 입안·결정, 정비구역 지정·해제, 행위제한 | 법 4–22조 · 영 5–17조 · 규칙 2–5조 |
+| [ura-project-methods](../ura-project-methods/SKILL.md) | 정비사업의 시행방법 등 — 시행방법, 시행자, 시공자 선정, 계약 방법 | 법 23–30조 · 영 18–24의2조 · 규칙 6–6의2조 |
+| [ura-association](../ura-association/SKILL.md) | 조합설립추진위원회 및 조합의 설립 — 추진위원회, 조합설립인가, 토지등소유자 동의, 조합원 자격, 정관, 임원, 총회, 대의원회 | 법 31–49조 · 영 25–45조 · 규칙 7–9조 |
+| [ura-implementation-plan](../ura-implementation-plan/SKILL.md) | 사업시행계획 — 사업시행계획인가, 계획서 작성, 임대주택 건설, 재건축사업 등의 용적률 완화 | 법 50–60조 · 영 46–52조 · 규칙 10조 |
+| [ura-implementation-measures](../ura-implementation-measures/SKILL.md) | 정비사업 시행을 위한 조치 — 임시거주시설, 손실보상, 토지등 수용·사용(토지보상법 준용), 매도청구, 지상권 등 계약 해지 | 법 61–71조 · 영 53–58조 · 규칙 11조 |
+| [ura-management-disposal-plan](../ura-management-disposal-plan/SKILL.md) | 관리처분계획 — 분양공고·신청, 관리처분계획 인가·기준, 주택 공급, 종전자산·종후자산 평가, 이전고시 전 조치 | 법 72–82조 · 영 59–73조 · 규칙 12–14조 |
+| [ura-completion-measures](../ura-completion-measures/SKILL.md) | 공사완료에 따른 조치 — 준공인가, 이전고시, 대지·건축물 권리 확정, 청산금 | 법 83–91조 · 영 74–76조 · 규칙 15조 |
+| [ura-cost-sharing](../ura-cost-sharing/SKILL.md) | 비용의 부담 등 — 비용부담 원칙, 정비기반시설 관리자 부담, 보조·융자, 국공유재산 처분·임대 | 법 92–101조 · 영 77–80조 · 규칙 16–17조 |
+| [ura-public-redevelopment](../ura-public-redevelopment/SKILL.md) | 공공재개발사업 및 공공재건축사업 | 법 101의2–101의7조 · 영 80의2–80의3조 |
+| [ura-public-operator-special](../ura-public-operator-special/SKILL.md) | 공공시행자 및 지정개발자 사업시행의 특례 | 법 101의8–101의10조 · 영 80의4–80의6조 · 규칙 17의2–17의4조 |
+| [ura-management-consulting-business](../ura-management-consulting-business/SKILL.md) | 정비사업전문관리업 | 법 102–110조 · 영 81–87조 · 규칙 18–20조 |
+| [ura-supervision](../ura-supervision/SKILL.md) | 감독 — 자료 제출, 회계감사, 감독, 시정명령, 정비사업 지원기구 | 법 111–121조 · 영 87의2–91조 · 규칙 21–21의2조 |
+| [ura-misc](../ura-misc/SKILL.md) | 보칙 — 토지등소유자 설명의무, 관련 자료 공개·보관, 권한 위임, 벌칙 적용 공무원 의제 등 | 법 122–134조 · 영 92–98조 · 규칙 22–23조 |
+| [ura-penalties](../ura-penalties/SKILL.md) | 벌칙 — 벌칙·양벌규정·과태료 | 법 135–142조 · 영 99조 |
 <!-- END GENERATED:map -->
 
 ## 찾는 순서

@@ -1,6 +1,6 @@
 ---
 name: apa-association
-description: 「감정평가법」 법 제33~38조·영·규칙: 협회 설립·회칙·회원·윤리·교육과 공제사업.
+description: 「감정평가법」 법 제33–38조·영·규칙: 협회 설립·회칙·회원·윤리·교육과 공제사업.
 ---
 
 # apa-association

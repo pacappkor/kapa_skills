@@ -1,6 +1,6 @@
 ---
 name: lca-objection-litigation
-description: 「토지보상법」 법 제83~90조·영·규칙: 재결 이의신청, 행정소송, 확정효력과 대집행.
+description: 「토지보상법」 법 제83–90조·영·규칙: 재결 이의신청, 행정소송, 확정효력과 대집행.
 ---
 
 # lca-objection-litigation

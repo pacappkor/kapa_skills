@@ -1,6 +1,6 @@
 ---
 name: ura-management-disposal-plan
-description: 「도시정비법」 법 제72~82조·영·규칙: 분양, 관리처분계획과 종전·종후 평가.
+description: 「도시정비법」 법 제72–82조·영·규칙: 분양, 관리처분계획과 종전·종후 평가.
 ---
 
 # ura-management-disposal-plan

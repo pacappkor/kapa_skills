@@ -12,8 +12,8 @@ description: 「감정평가 실무기준」 스킬 컬렉션의 입구. 작업 
 
 | 작업 유형 | 신호 | 다음에 읽을 것 |
 |---|---|---|
-| **평가 수행** | 의뢰서, "~을 감정평가해줘", 가액 산정, 평가 계획 | [workflow-appraisal](../workflows/workflow-appraisal/SKILL.md) |
-| **조항·개념 질의** | "~란?", "~는 어떻게 평가하나", "근거 조항은?", 시험 문제 | [lookup-clause](../workflows/lookup-clause/SKILL.md) |
+| **평가 수행** | 의뢰서, "…을 감정평가해줘", 가액 산정, 평가 계획 | [workflow-appraisal](../workflows/workflow-appraisal/SKILL.md) |
+| **조항·개념 질의** | "…란?", "…는 어떻게 평가하나", "근거 조항은?", 시험 문제 | [lookup-clause](../workflows/lookup-clause/SKILL.md) |
 | **감정평가서 검토·심사** | 작성된 감정평가서, 적정성 심사, "검토해줘" | [workflow-report-review](../workflows/workflow-report-review/SKILL.md) |
 | **수임 판단** | "맡아도 되나", 이해관계, 조건부 의뢰, 철회 | [workflow-engagement-check](../workflows/workflow-engagement-check/SKILL.md) |
 | **개정·버전 확인** | "현행 기준인가", 오래된 기준시점 | [foundation-general-provisions](../foundations/foundation-general-provisions/SKILL.md) 부칙 목록. 이 컬렉션은 제2023-522호 기준이다 |
@@ -22,7 +22,7 @@ description: 「감정평가 실무기준」 스킬 컬렉션의 입구. 작업 
 
 ## 2. 컬렉션의 층 구조
 
-실무기준의 장 순서(100~900)가 아니라 **에이전트가 규정을 쌓아 쓰는 방식**으로 폴더를 나눴다.
+실무기준의 장 순서(100–900)가 아니라 **에이전트가 규정을 쌓아 쓰는 방식**으로 폴더를 나눴다.
 
 ```text
 00-practice-standards-start/   입구 (이 파일)

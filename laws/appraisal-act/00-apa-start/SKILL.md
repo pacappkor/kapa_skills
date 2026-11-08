@@ -19,18 +19,18 @@ description: 감정평가법(감정평가 및 감정평가사에 관한 법률)�
 <!-- BEGIN GENERATED:map -->
 | 스킬 | 주제 | 조문 |
 |---|---|---|
-| [apa-general](../apa-general/SKILL.md) | 총칙 — 목적·정의(토지등·감정평가·감정평가업·감정평가법인등) | 법 1~2조 · 영 1~2조 · 규칙 1조 |
-| [apa-appraisal-basics](../apa-appraisal-basics/SKILL.md) | 감정평가의 기준·직무·의뢰 — 토지 감정평가 기준(공시지가), 기준제정기관, 평가의뢰기관, 감정평가법인등 추천 | 법 3~5조 · 영 3~5조 |
-| [apa-appraisal-report-review](../apa-appraisal-report-review/SKILL.md) | 감정평가서·심사·적정성 검토·타당성조사·표본조사·정보체계 | 법 6~9조 · 영 6~8의2조 · 규칙 2~6조 |
-| [apa-appraiser-qualification](../apa-appraiser-qualification/SKILL.md) | 감정평가법인등의 업무, 감정평가사 자격·결격·자격취소, 시험·일부면제·부정행위, 실무수습·교육연수 | 법 10~16조 · 영 9~16의2조 · 규칙 7~12의2조 |
-| [apa-registration-office](../apa-registration-office/SKILL.md) | 등록·갱신등록·등록취소, 외국감정평가사, 사무소 개설·고용인·명칭, 수수료, 사무직원 | 법 17~24조 · 영 17~22조 · 규칙 13~18의2조 |
-| [apa-duties-liability](../apa-duties-liability/SKILL.md) | 감정평가법인등의 의무와 책임 — 성실의무, 비밀엄수, 명의대여 금지, 손해배상책임(보험), 감정평가 유도·요구 금지 | 법 25~28의2조 · 영 23조 · 규칙 19~19의3조 |
-| [apa-appraisal-corporation](../apa-appraisal-corporation/SKILL.md) | 감정평가법인 — 설립·해산·자본금·인가취소, 합병·정관변경 | 법 29~32조 · 영 24~29조 · 규칙 20~23조 |
-| [apa-association](../apa-association/SKILL.md) | 한국감정평가사협회 — 설립·회칙·회원가입·윤리규정·자문·교육연수, 공제사업 | 법 33~38조 · 영 30~33조 · 규칙 24조 |
-| [apa-discipline-penalty](../apa-discipline-penalty/SKILL.md) | 징계·감정평가관리ㆍ징계위원회, 과징금, 보칙(청문·위탁·지도감독), 벌칙·과태료 | 법 39~52조 · 영 34~51조 · 규칙 25~27조 |
-| [apa-rule-principles-procedure](../apa-rule-principles-procedure/SKILL.md) | 감정평가에 관한 규칙 — 총칙·의무·적용범위, 시장가치·현황·개별물건 기준 원칙, 절차, 기본적 사항, 대상물건 확인, 감정평가방식과 시산가액 조정 | 평가규칙 1~12조 |
-| [apa-rule-methods-by-object](../apa-rule-methods-by-object/SKILL.md) | 감정평가에 관한 규칙 — 물건별 감정평가방법(토지·건물·일괄·산림·과수원·공장재단·광업재단·자동차 등·동산·임대료·무형자산·유가증권·가치하락분·그 밖의 물건) | 평가규칙 14~26조 |
-| [apa-rule-report-advisory](../apa-rule-report-advisory/SKILL.md) | 감정평가에 관한 규칙 — 감정평가서 작성·전자문서 발급, 조언·정보 제공, 그 밖의 감정평가 기준, 규제의 재검토 | 평가규칙 13~13의2, 27~29조 |
+| [apa-general](../apa-general/SKILL.md) | 총칙 — 목적·정의(토지등·감정평가·감정평가업·감정평가법인등) | 법 1–2조 · 영 1–2조 · 규칙 1조 |
+| [apa-appraisal-basics](../apa-appraisal-basics/SKILL.md) | 감정평가의 기준·직무·의뢰 — 토지 감정평가 기준(공시지가), 기준제정기관, 평가의뢰기관, 감정평가법인등 추천 | 법 3–5조 · 영 3–5조 |
+| [apa-appraisal-report-review](../apa-appraisal-report-review/SKILL.md) | 감정평가서·심사·적정성 검토·타당성조사·표본조사·정보체계 | 법 6–9조 · 영 6–8의2조 · 규칙 2–6조 |
+| [apa-appraiser-qualification](../apa-appraiser-qualification/SKILL.md) | 감정평가법인등의 업무, 감정평가사 자격·결격·자격취소, 시험·일부면제·부정행위, 실무수습·교육연수 | 법 10–16조 · 영 9–16의2조 · 규칙 7–12의2조 |
+| [apa-registration-office](../apa-registration-office/SKILL.md) | 등록·갱신등록·등록취소, 외국감정평가사, 사무소 개설·고용인·명칭, 수수료, 사무직원 | 법 17–24조 · 영 17–22조 · 규칙 13–18의2조 |
+| [apa-duties-liability](../apa-duties-liability/SKILL.md) | 감정평가법인등의 의무와 책임 — 성실의무, 비밀엄수, 명의대여 금지, 손해배상책임(보험), 감정평가 유도·요구 금지 | 법 25–28의2조 · 영 23조 · 규칙 19–19의3조 |
+| [apa-appraisal-corporation](../apa-appraisal-corporation/SKILL.md) | 감정평가법인 — 설립·해산·자본금·인가취소, 합병·정관변경 | 법 29–32조 · 영 24–29조 · 규칙 20–23조 |
+| [apa-association](../apa-association/SKILL.md) | 한국감정평가사협회 — 설립·회칙·회원가입·윤리규정·자문·교육연수, 공제사업 | 법 33–38조 · 영 30–33조 · 규칙 24조 |
+| [apa-discipline-penalty](../apa-discipline-penalty/SKILL.md) | 징계·감정평가관리ㆍ징계위원회, 과징금, 보칙(청문·위탁·지도감독), 벌칙·과태료 | 법 39–52조 · 영 34–51조 · 규칙 25–27조 |
+| [apa-rule-principles-procedure](../apa-rule-principles-procedure/SKILL.md) | 감정평가에 관한 규칙 — 총칙·의무·적용범위, 시장가치·현황·개별물건 기준 원칙, 절차, 기본적 사항, 대상물건 확인, 감정평가방식과 시산가액 조정 | 평가규칙 1–12조 |
+| [apa-rule-methods-by-object](../apa-rule-methods-by-object/SKILL.md) | 감정평가에 관한 규칙 — 물건별 감정평가방법(토지·건물·일괄·산림·과수원·공장재단·광업재단·자동차 등·동산·임대료·무형자산·유가증권·가치하락분·그 밖의 물건) | 평가규칙 14–26조 |
+| [apa-rule-report-advisory](../apa-rule-report-advisory/SKILL.md) | 감정평가에 관한 규칙 — 감정평가서 작성·전자문서 발급, 조언·정보 제공, 그 밖의 감정평가 기준, 규제의 재검토 | 평가규칙 13–13의2, 27–29조 |
 <!-- END GENERATED:map -->
 
 ## 찾는 순서

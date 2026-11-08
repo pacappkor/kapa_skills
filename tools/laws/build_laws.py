@@ -274,7 +274,7 @@ def build(c, check):
                 runs.append(cur)
                 if tier_b:
                     runs = [[k] for k in ks]   # B층은 일부 조문만 수록하므로 범위로 묶지 않는다
-                rng.append(f'{d["label"]} ' + ', '.join(r[0] + (f'~{r[-1]}' if len(r) > 1 else '') for r in runs) + '조')
+                rng.append(f'{d["label"]} ' + ', '.join(r[0] + (f'–{r[-1]}' if len(r) > 1 else '') for r in runs) + '조')
         sd = skill_dir(c, t['slug'])
         mp.append(f'| [{sd}](../{sd}/SKILL.md) | {t["title"]} | {" · ".join(rng)} |')
     forms = []

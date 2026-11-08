@@ -1,6 +1,6 @@
 ---
 name: pda-committee-misc
-description: 「부동산 가격공시법」 법 제24조~제30조·영·규칙의 공시위원회와 보칙.
+description: 「부동산 가격공시법」 법 제24조–제30조·영·규칙의 공시위원회와 보칙.
 ---
 
 # pda-committee-misc

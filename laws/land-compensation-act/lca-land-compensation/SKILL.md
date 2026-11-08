@@ -1,6 +1,6 @@
 ---
 name: lca-land-compensation
-description: 「토지보상법」 법 제70~74조·영·규칙: 취득·사용 토지와 잔여지의 보상 및 평가.
+description: 「토지보상법」 법 제70–74조·영·규칙: 취득·사용 토지와 잔여지의 보상 및 평가.
 ---
 
 # lca-land-compensation

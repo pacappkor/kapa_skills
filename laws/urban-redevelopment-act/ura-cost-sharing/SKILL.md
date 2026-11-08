@@ -1,6 +1,6 @@
 ---
 name: ura-cost-sharing
-description: 「도시정비법」 법 제92~101조·영·규칙: 비용부담, 기반시설 귀속과 국공유재산 처분.
+description: 「도시정비법」 법 제92–101조·영·규칙: 비용부담, 기반시설 귀속과 국공유재산 처분.
 ---
 
 # ura-cost-sharing

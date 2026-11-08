@@ -1,6 +1,6 @@
 ---
 name: lca-expropriation-effects
-description: 「토지보상법」 법 제40~48조·영: 보상금 지급·공탁, 재결 실효, 인도, 권리 취득과 반환.
+description: 「토지보상법」 법 제40–48조·영: 보상금 지급·공탁, 재결 실효, 인도, 권리 취득과 반환.
 ---
 
 # lca-expropriation-effects
