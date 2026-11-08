@@ -30,8 +30,16 @@ def korea_today(now=None):
     return now.astimezone(datetime.timezone(datetime.timedelta(hours=9))).date()
 
 
-def parse_history(page, name, seq, today=None, anchor_ef=None, title_resolver=None):
+def parse_history(page, name, seq, today=None, anchor_ef=None, title_resolver=None,
+                  stored_versions=()):
     today = today or korea_today().strftime('%Y%m%d')
+    # Keep staged effective dates and all promulgation metadata in the cache key.
+    fields = ('lsiSeq', 'efYd', 'ancYd', 'ancNo', 'kind')
+    stored_titles = {}
+    for row in stored_versions:
+        title = row.get('name')
+        if isinstance(title, str) and title.strip() and not title.endswith('...'):
+            stored_titles.setdefault(tuple(row.get(k) for k in fields), set()).add(title)
     versions = []
     for item in re.findall(r'<li\b[^>]*>(.*?)</li>', page, re.S):
         call = re.search(r'lsViewLsHst2\((.*?)\)', item)
@@ -46,7 +54,13 @@ def parse_history(page, name, seq, today=None, anchor_ef=None, title_resolver=No
             raise ValueError('연혁 필수 필드 누락')
         shown = re.sub(r'^\d+\.\s*', '', lawgo._text(title.group(1)))
         if shown.endswith('...'):
-            shown = (title_resolver or resolve_title)(s, ef)
+            titles = stored_titles.get((s, ef, anc, no, kind), set())
+            # A changed visible prefix or ambiguous stored title needs a live check.
+            cached = next(iter(titles)) if len(titles) == 1 else None
+            if cached and norm(cached).startswith(norm(shown[:-3])):
+                shown = cached
+            else:
+                shown = (title_resolver or resolve_title)(s, ef)
         same = norm(shown) == norm(name)
         versions.append(dict(lsiSeq=s, efYd=ef, ancYd=anc, ancNo=no,
                              name=name if same else shown, kind=kind,
@@ -89,6 +103,12 @@ def main():
         parser.error('unknown collection')
     man = json.loads(MAN.read_text(encoding='utf-8'))
     failures, changed, count, scheduled = [], [], 0, 0
+    title_requests = 0
+
+    def live_title(seq, ef):
+        nonlocal title_requests
+        title_requests += 1
+        return resolve_title(seq, ef)
     for c in CAT['collections']:
         if args.collections and c['id'] not in args.collections:
             continue
@@ -111,10 +131,12 @@ def main():
                 data = urllib.parse.urlencode(dict(lsiSeq=meta['lsiSeq'], lsId=law_id, chrClsCd='010202')).encode()
                 history = lawgo._get(lawgo.BASE + '/LSW/lsHstListR.do', data).decode('utf-8', 'replace')
                 time.sleep(1)
-                versions = parse_history(history, d['name'], meta['lsiSeq'], anchor_ef=meta['efYd'])
-                result = dict(lsId=law_id, name=d['name'], fetched=korea_today().isoformat(), versions=versions)
                 path = SRC / c['id'] / 'versions' / f"{d['level']}.json"
                 old = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+                versions = parse_history(history, d['name'], meta['lsiSeq'], anchor_ef=meta['efYd'],
+                                         title_resolver=live_title,
+                                         stored_versions=old.get('versions', ()) if old.get('lsId') == law_id else ())
+                result = dict(lsId=law_id, name=d['name'], fetched=korea_today().isoformat(), versions=versions)
                 if old.get('versions') != versions or old.get('lsId') != law_id:
                     changed.append(key)
                     print(f'CHANGED {key}')
@@ -131,6 +153,7 @@ def main():
             except Exception as exc:
                 failures.append(key)
                 print(f'FAIL {key}: {exc}', flush=True)
+    print(f'live title requests: {title_requests}')
     print(f'documents: {count}; changed: {len(changed)}; failures: {len(failures)}')
     return 1 if failures or (args.check and changed) else 0
 

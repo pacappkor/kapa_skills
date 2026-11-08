@@ -98,6 +98,20 @@ class VersionsTest(unittest.TestCase):
                 self.assertEqual(fetch_versions.main(), 0)
                 self.assertIn('SCHEDULED test/act 7', output.getvalue())
                 self.assertEqual((history.read_bytes(), man.read_bytes()), before)
+                truncated = page.replace('새 법', '새...').replace('1. 법', '1. 법...')
+                with patch.object(lawgo, '_get', return_value=truncated.encode()), \
+                     patch.object(fetch_versions, 'resolve_title') as resolve:
+                    self.assertEqual(fetch_versions.main(), 0)
+                    resolve.assert_not_called()
+                    with patch.object(sys, 'argv', ['fetch_versions']):
+                        self.assertEqual(fetch_versions.main(), 0)
+                    resolve.assert_not_called()
+                changed = truncated.replace('00100', '00200')
+                with patch.object(lawgo, '_get', return_value=changed.encode()), \
+                     patch.object(fetch_versions, 'resolve_title', side_effect=['새 법', '법']) as resolve:
+                    self.assertEqual(fetch_versions.main(), 1)
+                    self.assertEqual(resolve.call_count, 2)
+                    self.assertIn('CHANGED test/act', output.getvalue())
                 history.write_text('{}', encoding='utf-8')
                 self.assertEqual(fetch_versions.main(), 1)
                 with patch.object(lawgo, 'fetch_body', side_effect=ValueError('failure')):
@@ -163,6 +177,34 @@ class VersionsTest(unittest.TestCase):
         rows = parse_history(staged, '공통 현행법', '7', '20261108', anchor_ef='20200101',
                              title_resolver=lambda seq, ef: '공통 미래법' if ef == '20270101' else '공통 현행법')
         self.assertEqual([v['name'] for v in rows], ['공통 미래법', '공통 현행법'])
+
+    def test_stored_titles_reused_and_changes_resolved(self):
+        full = item('7', '20200101', '20200101', '공통 현행법')
+        full += item('6', '19900101', '19900101', '공통 옛법')
+        stored = parse_history(full, '공통 현행법', '7', '20261108')
+        truncated = full.replace('공통 현행법', '공통...').replace('공통 옛법', '공통...')
+        with patch.object(fetch_versions, 'resolve_title') as resolve:
+            self.assertEqual(parse_history(truncated, '공통 현행법', '7', '20261108',
+                                           stored_versions=stored), stored)
+            resolve.assert_not_called()
+        future = item('8', '20260101', '20270101', '공통...') + truncated
+        with patch.object(fetch_versions, 'resolve_title', return_value='공통 미래법') as resolve:
+            rows = parse_history(future, '공통 현행법', '7', '20261108', stored_versions=stored)
+            resolve.assert_called_once_with('8', '20270101')
+            self.assertNotEqual(rows, stored)
+            self.assertEqual(rows[0]['name'], '공통 미래법')
+        for old, new in (('00100', '00200'), ('일부개정', '전부개정'),
+                         ('19900101', '19910101'), ('공통...', '다른...')):
+            changed = truncated.replace(old, new)
+            with patch.object(fetch_versions, 'resolve_title', return_value='공통 현행법') as resolve:
+                rows = parse_history(changed, '공통 현행법', '7', '20261108', stored_versions=stored)
+                self.assertTrue(resolve.called)
+                self.assertNotEqual(rows, stored)
+        for title in ('', '공통...', None):
+            incomplete = [dict(row, name=title) for row in stored]
+            with patch.object(fetch_versions, 'resolve_title', return_value='공통 현행법') as resolve:
+                parse_history(truncated, '공통 현행법', '7', '20261108', stored_versions=incomplete)
+                self.assertEqual(resolve.call_count, 2)
 
     def test_resolve_title_without_articles(self):
         body = '<input id="lsNm" value="옛 법"><input id="lsiSeq" value="6"><input id="efYd" value="19900101">'
