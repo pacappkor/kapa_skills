@@ -56,6 +56,8 @@ python -I tools/validate.py                 # 구조·링크·입구/workflows �
 
 ## 저장소 운영
 
+- 기본 검토 소유자는 `.github/CODEOWNERS` 에 지정한다.
+
 - 변경은 `CHANGELOG.md` 의 `[Unreleased]` 에 기록한다. 버전·기록 규칙은 `docs/RELEASING.md`, 개정 반영 절차는 `rules/skill-update-maintenance` 에 있다.
   - MINOR: 실무기준 개정, 관계법령 내용 변경
   - PATCH: 정정, 법령 개정 표시만 변경
