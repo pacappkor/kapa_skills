@@ -4,7 +4,7 @@
 
 보안 취약점은 이 저장소의 **Security → Report a vulnerability**에서 GitHub private vulnerability reporting으로 비공개 신고한다. 재현 방법, 영향 범위와 관련 버전을 포함하되 실제 토큰·인증정보·개인정보는 첨부하지 않는다.
 
-공개 이슈나 PR에 취약점 악용 방법 또는 비밀정보를 게시하지 않는다. 신고 버튼이 보이지 않으면 관리자가 GitHub 설정에서 private vulnerability reporting을 활성화해야 한다. 활성화 전에는 민감한 세부사항을 공개하지 않는다.
+공개 이슈나 PR에 취약점 악용 방법 또는 비밀정보를 게시하지 않는다. private vulnerability reporting은 저장소 공개와 동시에 활성화한다. 신고 버튼이 보이지 않으면 세부 정보 없이 공개 이슈로 "보안 연락 요청"만 남긴다. 관리자는 비공개 신고 경로를 활성화한 뒤 해당 이슈에서 안내한다. 그 전에는 민감한 세부사항을 공개하지 않는다.
 
 ## 인증정보와 자료 보호
 
