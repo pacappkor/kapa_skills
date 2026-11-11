@@ -1,5 +1,8 @@
 # kapa_skills
 
+[![visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pacappkor/kapa_skills/traffic/.traffic/badge-views.json)](https://github.com/pacappkor/kapa_skills)
+[![clones](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pacappkor/kapa_skills/traffic/.traffic/badge-clones.json)](https://github.com/pacappkor/kapa_skills)
+
 감정평가 업무용 에이전트 스킬 저장소. 저장소 입구는 [00-kapa-start](00-kapa-start/SKILL.md) 이다. 두 갈래가 있다.
 
 | 컬렉션 | 내용 | 입구 |
@@ -80,6 +83,14 @@ python -I tools/validate.py                # 검증 (오류 0 이어야 함)
 실무기준이나 관계법령이 개정되면 [rules/skill-update-maintenance](rules/skill-update-maintenance/SKILL.md) 절차를 따른다.
 - 어느 쪽 개정이든 `fetch_standard.py --check`·`fetch_laws.py --check` 로 둘 다 확인한다.
 - 이슈는 `.github/ISSUE_TEMPLATE` 의 "실무기준 개정 반영" 또는 "관계법령 개정 반영" 템플릿으로 연다.
+
+## 공개 정책과 이용 시 주의사항
+
+2026-11-11 정책에 따라 GitHub 저장소는 공개할 수 있다. HF 시장 데이터셋 `pacappkor/kapa-market-data`는 공개이며, HF staging 데이터셋은 비공개로 유지한다. 인증정보는 어떤 저장소에도 두지 않는다. 외부 자료의 라이선스와 재배포 제한은 계속 지킨다.
+
+공개는 법적 정확성·최신성 또는 공식답안 지위를 보증하지 않는다. 적용 시점의 원문과 관계법규를 직접 확인한다. 보안 취약점은 [보안 정책](SECURITY.md)에 따라 비공개로 신고한다.
+
+상단 배지는 GitHub 저장소 traffic views와 clone 수를 나타내며 외부 방문 추적 픽셀은 사용하지 않는다. `uniques`는 일별 합계로, 평생 중복 제거한 사용자 수가 아니다. 일일 집계는 [traffic 워크플로](.github/workflows/traffic.yml)가 main을 동기화한 `traffic` 브랜치에 보존한다. 첫 성공 실행 전에는 배지가 없거나 오류로 보일 수 있다. 운영자는 중앙 `pacappkor/.github` 공개, 제한된 `TRAFFIC_TOKEN` Actions secret(Administration 읽기 전용), `contents: write` 허용 및 traffic 브랜치의 정상 push 허용을 확인해야 한다. 집계 데이터는 main에서 편집하거나 역병합하지 않는다.
 
 ## CI
 
