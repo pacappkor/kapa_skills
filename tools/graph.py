@@ -17,7 +17,7 @@ usage: python -I tools/graph.py [--check] [--json]
 import collections, json, pathlib, posixpath, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SKIP = {'.git', 'sources', 'tools'}
+SKIP = {'.git', 'sources', 'tools', '.site-src', 'site', '.venv-docs'}
 REFS = re.compile(r'<!-- BEGIN GENERATED:refs -->\n(.*?)<!-- END GENERATED:refs -->', re.S)
 INC = re.compile(r'(<!-- BEGIN GENERATED:incoming -->\n).*?(<!-- END GENERATED:incoming -->)', re.S)
 LINK = re.compile(r'\[([a-z0-9-]+)\]\(([^)\s]+/SKILL\.md)\)')
