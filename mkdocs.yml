@@ -1,0 +1,46 @@
+# SPDX-License-Identifier: GPL-3.0-only
+site_name: kapa_skills
+site_description: 감정평가 스킬·관계법령·실무기준 탐색
+site_url: https://pacappkor.github.io/kapa_skills/
+repo_url: https://github.com/pacappkor/kapa_skills
+repo_name: pacappkor/kapa_skills
+edit_uri: edit/main/
+hooks:
+  - tools/site_hooks.py
+docs_dir: .site-src
+site_dir: site
+theme:
+  name: material
+  language: ko
+  custom_dir: site-overrides
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.action.edit
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+      separator: '[\s\-​]+'
+markdown_extensions:
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+validation:
+  nav:
+    omitted_files: info
+  links:
+    anchors: info
+    unrecognized_links: info
+nav:
+  - 홈: index.md
+  - 시작: 00-kapa-start/SKILL.md
+  - 스킬 색인: skills-index.md
+  - 법령 색인: law-index.md
+  - 실무기준: appraisal-practice-standards/overview.md
+  - 관계법령: laws/overview.md
+  - 읽기 규칙: rules/skill-reading-rules/SKILL.md
+  - 안내: overview.md
+  - 출처·면책: NOTICE.md

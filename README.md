@@ -1,5 +1,7 @@
 # kapa_skills
 
+[스킬·법령·실무기준 사이트](https://pacappkor.github.io/kapa_skills/) · [로컬 사이트 빌드](docs/SITE.md)
+
 [![visitors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pacappkor/kapa_skills/traffic/.traffic/badge-views.json)](https://github.com/pacappkor/kapa_skills)
 [![clones](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pacappkor/kapa_skills/traffic/.traffic/badge-clones.json)](https://github.com/pacappkor/kapa_skills)
 

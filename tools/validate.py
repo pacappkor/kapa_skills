@@ -21,7 +21,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from markdown_prose import original_text, prose_parts
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SKIP = {'.git', 'sources', 'tools', '.github'}
+BUILD_DIRS = {'.site-src', 'site', '.venv-docs'}
+SKIP = {'.git', 'sources', 'tools', '.github'} | BUILD_DIRS
 
 def frontmatter(t):
     m = re.match(r'^---\n(.*?)\n---\n', t, re.S)
@@ -105,7 +106,7 @@ def main():
             if (anc / 'SKILL.md').exists():
                 errors.append(f'{rel}: 상위 폴더 {anc.relative_to(ROOT).as_posix()} 도 스킬 (leaf rule 위반)')
     for md in sorted(ROOT.rglob('*.md')):
-        if '.git' in md.parts:
+        if ({'.git'} | BUILD_DIRS) & set(md.relative_to(ROOT).parts):
             continue
         t = md.read_text(encoding='utf-8')
         if not original_text(md.relative_to(ROOT)) and any('~' in part for prose, part in prose_parts(t) if prose):
